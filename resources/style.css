@@ -1,0 +1,82 @@
+<style type="text/css">
+	/* Suit handling */
+	.club-suit:after, .diamond-suit:after, .heart-suit:after, .spade-suit:after {
+	    visibility: visible;
+	    font-size: initial;
+	}
+
+	.club-suit:after {
+	    content: "\2663";
+	}
+
+	.diamond-suit:after {
+	    content: "\2666";
+	}
+
+	.heart-suit:after {
+	    content: "\2665";
+	}
+
+	.spade-suit:after {
+	    content: "\2660";	
+	}
+
+	.club-suit, .spade-suit {
+	    color: black;
+	}
+
+	.diamond-suit, .heart-suit {
+	    color: red;
+	}
+	
+	.alert, .art, .alert .club-suit, .alert .spade-suit {
+	   color: red;
+	}
+	
+	.club-suit, .spade-suit, .diamond-suit, .heart-suit {
+	    visibility: collapse;
+	    font-size: 0px;
+        }
+
+	/* Table styling */
+
+	table {
+	    border: none;
+	    width: 100%;
+	}
+	table, tr, td {
+	    border-collapse: collapse;
+	}
+
+	td {
+	    border-left: 1px solid black;
+	    border-right: 1px solid black;
+	    border-top: none;
+	    border-bottom: none;
+        }
+	
+	tr {
+	   border-top: 1px solid black;
+	   border-bottom: 1px solid black;
+	   border-left: none;
+	   border-right: none;
+	}
+
+	tr:first-child {
+		border-top: none;
+	}
+
+	tr:last-child {
+		border-bottom: none;
+	}
+
+	td:first-child {
+	    border-left: none;
+	    font-weight: bold;
+	}
+	
+	td:last-child {
+	    border-right: none; 
+	}
+
+</style>
