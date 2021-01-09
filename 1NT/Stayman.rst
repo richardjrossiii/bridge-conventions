@@ -9,15 +9,15 @@ Responder's rebids:
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
-|    2 |H|            | **Crawling stayman**                                                                          |
+|    2\ |H|           | **Crawling stayman**                                                                          |
 +---------------------+-----------------------------------------------------------------------------------------------+
-|    2 |S|            | **Natural**. 5+ |S|, invitational, any shape                                                  |
+|    2\ |S|           | **Natural**. 5+ |S|, invitational, any shape                                                  |
 +---------------------+-----------------------------------------------------------------------------------------------+
 |    2NT              | **Natural**, invitational. Contains a 4 card major                                            |
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
-|    3 |C|            | :art:`Artificial`.                                                                            |
+|    3\ |C|           | :art:`Artificial`.                                                                            |
 |                     | Either 6+ |D|, invitational, or 5 |H|, 5 |S|, game forcing                                    |
 |                     |                                                                                               |
 |                     | Openers Responses:                                                                            |
@@ -25,16 +25,16 @@ Responder's rebids:
 |                     | +------------------+------------------------------------------------------------------------+ |
 |                     | | .. class:: alert |                                                                        | |
 |                     | |                  |                                                                        | |
-|                     | |    3 |D|         | Would not accept invite                                                | |
+|                     | |    3\ |D|        | Would not accept invite                                                | |
 |                     | |                  |                                                                        | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | |                  | | .. class:: alert |                                                 | | |
 |                     | |                  | |                  |                                                 | | |
-|                     | |                  | |    3 |H|         | 5 |H|, 5 |S|, slam interest                     | | |
+|                     | |                  | |    3\ |H|        | 5 |H|, 5 |S|, slam interest                     | | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | |                  | | .. class:: alert |                                                 | | |
 |                     | |                  | |                  |                                                 | | |
-|                     | |                  | |    3 |S|         | :art:`Artificial`. Ask diamond quality          | | |
+|                     | |                  | |    3\ |S|        | :art:`Artificial`. Ask diamond quality          | | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | |                  | | .. class:: alert |                                                 | | |
 |                     | |                  | |                  |                                                 | | |
@@ -43,30 +43,30 @@ Responder's rebids:
 |                     | +------------------+------------------------------------------------------------------------+ |
 |                     | | .. class:: alert |                                                                        | |
 |                     | |                  |                                                                        | |
-|                     | |    3 |H|         | Accept invite, major support                                           | |
+|                     | |    3\ |H|        | Accept invite, major support                                           | |
 |                     | |                  |                                                                        | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | |                  | | .. class:: alert |                                                 | | |
 |                     | |                  | |                  |                                                 | | |
-|                     | |                  | |    3 |S|         | :art:`Artificial`. Ask diamond quality          | | |
+|                     | |                  | |    3\ |S|        | :art:`Artificial`. Ask diamond quality          | | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | |                  | |    3NT           | *Undefined*                                     | | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | |                  | | .. class:: alert |                                                 | | |
 |                     | |                  | |                  |                                                 | | |
-|                     | |                  | |    4 |D|         | :art:`Artificial`.                              | | |
+|                     | |                  | |    4\ |D|        | :art:`Artificial`.                              | | |
 |                     | |                  | |                  | Slam try. Opener will bid their preferred       | | |
 |                     | |                  | |                  | major, and responder will either pass or        | | |
 |                     | |                  | |                  | keycard/exclusion/cuebid                        | | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | |                  | | .. class:: alert |                                                 | | |
 |                     | |                  | |                  |                                                 | | |
-|                     | |                  | |    4 |H|         | 5 |H|, 5 |S|, game forcing. Pass or correct     | | |
+|                     | |                  | |    4\ |H|        | 5 |H|, 5 |S|, game forcing. Pass or correct     | | |
 |                     | |                  | +------------------+-------------------------------------------------+ | |
 |                     | +------------------+------------------------------------------------------------------------+ |
 |                     | | .. class:: alert |                                                                        | |
 |                     | |                  |                                                                        | |
-|                     | |    3 |S|         | Accept invite, no major support, good diamonds                         | |
+|                     | |    3\ |S|        | Accept invite, no major support, good diamonds                         | |
 |                     | +------------------+------------------------------------------------------------------------+ |
 |                     | | .. class:: alert |                                                                        | |
 |                     | |                  |                                                                        | |
@@ -76,25 +76,25 @@ Responder's rebids:
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
-|    3 |D|            | **Natural**. Weak, 6+ diamonds. Was hoping opener would bid 2D and pass                       |
+|    3\ |D|           | **Natural**. Weak, 6+ diamonds. Was hoping opener would bid 2D and pass                       |
 +---------------------+-----------------------------------------------------------------------------------------------+
-|    3 |H|            | | *Over 2D:* :art:`Smolen`. Exactly 5 |S|, 4 |H|, game forcing                                |
-|                     | | *Over 2H:* **Natural**, invitational                                                        |
-|                     | | *Over 2S:* :art:`Artifical`, |S| raise, game forcing                                        |
+|    3\ |H|           | | *Over 2*\ |D|: :art:`Smolen`. Exactly 5 |S|, 4 |H|, game forcing                            |
+|                     | | *Over 2*\ |H|: **Natural**, invitational                                                    |
+|                     | | *Over 2*\ |S|: :art:`Artifical`, |S| raise, game forcing                                    |
 +---------------------+-----------------------------------------------------------------------------------------------+
-|    3 |S|            | | *Over 2D:* :art:`Smolen`. Exactly 5 |H|, 4 |S|, game forcing                                |
-|                     | | *Over 2H:* :art:`Artifical`, |H| raise, game forcing                                        |
-|                     | | *Over 2S:* **Natural**, invitational                                                        |
+|    3\ |S|           | | *Over 2*\ |D|: :art:`Smolen`. Exactly 5 |H|, 4 |S|, game forcing                            |
+|                     | | *Over 2*\ |H|: :art:`Artifical`, |H| raise, game forcing                                    |
+|                     | | *Over 2*\ |S|: **Natural**, invitational                                                    |
 +---------------------+-----------------------------------------------------------------------------------------------+
 |    3NT              | **Natural**, to play. Promises a 4 card major                                                 |
 +---------------------+-----------------------------------------------------------------------------------------------+
-|    4 |C|            | **Natural**, 6+ |C|, invitational. Promises a 4 card major                                    |
+|    4\ |C|           | **Natural**, 6+ |C|, invitational. Promises a 4 card major                                    |
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: announce |                                                                                               |
 |                     |                                                                                               |
-|    4 |D|, 4 |H|     | :art:`Texas Transfer`. 6 |H|/|S|, 4 |S|/|H|, game forcing                                     |
+|    4\ |D|, 4\ |H|   | :announce:`Texas Transfer`. 6 |H|/|S|, 4 |S|/|H|, game forcing                                |
 +---------------------+-----------------------------------------------------------------------------------------------+
-|    4 |S|            | *Undefined*                                                                                   |
+|    4\ |S|           | *Undefined*                                                                                   |
 +---------------------+-----------------------------------------------------------------------------------------------+
 |    4NT              | **Natural**, Quantatative invite to 6NT. Promises a 4 card major                              |
 +---------------------+-----------------------------------------------------------------------------------------------+

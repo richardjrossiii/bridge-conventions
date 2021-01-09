@@ -15,7 +15,7 @@ Bridge Conventions
    :class: suit, spade-suit
 
 .. role:: alert(strong)
-.. role:: announcable(strong)
+.. role:: announce(strong)
 .. role:: art(strong) 
 
 .. |C| replace:: :club-suit:`C`
