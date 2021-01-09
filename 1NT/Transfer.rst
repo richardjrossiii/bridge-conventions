@@ -23,11 +23,11 @@ Responder's rebids:
 |                     | |    3\ |C|/|D|    | **Natural**. No major fit. No good outside stoppers.                   | |
 |                     | |                  | New suits are stopper ask, suit rebids show extra length               | |
 |                     | +------------------+------------------------------------------------------------------------+ |
-|                     | |    3\ |H|        | | *Over 2*\ |D|: Major fit, good hand for slam                         | |
-|                     | |                  | | *Over 2*\ |H|: No fit, good outside stoppers, good hand for slam     | |
+|                     | |    3\ |H|        | | *Over 2*\ |H|: Major fit, good hand for slam                         | |
+|                     | |                  | | *Over 2*\ |S|: No fit, good outside stoppers, good hand for slam     | |
 |                     | +------------------+------------------------------------------------------------------------+ |
-|                     | |    3\ |S|        | | *Over 2*\ |D|: No fit, good outside stoppers, good hand for slam     | |
-|                     | |                  | | *Over 2*\ |H|: Major fit, good hand for slam                         | |
+|                     | |    3\ |S|        | | *Over 2*\ |H|: No fit, good outside stoppers, good hand for slam     | |
+|                     | |                  | | *Over 2*\ |S|: Major fit, good hand for slam                         | |
 |                     | +------------------+------------------------------------------------------------------------+ |
 |                     | |    3NT           | Good outside stoppers, bad hand for slam                               | |
 |                     | +------------------+------------------------------------------------------------------------+ |
@@ -38,16 +38,16 @@ Responder's rebids:
 |                     |                                                                                               |
 |    3\ |D|           | :art:`Artificial`. Transfer to hearts.                                                        |
 |                     |                                                                                               |
-|                     | | *Over 2*\ |D|: 6+ |H|, invite to slam or game. Opener naturally bids                        |
-|                     | | *Over 2*\ |H|: 5+ |H|, game forcing. Promises 6 |S|. Opener naturally places the contract   |
+|                     | | *Over 2*\ |H|: 6+ |H|, invite to slam or game. Opener naturally bids                        |
+|                     | | *Over 2*\ |S|: 5+ |H|, game forcing. Promises 6 |S|. Opener naturally places the contract   |
 |                     |                                                                                               |
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
 |    3\ |H|           | :art:`Artificial`. Transfer to spades.                                                        |
 |                     |                                                                                               |
-|                     | | *Over 2H*: 5+ |H|, game forcing. Promises 6 |S|. Opener naturally places the contract       |
-|                     | | *Over 2D*: 6+ |H|, invite to slam or game. Opener naturally bids                            |
+|                     | | *Over 2*\ |H|: 5+ |H|, game forcing. Promises 6 |S|. Opener naturally places the contract   |
+|                     | | *Over 2*\ |S|: 6+ |S|, invite to slam or game. Opener naturally bids                        |
 |                     |                                                                                               |
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
