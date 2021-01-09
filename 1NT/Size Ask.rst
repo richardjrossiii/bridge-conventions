@@ -1,54 +1,43 @@
-| :announce:`Transfer`. 5+ |H| / |S|, any shape
-| *If 5+ spades*: Any non invite hand
+:art:`Artificial`. Size ask.
 
-Opener naturally completes the transfer.
-With a max and 4 card support (occasionally 3), complete the transfer at the 3 level.
+Opener should bid 2NT with a minimum hand, and 3\ |C| with a maximum.
 
 Responder's rebids:
 
 +---------------------+-----------------------------------------------------------------------------------------------+
-|    Pass             | **Natural**, weak hand                                                                        |
+|    Pass             | **Natural**, weak or invitational hand                                                        |
++---------------------+-----------------------------------------------------------------------------------------------+
+|    3\ |C|           | **Natural**, sign off. Opener may not bid on.                                                 |
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
-|    2\ |S|           | :art:`Artificial`, invitational. Opener bids naturally to accept/decline the invite           |
-+---------------------+-----------------------------------------------------------------------------------------------+
-| .. class:: alert    |                                                                                               |
-|                     |                                                                                               |
-|    2NT, 3\ |C|      | :art:`Artificial`, 5+ |C|/|D|, game forcing                                                   |
+|    3\ |D|           | :art:`Artificial`, 5 card major checkback. Game forcing                                       |
 |                     |                                                                                               |
 |                     | Openers Responses:                                                                            |
 |                     |                                                                                               |
 |                     | +------------------+------------------------------------------------------------------------+ |
-|                     | |    3\ |C|/|D|    | **Natural**. No major fit. No good outside stoppers.                   | |
-|                     | |                  | New suits are stopper ask, suit rebids show extra length               | |
+|                     | |    3\ |H|        | **Natural**, 5 card |H| suit                                           | |
 |                     | +------------------+------------------------------------------------------------------------+ |
-|                     | |    3\ |H|        | | *Over 2*\ |D|: Major fit, good hand for slam                         | |
-|                     | |                  | | *Over 2*\ |H|: No fit, good outside stoppers, good hand for slam     | |
+|                     | |    3\ |S|        | **Natural**, 5 card |S| suit                                           | |
 |                     | +------------------+------------------------------------------------------------------------+ |
-|                     | |    3\ |S|        | | *Over 2*\ |D|: No fit, good outside stoppers, good hand for slam     | |
-|                     | |                  | | *Over 2*\ |H|: Major fit, good hand for slam                         | |
-|                     | +------------------+------------------------------------------------------------------------+ |
-|                     | |    3NT           | Good outside stoppers, bad hand for slam                               | |
-|                     | +------------------+------------------------------------------------------------------------+ |
-|                     | |    4\ |H|/|S|    | Major fit, bad hand for slam                                           | |
+|                     | |    3NT           | No 5 card major                                                        | |
 |                     | +------------------+------------------------------------------------------------------------+ |
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
-|    3\ |D|           | :art:`Artificial`. Transfer to hearts.                                                        |
+|    3\ |H|, 3\ |S|   | :art:`Artificial`. Ask |C|/|D| suit quality                                                   | 
 |                     |                                                                                               |
-|                     | | *Over 2*\ |D|: 6+ |H|, invite to slam or game. Opener naturally bids                        |
-|                     | | *Over 2*\ |H|: 5+ |H|, game forcing. Promises 6 |S|. Opener naturally places the contract   |
+|                     | Good means Any 4 card support, or 3 card support w/ honors                                    |
 |                     |                                                                                               |
+|                     | Openers Responses:                                                                            |
+|                     |                                                                                               |
+|                     | +------------------+------------------------------------------------------------------------+ |
+|                     | |    3NT           | Bad suit                                                               | |
+|                     | +------------------+------------------------------------------------------------------------+ |
+|                     | |    4\ |C|/|D|    | Good suit                                                              | |
+|                     | +------------------+------------------------------------------------------------------------+ |
 +---------------------+-----------------------------------------------------------------------------------------------+
-| .. class:: alert    |                                                                                               |
-|                     |                                                                                               |
-|    3\ |H|           | :art:`Artificial`. Transfer to spades.                                                        |
-|                     |                                                                                               |
-|                     | | *Over 2H*: 5+ |H|, game forcing. Promises 6 |S|. Opener naturally places the contract       |
-|                     | | *Over 2D*: 6+ |H|, invite to slam or game. Opener naturally bids                            |
-|                     |                                                                                               |
+|    3NT              | **Natural**, to play.                                                                         |
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
@@ -58,9 +47,14 @@ Responder's rebids:
 +---------------------+-----------------------------------------------------------------------------------------------+
 | .. class:: alert    |                                                                                               |
 |                     |                                                                                               |
-|    4\ |C|           | :art:`Artificial`. Kickback keycard                                                           |
+|    4\ |C|           | :art:`Artificial`. Count aces (gerber).                                                       |
 +---------------------+-----------------------------------------------------------------------------------------------+
 |    4\ |H|, 4\ |S|   | **Natural**, 6+ |H|/|S|. To play, had slam interest (wanted superaccept). Opener must pass    |
 +---------------------+-----------------------------------------------------------------------------------------------+
-|    4NT              | **Natural**, Quantatative invite to 6NT. Promises exactly 5 cards in the major                |
+| .. class:: announce |                                                                                               |
+|                     |                                                                                               |
+|    4\ |D|, 4\ |H|   | :announce:`Texas Transfer`. 6+ |H|/|S|, game forcing                                          |
++---------------------+-----------------------------------------------------------------------------------------------+
+|    4NT              | **Natural**, Quantatative invite to 6NT.                                                      |
+|                     | Re-invite, asks opener to re-evaluate within the range they've given.                         |
 +---------------------+-----------------------------------------------------------------------------------------------+
