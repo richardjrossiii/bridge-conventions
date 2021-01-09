@@ -1,6 +1,9 @@
 <style type="text/css">
 	/* Suit handling */
-	.club-suit:after, .diamond-suit:after, .heart-suit:after, .spade-suit:after {
+	.club-suit:after, 
+	.diamond-suit:after, 
+	.heart-suit:after, 
+	.spade-suit:after {
 	    visibility: visible;
 	    font-size: initial;
 	}
@@ -21,19 +24,37 @@
 	    content: "\2660";	
 	}
 
-	.club-suit, .spade-suit {
+	.club-suit, 
+	.spade-suit {
 	    color: black;
 	}
 
-	.diamond-suit, .heart-suit {
+	.diamond-suit, 
+	.heart-suit {
 	    color: red;
 	}
 	
-	.alert, .art, .alert .club-suit, .alert .spade-suit {
+	.alert, 
+	.art, 
+	.alert .club-suit, 
+	.alert .diamond-suit,
+	.alert .heart-suit,
+	.alert .spade-suit {
 	   color: red;
 	}
+
+	.announce, 
+	.announce .club-suit, 
+	.announce .diamond-suit, 
+	.announce .heart-suit, 
+	.announce .spade-suit {
+            color: blue;
+	}
 	
-	.club-suit, .spade-suit, .diamond-suit, .heart-suit {
+	.club-suit, 
+	.spade-suit, 
+	.diamond-suit, 
+	.heart-suit {
 	    visibility: collapse;
 	    font-size: 0px;
         }

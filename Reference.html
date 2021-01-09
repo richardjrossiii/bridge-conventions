@@ -365,7 +365,10 @@ ul.auto-toc {
 
 <style type="text/css">
 	/* Suit handling */
-	.club-suit:after, .diamond-suit:after, .heart-suit:after, .spade-suit:after {
+	.club-suit:after, 
+	.diamond-suit:after, 
+	.heart-suit:after, 
+	.spade-suit:after {
 	    visibility: visible;
 	    font-size: initial;
 	}
@@ -386,19 +389,37 @@ ul.auto-toc {
 	    content: "\2660";	
 	}
 
-	.club-suit, .spade-suit {
+	.club-suit, 
+	.spade-suit {
 	    color: black;
 	}
 
-	.diamond-suit, .heart-suit {
+	.diamond-suit, 
+	.heart-suit {
 	    color: red;
 	}
 	
-	.alert, .art, .alert .club-suit, .alert .spade-suit {
+	.alert, 
+	.art, 
+	.alert .club-suit, 
+	.alert .diamond-suit,
+	.alert .heart-suit,
+	.alert .spade-suit {
 	   color: red;
 	}
+
+	.announce, 
+	.announce .club-suit, 
+	.announce .diamond-suit, 
+	.announce .heart-suit, 
+	.announce .spade-suit {
+            color: blue;
+	}
 	
-	.club-suit, .spade-suit, .diamond-suit, .heart-suit {
+	.club-suit, 
+	.spade-suit, 
+	.diamond-suit, 
+	.heart-suit {
 	    visibility: collapse;
 	    font-size: 0px;
         }
@@ -453,16 +474,16 @@ ul.auto-toc {
 <col width="74%" />
 </colgroup>
 <tbody valign="top">
-<tr><td><p class="alert first last">1 <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">1 <span class="suit club-suit">C</span></p>
 </td>
 <td><strong class="art">Artificial</strong>. 16+ HCP, forcing</td>
 </tr>
-<tr><td><p class="alert first last">1 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">1 <span class="suit diamond-suit">D</span></p>
 </td>
-<td>2+ <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" />, 10-15 HCP; Nonforcing</td>
+<td>2+ <span class="suit diamond-suit">D</span>, 10-15 HCP; Nonforcing</td>
 </tr>
-<tr><td>1 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" />, 1 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
-<td>5+ <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" /> / <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" />, 10-15 HCP</td>
+<tr><td>1 <span class="suit heart-suit">H</span>, 1 <span class="suit spade-suit">S</span></td>
+<td>5+ <span class="suit heart-suit">H</span> / <span class="suit spade-suit">S</span>, 10-15 HCP</td>
 </tr>
 <tr><td>1NT</td>
 <td><div class="first last line-block">
@@ -472,39 +493,40 @@ ul.auto-toc {
 </div>
 </td>
 </tr>
-<tr><td><p class="alert first last">2 <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">2 <span class="suit club-suit">C</span></p>
 </td>
-<td>6+ <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" />, 10-15 HCP; Nonforcing</td>
+<td>6+ <span class="suit club-suit">C</span>, 10-15 HCP; Nonforcing</td>
 </tr>
-<tr><td><p class="alert first last">2 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">2 <span class="suit diamond-suit">D</span></p>
 </td>
 <td><strong class="art">Artificial</strong>. 4=4=1=5 -1 card</td>
 </tr>
-<tr><td>2 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" />, 2 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>2 <span class="suit heart-suit">H</span>, 2 <span class="suit spade-suit">S</span></td>
 <td><strong>Natural</strong>, weak. Frequently 5 cards in 3rd seat</td>
 </tr>
 <tr><td>2NT</td>
 <td>20-21 HCP; Balanced. Frequently contains 5 of major</td>
 </tr>
-<tr><td>3 <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" />, 3 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>3 <span class="suit club-suit">C</span>, 3 <span class="suit diamond-suit">D</span></td>
 <td><strong>Natural</strong>, weak. Frequently 5-6 cards in 3rd seat</td>
 </tr>
-<tr><td>3 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" />, 3 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>3 <span class="suit heart-suit">H</span>, 3 <span class="suit spade-suit">S</span></td>
 <td><strong>Natural</strong>, weak. Frequently 5-6 cards in 3rd seat</td>
 </tr>
 <tr><td><p class="alert first last">3NT</p>
 </td>
 <td><strong class="art">Artificial</strong>. Gambling. 7+ card running minor</td>
 </tr>
-<tr><td><p class="alert first last">4 <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">4 <span class="suit club-suit">C</span></p>
 </td>
-<td><strong class="art">Artificial</strong>. Namyats. Strong preemptive <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" /> hand</td>
+<td><strong class="art">Artificial</strong>. Namyats. Strong preemptive <span class="suit heart-suit">H</span> hand</td>
 </tr>
-<tr><td><p class="alert first last">4 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">4 <span class="suit diamond-suit">D</span></p>
 </td>
-<td><strong class="art">Artificial</strong>. Namyats. Strong preemptive <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /> hand</td>
+<td><strong class="art">Artificial</strong>. Namyats. Strong preemptive <span class="suit spade-suit">S</span> hand</td>
 </tr>
-<tr><td>4 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" />, 4 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td><p class="alert first last">4 <span class="suit heart-suit">H</span>, 4 <span class="suit spade-suit">S</span></p>
+</td>
 <td><strong>Natural</strong>, preemptive</td>
 </tr>
 <tr><td><p class="alert first last">4NT</p>
@@ -523,7 +545,7 @@ ul.auto-toc {
 <col width="76%" />
 </colgroup>
 <tbody valign="top">
-<tr><td><p class="alert first last">1 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">1 <span class="suit diamond-suit">D</span></p>
 </td>
 <td><p class="first">0-7 HCP; <strong class="art">Artificial</strong></p>
 <table border="1" class="last docutils">
@@ -532,25 +554,25 @@ ul.auto-toc {
 <col width="74%" />
 </colgroup>
 <tbody valign="top">
-<tr><td>1 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" />, 1 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>1 <span class="suit heart-suit">H</span>, 1 <span class="suit spade-suit">S</span></td>
 <td>4+, unbalanced. Forcing 1 round</td>
 </tr>
 <tr><td>1NT</td>
 <td>17-19 HCP; Balanced</td>
 </tr>
-<tr><td>2 <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" />, 2 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>2 <span class="suit club-suit">C</span>, 2 <span class="suit diamond-suit">D</span></td>
 <td>5+, unbalanced. Nonforcing</td>
 </tr>
-<tr><td>2 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" />, 2 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>2 <span class="suit heart-suit">H</span>, 2 <span class="suit spade-suit">S</span></td>
 <td>5+, unbalanced, GF</td>
 </tr>
 <tr><td>2NT</td>
 <td>22-24 HCP; Balanced</td>
 </tr>
-<tr><td>3 <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" />, 3 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>3 <span class="suit club-suit">C</span>, 3 <span class="suit diamond-suit">D</span></td>
 <td>5+, unbalanced. GF</td>
 </tr>
-<tr><td>3 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" />, 3 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
+<tr><td>3 <span class="suit heart-suit">H</span>, 3 <span class="suit spade-suit">S</span></td>
 <td>5+, unbalanced, set trump, GF</td>
 </tr>
 <tr><td>3NT</td>
@@ -560,29 +582,215 @@ ul.auto-toc {
 </table>
 </td>
 </tr>
-<tr><td><p class="alert first last">1 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">1 <span class="suit heart-suit">H</span></p>
 </td>
 <td>8-11 HCP; <strong class="art">Artificial</strong>, any shape, denies 5 spades</td>
 </tr>
-<tr><td><p class="alert first last">1 <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">1 <span class="suit spade-suit">S</span></p>
 </td>
-<td>8+ HCP; 5+ <img alt="S" class="spade-suit" src="resources/nonexistent.jpeg" /></td>
+<td>8+ HCP; 5+ <span class="suit spade-suit">S</span></td>
 </tr>
 <tr><td><p class="alert first last">1NT</p>
 </td>
-<td>12+ HCP; 5+ <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" /></td>
+<td>12+ HCP; 5+ <span class="suit heart-suit">H</span></td>
 </tr>
-<tr><td><p class="alert first last">2 <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">2 <span class="suit club-suit">C</span></p>
 </td>
-<td>12+ HCP; 5+ <img alt="C" class="club-suit" src="resources/nonexistent.jpeg" />, unbalanced</td>
+<td>12+ HCP; 5+ <span class="suit club-suit">C</span>, unbalanced</td>
 </tr>
-<tr><td><p class="alert first last">2 <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">2 <span class="suit diamond-suit">D</span></p>
 </td>
-<td>12+ HCP; 5+ <img alt="D" class="diamond-suit" src="resources/nonexistent.jpeg" />, unbalanced</td>
+<td>12+ HCP; 5+ <span class="suit diamond-suit">D</span>, unbalanced</td>
 </tr>
-<tr><td><p class="alert first last">2 <img alt="H" class="heart-suit" src="resources/nonexistent.jpeg" /></p>
+<tr><td><p class="alert first last">2 <span class="suit heart-suit">H</span></p>
 </td>
 <td>12+ HCP; <strong class="art">Artificial</strong>, balanced</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="responding-to-a-1nt-opening">
+<h1>Responding to a 1NT opening:</h1>
+<p>14-16 HCP; Balanced.</p>
+<p>Frequently has 5 card major, 6 card minor, often contains singleton honor, or two doubletons.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>2 <span class="suit club-suit">C</span></td>
+<td><p class="first"><strong>Stayman</strong></p>
+<p>Opener bids a 4 or 5 card major, or 2 <span class="suit diamond-suit">D</span> without.</p>
+<p>Responder's rebids:</p>
+<table border="1" class="last docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Pass</td>
+<td><strong>Garbage Stayman</strong></td>
+</tr>
+<tr><td><p class="alert first last">2 <span class="suit heart-suit">H</span></p>
+</td>
+<td><strong>Crawling stayman</strong></td>
+</tr>
+<tr><td>2 <span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>. 5+ <span class="suit spade-suit">S</span>, invitational, any shape</td>
+</tr>
+<tr><td>2NT</td>
+<td><strong>Natural</strong>, invitational. Contains a 4 card major</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>.
+Either 6+ <span class="suit diamond-suit">D</span>, invitational, or 5 <span class="suit heart-suit">H</span>, 5 <span class="suit spade-suit">S</span>, game forcing</p>
+<p>Openers Responses:</p>
+<table border="1" class="last docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><p class="alert first last">3 <span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first">Would not accept invite</p>
+<table border="1" class="last docutils">
+<colgroup>
+<col width="27%" />
+<col width="73%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><p class="alert first last">3 <span class="suit heart-suit">H</span></p>
+</td>
+<td>5 <span class="suit heart-suit">H</span>, 5 <span class="suit spade-suit">S</span>, slam interest</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. Ask diamond quality</td>
+</tr>
+<tr><td><p class="alert first last">3NT</p>
+</td>
+<td>5 <span class="suit heart-suit">H</span>, 5 <span class="suit spade-suit">S</span>, game forcing, pass or correct</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first">Accept invite, major support</p>
+<table border="1" class="last docutils">
+<colgroup>
+<col width="27%" />
+<col width="73%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><p class="alert first last">3 <span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. Ask diamond quality</td>
+</tr>
+<tr><td>3NT</td>
+<td><em>Undefined</em></td>
+</tr>
+<tr><td><p class="alert first last">4 <span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="art">Artificial</strong>.
+Slam try. Opener will bid their preferred
+major, and responder will either pass or
+keycard/exclusion/cuebid</td>
+</tr>
+<tr><td><p class="alert first last">4 <span class="suit heart-suit">H</span></p>
+</td>
+<td>5 <span class="suit heart-suit">H</span>, 5 <span class="suit spade-suit">S</span>, game forcing. Pass or correct</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit spade-suit">S</span></p>
+</td>
+<td>Accept invite, no major support, good diamonds</td>
+</tr>
+<tr><td><p class="alert first last">3NT</p>
+</td>
+<td>Accept invite, no major support, bad diamonds</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong>Natural</strong>. Weak, 6+ diamonds. Was hoping opener would bid 2D and pass</td>
+</tr>
+<tr><td>3 <span class="suit heart-suit">H</span></td>
+<td><div class="first last line-block">
+<div class="line"><em>Over 2D:</em> <strong class="art">Smolen</strong>. Exactly 5 <span class="suit spade-suit">S</span>, 4 <span class="suit heart-suit">H</span>, game forcing</div>
+<div class="line"><em>Over 2H:</em> <strong>Natural</strong>, invitational</div>
+<div class="line"><em>Over 2S:</em> <strong class="art">Artifical</strong>, <span class="suit spade-suit">S</span> raise, game forcing</div>
+</div>
+</td>
+</tr>
+<tr><td>3 <span class="suit spade-suit">S</span></td>
+<td><div class="first last line-block">
+<div class="line"><em>Over 2D:</em> <strong class="art">Smolen</strong>. Exactly 5 <span class="suit heart-suit">H</span>, 4 <span class="suit spade-suit">S</span>, game forcing</div>
+<div class="line"><em>Over 2H:</em> <strong class="art">Artifical</strong>, <span class="suit heart-suit">H</span> raise, game forcing</div>
+<div class="line"><em>Over 2S:</em> <strong>Natural</strong>, invitational</div>
+</div>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, to play. Promises a 4 card major</td>
+</tr>
+<tr><td>4 <span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>, 6+ <span class="suit club-suit">C</span>, invitational. Promises a 4 card major</td>
+</tr>
+<tr><td><p class="announce first last">4 <span class="suit diamond-suit">D</span>, 4 <span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Texas Transfer</strong>. 6 <span class="suit heart-suit">H</span>/<span class="suit spade-suit">S</span>, 4 <span class="suit spade-suit">S</span>/<span class="suit heart-suit">H</span>, game forcing</td>
+</tr>
+<tr><td>4 <span class="suit spade-suit">S</span></td>
+<td><em>Undefined</em></td>
+</tr>
+<tr><td>4NT</td>
+<td><strong>Natural</strong>, Quantatative invite to 6NT. Promises a 4 card major</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">2 <span class="suit diamond-suit">D</span>, 2 <span class="suit heart-suit">H</span></p>
+</td>
+<td><div class="first last line-block">
+<div class="line"><strong class="art">Transfer</strong>. 5+ <span class="suit heart-suit">H</span> / <span class="suit spade-suit">S</span>, any shape</div>
+<div class="line"><em>Over 2H</em>: Any non-invite hand</div>
+</div>
+</td>
+</tr>
+<tr><td><p class="alert first last">2 <span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. Size ask</td>
+</tr>
+<tr><td><p class="alert first last">2 NT</p>
+</td>
+<td><strong class="art">Artificial</strong>. 5+ <span class="suit heart-suit">H</span>, 5+ <span class="suit spade-suit">S</span>, invitational</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit club-suit">C</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. Puppet stayman</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. 10+ Cards in <span class="suit club-suit">C</span> &amp; <span class="suit diamond-suit">D</span>, game forcing</td>
+</tr>
+<tr><td><p class="alert first last">3 <span class="suit heart-suit">H</span>, 3 <span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, splinter. Exactly 4 of the unbid major</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, to play</td>
 </tr>
 </tbody>
 </table>
