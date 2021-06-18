@@ -10,6 +10,10 @@ macros:
 
       .. include:: \1.rst 
     "\\<section\\:(.+)\\>": "`\\1`_"
+    "(\\s|^)Natural": "**Natural**"
+    "(\\s|^)Artificial": "~~Artificial~~"
+    "(\\s|^)Transfer": "\ :announce:`Transfer`"
+
   left:
     "~(.*)~": |-
       .. class:: alert
@@ -23,7 +27,7 @@ macros:
   right:
     "\\~~(.*)\\~~": :art:`\1`
     "\\~(.*)\\~": :alert:`\1`
-    "\\=(.*)\\=": :announce:`\1`
+    "\\==(.*)\\==": :announce:`\1`
 
 sections:
   -
@@ -31,18 +35,54 @@ sections:
     hidden: True
     contents: |
       .. include:: Preamble.rst
+  - 
+    title: Opening Bids
+    anchor: Opening
+    contents: |
+      We open all 11 counts; and many good 10s, frequently upgrading on shape.
+
+      Preempting style is very light in 3rd seat; sound in 1st/2nd red and light 1st/2nd white.
+
+      <table:opening/bids>
+
+  - 
+    title: "Responding to a 1C opening:"
+    anchor: Responding to 1C
+    contents: |
+      The first priority of responder is to let opener know if we are in a game
+      force or not.
+      
+      <table:1c/response>
+
+      *If responder is a passed hand*:
+      
+      <table:1c/passed-hand-response>
+
+  - 
+    title: "Responding to a 1D opening:"
+    anchor: Responding to 1D
+    contents: |
+      <Section left empty>
+  
   -
     title: "Responding to a 1NT opening:"
-    anchor: 1NT Opening
-    contents: |-
+    anchor: Responding to 1NT
+    contents: |
       14-16 HCP; Balanced. 
       
       Frequently has a 5 card major, 6 card minor, often contains singleton honor, or two doubletons.
 
       <table:1nt/response>
-      See <section:1NT Opening>
+
+  - 
+    title: "Specific Ace Ask"
+    anchor: Specific Aces
+    contents: |
+      <Section left empty>
 
 # Begin Convention tables
 include:
+  - 1c.yaml
   - 1nt.yaml
+  - opening.yaml
 

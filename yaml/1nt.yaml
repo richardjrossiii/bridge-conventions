@@ -3,8 +3,8 @@
 ---
 response:
   2!C: Stayman
-  =2!D / 2!H=: |- 
-    | =Transfer= to !H / !S, Any shape
+  =2!D / 2!H=: | 
+    | Transfer to !H / !S, Any shape
     | *If spades*: Any non invite hand.
 
     Opener naturally completes the transfer.
@@ -13,8 +13,7 @@ response:
     Responder's rebids:
     <table:retransfer_rebids>
 
-
-  ~2!S~: |-
+  ~2!S~: |
     Size Ask. Opener bids 2NT with a minimum, and 3C with a maximum.
 
     After a *lead-directing* double of 2!S: 
@@ -24,33 +23,56 @@ response:
     Responder's rebids:
     <table:sizeask_rebids>
 
+  ~2NT~: |
+    Game forcing, puppet stayman. 
+    
+    Opener bids 3!H/3!S with a 5-card suit, otherwise bids 3!C.
+
+    Responders' rebids:
+    <table:puppet_rebids>
+
+  ~3!C~: Both minors, weak. Pass/correct.
+  ~3!D~: |
+    Both minors, game forcing. 
+    
+    | Opener should bid 3NT with good stops in the major suits.
+    | TODO: Agree on a good method to search for stoppers here.
+  ~3!H~: Artifcial, void in !H. shows exactly 4!S, slam interest.
+  ~3!S~: Artificial, void in !S. shows exactly 4!H, slam interest.
+  3NT: Natrual, to play.
+  4!C: "*Undefined*"
+  =4!D=: ==Texas-transfer== to !H. 6+!H, game or slam forcing.
+  =4!H=: ==Texas-transfer== to !S. 6+!S, game or slam forcing.
+  4!S: "*Undefined*"
+  4NT: Artificial, specific ace ask. See <section:Specific Aces>.
+
+    
 retransfer_rebids: &retransfer_shared
   ~2!S~: >
-    ~~Artificial~~, invitational. 
+    Artificial, invitational. 
     Opener bids naturally to accept/decline the invite.
 
   ~2NT / 3!C~: |-
-    ~~Artificial~~, 5+ !C / !D, game forcing
+    Artificial, 5+ !C / !D, game forcing
 
     Openers Responses:
     <table:minor_retransfer_cont>
 
   ~3D~: >
-    ~~Artificial~~, retransfer to !H, invitational to game or slam.
+    Artificial, retransfer to !H, invitational to game or slam.
 
-  ~3H~: |-
-    ~~Artificial~~, retransfer to !S
+  ~3H~: |
+    Artificial, retransfer to !S
 
     | *After* 2!D: 5+ !S, game forcing.
     | *After* 2!H: 6+ !S, invitational to game or slam.
 
 minor_retransfer_cont:
-  3!C / 3!D: >
-    **Natural**. No major fit. No good outsie stoppers
-  3!H: |-
+  3!C / 3!D: Natural. No major fit. No good outsie stoppers
+  3!H: |
     | *After* 2!D: Major fit, good hand for slam
     | *After* 2!H: No fit, good outside stoppers, good hand for slam
-  3!S: |-
+  3!S: |
     | *After* 2!D: No fit, good outside stoppers, good hand for slam
     | *After* 2!H: Major fit, good hand for slam
   3NT: Good outside stoppers, bad hand for slam
@@ -71,15 +93,25 @@ sizeask_rebids:
   3!C: Natural, sign-off
   3!D: Natural, sign-off
   ~3!H~: |
-    ~~Artifical~~, 6+ !C. Likely slam interest. 
+    Artificial, 6+ !C. Likely slam interest. 
 
     Opener should bid 3NT on any 2 card !C holding. New suits are fit-showing 
     controls.
   
   ~3!S~: |
-    ~~Artifical~~, 6+ !D. Likely slam interest. 
+    Artificial, 6+ !D. Likely slam interest. 
 
     Opener should bid 3NT on any 2 card !D holding. New suits are fit-showing
     controls.
 
   3NT: Natural, sign-off
+
+puppet_rebids:
+  ~3!D~: |
+    Major stopper ask. Usually (3-1)=(5-4) shape. At least 8 cards in the minor suits.
+
+    Opener should bid 3NT with good stops in both major suits, otherwise:
+
+  ~3!H~: Artificial, exactly 4!S. Opener naturally places the contract.
+  ~3!S~: Artificial, exactly 4!H. Opener naturally places the contract.
+
