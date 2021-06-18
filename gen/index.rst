@@ -16,9 +16,9 @@ Preempting style is very light in 3rd seat; sound in 1st/2nd red and light 1st/2
 
 .. _Responding to 1C:
 
----------------------------
-Responding to a 1C opening:
----------------------------
+------------------------------------------
+Responding to a 1\ :club-suit:`C` opening:
+------------------------------------------
 
 The first priority of responder is to let opener know if we are in a game
 force or not.
@@ -35,11 +35,51 @@ force or not.
 
 .. _Responding to 1D:
 
----------------------------
-Responding to a 1D opening:
----------------------------
+---------------------------------------------
+Responding to a 1\ :diamond-suit:`D` opening:
+---------------------------------------------
 
 <Section left empty>
+
+--------------------
+General notes on 1M:
+--------------------
+
+Opener's hand is limited, so our raise structure is a bit different from 
+normal 2/1 systems.
+
+Important note: Reverses are alertable, and *non-forcing*, showing only 
+extreme shape. Care should be taken when reversing if responder has a
+potentially weak  hand (especially after forcing 1NT).
+
+In competition (except after double), 3M is strictly weak, and 
+we re-purpose the bid immediately before as a mixed raise.
+
+In addition, new suits at the two level are negative.
+
+(**EVENTUALLY**) After a double, we play a basic transfer system:
+
+
+.. include:: 1m/after-double.rst 
+
+
+.. _Responding to 1H:
+
+-------------------------------------------
+Responding to a 1\ :heart-suit:`H` opening:
+-------------------------------------------
+
+
+.. include:: 1m/heart-responses.rst 
+
+.. _Responding to 1S:
+
+-------------------------------------------
+Responding to a 1\ :spade-suit:`S` opening:
+-------------------------------------------
+
+
+.. include:: 1m/spade-responses.rst 
 
 .. _Responding to 1NT:
 
