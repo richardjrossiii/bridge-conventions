@@ -1,0 +1,48 @@
+# vim: tabstop=2 shiftwidth=2 expandtab
+---
+macros:
+  everywhere:
+    "!C": \ :club-suit:`C`
+    "!D": \ :diamond-suit:`D`
+    "!H": \ :heart-suit:`H`
+    "!S": \ :spade-suit:`S`
+    "\\<table\\:(.+)\\>": |
+
+      .. include:: \1.rst 
+    "\\<section\\:(.+)\\>": "`\\1`_"
+  left:
+    "~(.*)~": |-
+      .. class:: alert
+
+      \1
+    
+    "=(.*)=": |-
+      .. class:: announce
+
+      \1
+  right:
+    "\\~~(.*)\\~~": :art:`\1`
+    "\\~(.*)\\~": :alert:`\1`
+    "\\=(.*)\\=": :announce:`\1`
+
+sections:
+  -
+    title: Preamble
+    hidden: True
+    contents: |
+      .. include:: Preamble.rst
+  -
+    title: "Responding to a 1NT opening:"
+    anchor: 1NT Opening
+    contents: |-
+      14-16 HCP; Balanced. 
+      
+      Frequently has a 5 card major, 6 card minor, often contains singleton honor, or two doubletons.
+
+      <table:1nt/response>
+      See <section:1NT Opening>
+
+# Begin Convention tables
+include:
+  - 1nt.yaml
+

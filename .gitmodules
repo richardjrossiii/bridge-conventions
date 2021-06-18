@@ -1,0 +1,3 @@
+[submodule "conventor"]
+	path = conventor
+	url = https://github.com/richardjrossiii/conventor

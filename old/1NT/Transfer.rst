@@ -1,3 +1,5 @@
+.. include:: ../Preamble.rst
+
 | :announce:`Transfer`. 5+ |H| / |S|, any shape
 | *If 5+ spades*: Any non invite hand
 

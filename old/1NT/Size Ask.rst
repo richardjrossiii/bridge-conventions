@@ -1,3 +1,5 @@
+.. include:: ../Preamble.rst
+
 :art:`Artificial`. Size ask.
 
 Opener should bid 2NT with a minimum hand, and 3\ |C| with a maximum.

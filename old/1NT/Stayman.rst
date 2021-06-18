@@ -1,3 +1,5 @@
+.. include:: ../Preamble.rst
+
 **Stayman**
 
 Opener bids a 4 or 5 card major, or 2 |D| without.

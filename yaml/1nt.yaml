@@ -1,0 +1,85 @@
+# vim: tabstop=2 shiftwidth=2 expandtab
+# 1NT and related conventions
+---
+response:
+  2!C: Stayman
+  =2!D / 2!H=: |- 
+    | =Transfer= to !H / !S, Any shape
+    | *If spades*: Any non invite hand.
+
+    Opener naturally completes the transfer.
+    With a max and 4 card support; complete the transfer at the 3 level.
+
+    Responder's rebids:
+    <table:retransfer_rebids>
+
+
+  ~2!S~: |-
+    Size Ask. Opener bids 2NT with a minimum, and 3C with a maximum.
+
+    After a *lead-directing* double of 2!S: 
+    
+    <table:sizeask_interference>
+
+    Responder's rebids:
+    <table:sizeask_rebids>
+
+retransfer_rebids: &retransfer_shared
+  ~2!S~: >
+    ~~Artificial~~, invitational. 
+    Opener bids naturally to accept/decline the invite.
+
+  ~2NT / 3!C~: |-
+    ~~Artificial~~, 5+ !C / !D, game forcing
+
+    Openers Responses:
+    <table:minor_retransfer_cont>
+
+  ~3D~: >
+    ~~Artificial~~, retransfer to !H, invitational to game or slam.
+
+  ~3H~: |-
+    ~~Artificial~~, retransfer to !S
+
+    | *After* 2!D: 5+ !S, game forcing.
+    | *After* 2!H: 6+ !S, invitational to game or slam.
+
+minor_retransfer_cont:
+  3!C / 3!D: >
+    **Natural**. No major fit. No good outsie stoppers
+  3!H: |-
+    | *After* 2!D: Major fit, good hand for slam
+    | *After* 2!H: No fit, good outside stoppers, good hand for slam
+  3!S: |-
+    | *After* 2!D: No fit, good outside stoppers, good hand for slam
+    | *After* 2!H: Major fit, good hand for slam
+  3NT: Good outside stoppers, bad hand for slam
+  4!H / 4!S: >
+    Major fit, bad hand for slam
+
+sizeask:
+  ~2NT~: Minimum hand
+  ~3C~: Maximum hand
+
+sizeask_interference:
+  Pass: Minimal hand, no stop in !S
+  2NT: Minimal hand, stop in !S
+  ~XX~: Maximal hand, no stop in !S
+  ~3C~: Maximal hand, stop in !S
+
+sizeask_rebids:
+  3!C: Natural, sign-off
+  3!D: Natural, sign-off
+  ~3!H~: |
+    ~~Artifical~~, 6+ !C. Likely slam interest. 
+
+    Opener should bid 3NT on any 2 card !C holding. New suits are fit-showing 
+    controls.
+  
+  ~3!S~: |
+    ~~Artifical~~, 6+ !D. Likely slam interest. 
+
+    Opener should bid 3NT on any 2 card !D holding. New suits are fit-showing
+    controls.
+
+  3NT: Natural, sign-off

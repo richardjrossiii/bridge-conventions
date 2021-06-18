@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<title>Responding to a 1NT opening:</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="responding-to-a-1nt-opening">
+<span id="nt-opening"></span>
+<h1 class="title">Responding to a 1NT opening:</h1>
+
+<style type="text/css">
+	/* Suit handling */
+	.club-suit:after, 
+	.diamond-suit:after, 
+	.heart-suit:after, 
+	.spade-suit:after {
+	    visibility: visible;
+	    font-size: initial;
+	}
+
+	.club-suit:after {
+	    content: "\2663";
+	}
+
+	.diamond-suit:after {
+	    content: "\2666";
+	}
+
+	.heart-suit:after {
+	    content: "\2665";
+	}
+
+	.spade-suit:after {
+	    content: "\2660";	
+	}
+
+	.club-suit, 
+	.spade-suit {
+	    color: black;
+	}
+
+	.diamond-suit, 
+	.heart-suit {
+	    color: red;
+	}
+	
+	.alert, 
+	.art, 
+	.alert .club-suit, 
+	.alert .diamond-suit,
+	.alert .heart-suit,
+	.alert .spade-suit {
+	   color: red;
+	}
+
+	.announce, 
+	.announce .club-suit, 
+	.announce .diamond-suit, 
+	.announce .heart-suit, 
+	.announce .spade-suit {
+            color: blue;
+	}
+	
+	.club-suit, 
+	.spade-suit, 
+	.diamond-suit, 
+	.heart-suit {
+	    visibility: collapse;
+	    font-size: 0px;
+        }
+
+	/* Table styling */
+
+	table {
+	    border: none;
+	    width: 100%;
+	}
+	table, tr, td {
+	    border-collapse: collapse;
+	}
+
+	td {
+	    border-left: 1px solid black;
+	    border-right: 1px solid black;
+	    border-top: none;
+	    border-bottom: none;
+        }
+	
+	tr {
+	   border-top: 1px solid black;
+	   border-bottom: 1px solid black;
+	   border-left: none;
+	   border-right: none;
+	}
+
+	tr:first-child {
+		border-top: none;
+	}
+
+	tr:last-child {
+		border-bottom: none;
+	}
+
+	td:first-child {
+	    border-left: none;
+	    font-weight: bold;
+	}
+	
+	td:last-child {
+	    border-right: none; 
+	}
+
+</style>
+<p>14-16 HCP; Balanced.</p>
+<p>Frequently has a 5 card major, 6 card minor, often contains singleton honor, or two doubletons.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="36%" />
+<col width="64%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>2<span class="suit club-suit">C</span></td>
+<td>Stayman</td>
+</tr>
+<tr><td><p class="announce first last">2<span class="suit diamond-suit">D</span> / 2<span class="suit heart-suit">H</span></p>
+</td>
+<td><div class="first line-block">
+<div class="line"><strong class="announce">Transfer</strong> to <span class="suit heart-suit">H</span> / <span class="suit spade-suit">S</span>, Any shape</div>
+<div class="line"><em>If spades</em>: Any non invite hand.</div>
+</div>
+<p>Opener naturally completes the transfer.
+With a max and 4 card support; complete the transfer at the 3 level.</p>
+<p>Responder's rebids:</p>
+<table border="1" class="last docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><p class="alert first last">2<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, invitational.  Opener bids naturally to accept/decline the invite.</td>
+</tr>
+<tr><td><p class="alert first last">2NT / 3<span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, 5+ <span class="suit club-suit">C</span> / <span class="suit diamond-suit">D</span>, game forcing</p>
+<p>Openers Responses:</p>
+<table border="1" class="last docutils">
+<colgroup>
+<col width="34%" />
+<col width="66%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span> / 3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. No major fit. No good outsie stoppers</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><div class="first last line-block">
+<div class="line"><em>After</em> 2<span class="suit diamond-suit">D</span>: Major fit, good hand for slam</div>
+<div class="line"><em>After</em> 2<span class="suit heart-suit">H</span>: No fit, good outside stoppers, good hand for slam</div>
+</div>
+</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><div class="first last line-block">
+<div class="line"><em>After</em> 2<span class="suit diamond-suit">D</span>: No fit, good outside stoppers, good hand for slam</div>
+<div class="line"><em>After</em> 2<span class="suit heart-suit">H</span>: Major fit, good hand for slam</div>
+</div>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers, bad hand for slam</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span> / 4<span class="suit spade-suit">S</span></td>
+<td>Major fit, bad hand for slam</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">3D</p>
+</td>
+<td><strong class="art">Artificial</strong>, retransfer to <span class="suit heart-suit">H</span>, invitational to game or slam.</td>
+</tr>
+<tr><td><p class="alert first last">3H</p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, retransfer to <span class="suit spade-suit">S</span></p>
+<div class="last line-block">
+<div class="line"><em>After</em> 2<span class="suit diamond-suit">D</span>: 5+ <span class="suit spade-suit">S</span>, game forcing.</div>
+<div class="line"><em>After</em> 2<span class="suit heart-suit">H</span>: 6+ <span class="suit spade-suit">S</span>, invitational to game or slam.</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">2<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first">Size Ask. Opener bids 2NT with a minimum, and 3C with a maximum.</p>
+<p>After a <em>lead-directing</em> double of 2<span class="suit spade-suit">S</span>:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Pass</td>
+<td>Minimal hand, no stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td>2NT</td>
+<td>Minimal hand, stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td><p class="alert first last">XX</p>
+</td>
+<td>Maximal hand, no stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td><p class="alert first last">3C</p>
+</td>
+<td>Maximal hand, stop in <span class="suit spade-suit">S</span></td>
+</tr>
+</tbody>
+</table>
+<p>Responder's rebids:</p>
+<table border="1" class="last docutils">
+<colgroup>
+<col width="19%" />
+<col width="81%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td>Natural, sign-off</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td>Natural, sign-off</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="art">Artifical</strong>, 6+ <span class="suit club-suit">C</span>. Likely slam interest.</p>
+<p class="last">Opener should bid 3NT on any 2 card <span class="suit club-suit">C</span> holding. New suits are fit-showing
+controls.</p>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first"><strong class="art">Artifical</strong>, 6+ <span class="suit diamond-suit">D</span>. Likely slam interest.</p>
+<p class="last">Opener should bid 3NT on any 2 card <span class="suit diamond-suit">D</span> holding. New suits are fit-showing
+controls.</p>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td>Natural, sign-off</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>See <a class="reference internal" href="#nt-opening">1NT Opening</a></p>
+</div>
+</body>
+</html>

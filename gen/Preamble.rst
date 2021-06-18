@@ -1,7 +1,3 @@
-==================
-Bridge Conventions
-==================
-
 .. raw:: html
    :file: resources/style.css
 
@@ -22,22 +18,3 @@ Bridge Conventions
 .. |D| replace:: :diamond-suit:`D`
 .. |H| replace:: :heart-suit:`H`
 .. |S| replace:: :spade-suit:`S`
-
--------------
-Opening Bids:
--------------
-
-.. include:: Opening Bids.rst
-
----------------------------
-Responding to a 1C opening:
----------------------------
-
-.. include:: 1C Responses.rst 
-
-----------------------------
-Responding to a 1NT opening:
-----------------------------
-
-.. include:: 1NT/Responses.rst
-

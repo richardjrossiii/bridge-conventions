@@ -1,3 +1,5 @@
+.. include:: ../Preamble.rst
+
 14-16 HCP; Balanced.
 
 Frequently has 5 card major, 6 card minor, often contains singleton honor, or two doubletons.
