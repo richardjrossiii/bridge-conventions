@@ -5,6 +5,9 @@
     | .. class:: alert     | :art:`Artificial`. Default bid. Can still be unbalanced. |
     |                      |                                                          |
     | 2\ :diamond-suit:`D` |                                                          |
+    |                      | .. include:: 1h-2c-2d-continuations.rst                  |
+    |                      |                                                          |
+    |                      |                                                          |
     +----------------------+----------------------------------------------------------+
     | 2\ :heart-suit:`H`   | 6+ \ :heart-suit:`H`. Denies 4\ :spade-suit:`S`.         |
     +----------------------+----------------------------------------------------------+

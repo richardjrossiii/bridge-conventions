@@ -6,6 +6,8 @@ macros:
     "!D": \ :diamond-suit:`D`
     "!H": \ :heart-suit:`H`
     "!S": \ :spade-suit:`S`
+    # Necessary to fix sorting quirks
+    zNT: NT
     "\\<table\\:(.+)\\>": |
 
       .. include:: \1.rst 

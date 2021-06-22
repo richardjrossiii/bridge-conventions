@@ -1,61 +1,81 @@
 # vim: tabstop=2 shiftwidth=2 expandtab
 ---
+shared-responses: &shared-responses
+  __re-sort__: True
+
+  2!D: Natural, game forcing. 4+ !D
+  3!C/!D: Natural, invitational.
+
 heart-responses:
+  <<: *shared-responses
+
   1!S: |
     Natural, 4+ !S. Forcing 1 round. If game forcing, promises 5+ !S
- 
+
     Opener may use discretion on treating 2=5=(4-2) hands as balanced.
-    
+
     Responder's rebid of 2!S is always game forcing, promising 5+ !S
- 
+
     <table:1h-1s-rebids>
 
-  ~1NT~: |
+  ~1zNT~: |
     Artificial, forcing 1 round.
 
-    Default bid is 2!C, 2!D shows at least 4!D. 2!S over 1!H is 
-    still a reverse.
-    
+    Default bid is 2!C, 2!D shows at least 4!D. 2!S is still a reverse.
+
     <table:1h-1nt-rebids>
 
   ~2!C~: |
     Natural, *could be as short as 2*. Game forcing.
 
-    <table:2c-openers-rebids>
+    <table:1h-2c-openers-rebids>
 
   2!D: Natural, game forcing. 4+ !D
-  2!H: |
-    | *After 1*!H: Natural, constructive raise. 7-10 HCP
-    | *After 1*!S: Natural, game forcing. 5+ !H
-  2!S: |
-    | *After 1*!H: Natural, constructive. 6+ !S, 6-10 HCP. Non-forcing
-    | *After 1*!S: Natural, constructive raise. 7-10 HCP
-  ~2NT~: >
-    Artificial, fit showing major raise. Limit+ strength. 
+  2!H: Natural, constructive raise. 7-10 HCP
+  2!S: Natural, constructive. 6+ !S, 6-10 HCP. Non-forcing
+  ~2zNT~: |
+    Artificial, 4+ !H. 11+ HCP.
     If game-forcing, must have slam interest.
-  3!C/!D: Natural, invitational.
-  3!H: |
-    | *After 1*!H: Natural, mixed !H raise.
-    | *After 1*!S: Natural, invitational.
-  3!S: |
-    | *After 1*!H: Natural, invitational.
-    | *After 1*!S: Natural, mixed !S raise.
-  3NT: Natural, Choice of games. Exactly 3!H, likely 3=3=(4-3).
-  4!C: Artificial, void in !C, slam interest.
-  4!D: Artificial, void in !D, slam interest.
-  4!H/4!S: Natural. Opener is highly encouraged to pass.
-  4NT: "*Undefined*. Potentially two places to play?"
+
+    <table:1h-2nt-openers-rebids>
+  3!H: Natural, mixed !H raise.
+  3!S: Natural, invitational.
+  3zNT: Natural, Choice of games. Exactly 3!H, likely 3=3=(4-3).
+  ~4!C~: Artificial, 4+ !H, void in !C, slam interest.
+  ~4!D~: Artificial, 4+ !H, void in !D, slam interest.
+  ~4!H~: Natural, ~~wide ranging~~. Opener is highly encouraged to pass.
+  4!S: Natural. Opener is highly encouraged to pass.
+  4zNT: "*Undefined*. Potentially two places to play?"
 
 spade-responses:
-  ~1NT~:
+  <<: *shared-responses
+
+  ~1zNT~: |
     Artificial, forcing 1 round.
 
-    Default bid is 2!C, 2!D shows at least 4!D. 2!S over 1!H is 
-    still a reverse.
+    Default bid is 2!C, 2!D/!H shows at least 4!D/!H.
+
+    <table:1s-1nt-rebids>
+
   ~2!C~: |
     Natural, *could be as short as 2*. Game forcing.
 
-    <table:1s-2c-openers-rebids> 
+    <table:1s-2c-openers-rebids>
+  2!H: Natural, game forcing. 5+ !H
+  2!S: Natural, constructive raise. 7-10 HCP
+  ~2zNT~: |
+    Artificial, 4+ !S. 11+ HCP. If game-forcing, must have slam interest.
+
+    <table:1s-2nt-openers-rebids>
+
+  3!H: Natural, invitational.
+  3!S: Natrual, mixed !S raise.
+  3zNT: Natural, Choice of games. Exactly 3!S, Likely 3=3=(4-3).
+  ~4!C~: Artificial, 4+ !S, void in !C, slam interest.
+  ~4!D~: Artificial, 4+ !S, void in !D, slam interest.
+  4!H: Natural. Opener is highly encouraged to pass.
+  ~4!S~: Natural, ~~wide ranging~~. Opener is highly encouraged to pass.
+  4zNT: "*Undefined*. Potentially two places to play?"
 
 1h-1s-rebids:
   1NT: Natural, balanced. 11-13 HCP.
@@ -72,15 +92,15 @@ spade-responses:
   __re-sort__: True
 
   2!D: Natural, to play
-  2NT: Natural, balanced invite.
-  
-  # Note: these bids seem odd. We already haver the immediate 3!C and 3!D. 
+  2zNT: Natural, balanced invite.
+
+  # Note: these bids seem odd. We already haver the immediate 3!C and 3!D.
   # Maybe these should show two-suited hands, or the immediate jump should be
   # fit-showing. Not sure.
   3!C: Natural, invite with clubs.
   3!D: Natural, invite with diamonds.
-  
-  3NT: >
+
+  3zNT: >
     Natural, gambling. Strong running minor, partner is encouraged to pass
     with decent outside stoppers
 
@@ -98,35 +118,76 @@ spade-responses:
   2!H: Natural, to play
   2!S: Natural, sign-off. Trash raise (0-6 HCP), or two card support.
 
-  3!H: Natrual, invite with hearts 
+  3!H: Natrual, invite with hearts
   3!S: Natural, 3 card limit raise.
 
 1h-2c-openers-rebids:
-  ~2!D~: >
+  ~2!D~: |
     Artificial. Default bid. Can still be unbalanced.
+
+    <table:1h-2c-2d-continuations>
+
   2!H: 6+ !H. Denies 4!S.
   2!S: 4+ !S. Does not deny 6+ !H
-  ~2NT~: (5-0)=4=4 shape, exactly. 
+  ~2NT~: (5-0)=4=4 shape, exactly.
   3!C: 5+ !C
   3!D: 5+ !D
   3!H: 8+ !H, trump setting
 
 1s-2c-openers-rebids:
-  ~2!D~: >
+  ~2!D~: |
     Artificial. Default bid. Can still be unbalanced.
+
+    <table:1s-2c-2d-continuations>
   2!H: 4+ !H. Does not deny 6+ !S.
   2!S: 6+ !S. Denies 4!H.
-  ~2NT~: (5-0)=4=4 shape, exactly. 
+  ~2NT~: (5-0)=4=4 shape, exactly.
   3!C: 5+ !C
   3!D: 5+ !D
-  3!S: 8+ !H/!S, trump setting
+  3!S: 8+ !S, trump setting
 
 1h-2c-2d-continuations:
-  2!H: |
-    
-   
+  2!H: Natural, 3 !H, slam interest.
+  2!S: Artificial, stopper ask for notrump.
+  2NT: Natural, balanced slam invite.
+  3!C: Natural, 5+ !C, unbalanced.
+  3!D: Natural, 5+ !C, 4+ !D.
+
+1s-2c-2d-continuations:
+  2!H: Natural, 3 !H, slam interest.
+  2!S: Artificial, stopper ask for notrump.
+  2NT: Natural, balanced slam invite.
+  3!C: Natural, 5+ !C, unbalanced.
+  3!D: Natural, 5+ !C, 4+ !D.
+
+
+1m-2nt-openers-rebids: &1m-2nt-openers-rebids
+  __re-sort__: True
+
+  ~3!C~: Artificial. Unbalanced hand
+  ~3!D~: Artificial. Balanced hand (12-13 HCP). Re-invite.
+  ~4!C~: Artificial. Void in !C
+  ~4!D~: Artificial. Void in !D
+
+1h-2nt-openers-rebids:
+  <<: *1m-2nt-openers-rebids
+
+  3!H: Natural. 10-11 HCP, bad hand.
+  3!S: Artificial, void in !S
+  3zNT: Natural. 14-15 HCP, 6-7 !H, balanced.
+  4!H: Natural. 10-11 HCP, 6-7 !H. Law of total tricks.
+
+1s-2nt-openers-rebids:
+  <<: *1m-2nt-openers-rebids
+
+  3!H: Artificial, void in !H. 
+  3!S: Natural. 10-11 HCP, bad hand.
+  3zNT: Natural. 14-15 HCP, 6-7 !H, balanced.
+  4!S: Natural. 10-11 HCP, 6-7 !H. Law of total tricks.
+
 after-double:
-  XX: Shows spades? 
+
+  XX: Shows spades?
   1S: 1NT transfer?
   ~2NT~: Artificial, fit showing major raise. Limit+ strength.
 

@@ -9,14 +9,13 @@ response:
   ~2!H~: Artificial, game forcing. 12+ HCP, balanced.
   ~2!S~: Artificial, game forcing. Any 4-4-4-1 hand; 12+ HCP
   2NT: "*Undefined*"
-  3!C/!D/!H/!S: 5-6 HCP preemptive, 7+ (!C/!D/!H/!S), all points in bid suit.
+  3!C/!D/!H/!S: 4-6 HCP preemptive, 7+ (!C/!D/!H/!S), all points in bid suit.
   3NT: "*Undefined*"
 
 passed-hand-response:
   ~1!D~: Artificial. 0-7 HCP, any shape. *Non-forcing*, but rarely passed.
   
-  # Note: Is this exactly what we agreed on? I don't remember.
-  ~1!H~: Artificial. Balanced, game forcing. 8-10 HCP.
+  1!H: Natural, game forcing. 5+ !H. 8-10 HCP.
   1!S: Natural, game forcing. 5+ !S. 8-10 HCP.
-  ~1NT~: Artificial, game forcing. 5+ !H. 8-10 HCP.
+  1NT: Natural, game forcing. Denies a 5 card suit. 8-10 HCP.
   2!C/!D: Natural, game forcing. 5+ !C/!D 8-10 HCP.
