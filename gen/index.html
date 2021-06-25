@@ -410,11 +410,13 @@ ul.auto-toc {
 	   color: red;
 	}
 
-	.announce, 
+	.announce
+    /*
 	.announce .club-suit, 
 	.announce .diamond-suit, 
 	.announce .heart-suit, 
-	.announce .spade-suit {
+	.announce .spade-suit 
+    */ {
             color: blue;
 	}
 	
@@ -753,7 +755,39 @@ If game-forcing, must have slam interest.</p>
 <tbody valign="top">
 <tr><td><p class="alert first last">3<span class="suit club-suit">C</span></p>
 </td>
-<td><strong class="art">Artificial</strong>. Unbalanced hand</td>
+<td><p class="first"><strong class="art">Artificial</strong>. Undisclosed shortness, no void.</p>
+<p>Responder's rebids:</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first">Show your shortness (steps: hi/med/low).</p>
+<p class="last">All further bids are controls/normal slam bidding.</p>
+</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td>Any limit raise.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td>Void in spades. (<strong>Because we do not have immediate splinters</strong>)</td>
+</tr>
+<tr><td>3NT</td>
+<td>Serious 3NT. Demands immediate control bids.</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td><p class="first">Non-serious <span class="suit club-suit">C</span> cue.</p>
+<p class="last"><strong>Does not deny a</strong> <span class="suit spade-suit">S</span> <strong>cue</strong>, as we do not have one in this sequence.</p>
+</td>
+</tr>
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td><p class="first">Non-serious <span class="suit diamond-suit">D</span> cue.</p>
+<p class="last"><em>Not last train</em>; as 3NT is available.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
 </tr>
 <tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
 </td>
@@ -762,7 +796,8 @@ If game-forcing, must have slam interest.</p>
 <tr><td>3<span class="suit heart-suit">H</span></td>
 <td><strong>Natural</strong>. 10-11 HCP, bad hand.</td>
 </tr>
-<tr><td>3<span class="suit spade-suit">S</span></td>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
 <td><strong class="art">Artificial</strong>, void in <span class="suit spade-suit">S</span></td>
 </tr>
 <tr><td>3NT</td>
@@ -925,20 +960,53 @@ If game-forcing, must have slam interest.</p>
 <tbody valign="top">
 <tr><td><p class="alert first last">3<span class="suit club-suit">C</span></p>
 </td>
-<td><strong class="art">Artificial</strong>. Unbalanced hand</td>
+<td><p class="first"><strong class="art">Artificial</strong>. Undisclosed shortness, no void.</p>
+<p>Responder's rebids:</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first">Show your shortness (steps: hi/med/low).</p>
+<p class="last">All further bids are controls/normal slam bidding.</p>
+</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td>Void in <span class="suit heart-suit">H</span>. (<strong>Because we do not have immediate splinters</strong>)</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td>Any limit raise.</td>
+</tr>
+<tr><td>3NT</td>
+<td>Serious 3NT. Demands immediate control bids.</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td>Non-serious <span class="suit club-suit">C</span> cue.</td>
+</tr>
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td>Non-serious <span class="suit diamond-suit">D</span> cue.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>Non-serious <span class="suit heart-suit">H</span> cue.
+<em>Not last train</em>; as 3NT is available.</td>
+</tr>
+</tbody>
+</table>
+</td>
 </tr>
 <tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
 </td>
 <td><strong class="art">Artificial</strong>. Balanced hand (12-13 HCP). Re-invite.</td>
 </tr>
-<tr><td>3<span class="suit heart-suit">H</span></td>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
 <td><strong class="art">Artificial</strong>, void in <span class="suit heart-suit">H</span>.</td>
 </tr>
 <tr><td>3<span class="suit spade-suit">S</span></td>
 <td><strong>Natural</strong>. 10-11 HCP, bad hand.</td>
 </tr>
-<tr><td>3NT</td>
-<td><strong>Natural</strong>. 14-15 HCP, 6-7 <span class="suit heart-suit">H</span>, balanced.</td>
+<tr><td><p class="alert first last">3NT</p>
+</td>
+<td><strong>Natural</strong>. 14-15 HCP, 6-7 <span class="suit spade-suit">S</span>, balanced.</td>
 </tr>
 <tr><td><p class="alert first last">4<span class="suit club-suit">C</span></p>
 </td>
@@ -949,7 +1017,7 @@ If game-forcing, must have slam interest.</p>
 <td><strong class="art">Artificial</strong>. Void in <span class="suit diamond-suit">D</span></td>
 </tr>
 <tr><td>4<span class="suit spade-suit">S</span></td>
-<td><strong>Natural</strong>. 10-11 HCP, 6-7 <span class="suit heart-suit">H</span>. Law of total tricks.</td>
+<td><strong>Natural</strong>. 10-11 HCP, 6-7 <span class="suit spade-suit">S</span>. Law of total tricks.</td>
 </tr>
 </tbody>
 </table>
@@ -995,68 +1063,290 @@ If game-forcing, must have slam interest.</p>
 <table border="1" class="colwidths-auto docutils">
 <tbody valign="top">
 <tr><td>2<span class="suit club-suit">C</span></td>
-<td>Stayman</td>
-</tr>
-<tr><td><p class="announce first last">2<span class="suit diamond-suit">D</span> / 2<span class="suit heart-suit">H</span></p>
+<td><p class="first">Stayman. In general, promises at least one 4-card major.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2<span class="suit diamond-suit">D</span></td>
+<td><p class="first">No 4 or 5 card major.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2<span class="suit heart-suit">H</span></td>
+<td><p class="first">Crawling stayman. Weak, usually 5<span class="suit heart-suit">H</span>, 4<span class="suit spade-suit">S</span>.</p>
+<p>Opener must pass/correct.</p>
+<p class="last">Very rarely 5<span class="suit heart-suit">H</span> &amp; 5<span class="suit club-suit">C</span>, weak. Will pull opener's 2<span class="suit spade-suit">S</span> bid to 3<span class="suit club-suit">C</span>.</p>
 </td>
-<td><div class="first line-block">
-<div class="line"><strong class="announce">Transfer</strong> to <span class="suit heart-suit">H</span> / <span class="suit spade-suit">S</span>, Any shape</div>
-<div class="line"><em>If spades</em>: Any non invite hand.</div>
-</div>
+</tr>
+<tr><td>2NT</td>
+<td>Balanced, invitational. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>2<span class="suit spade-suit">S</span></td>
+<td>5<span class="suit spade-suit">S</span>, invitational. Opener naturally places the contract.</td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit club-suit">C</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit diamond-suit">D</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, smolen. 5<span class="suit spade-suit">S</span>, 4<span class="suit heart-suit">H</span>; game forcing.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, smolen. 5<span class="suit heart-suit">H</span>, 4<span class="suit spade-suit">S</span>; game forcing.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>. Exactly 4-4-3-2, choice of games.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantatative invite to 6NT. Promises at least one 4 card major.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>2<span class="suit heart-suit">H</span></td>
+<td><p class="first">4+ <span class="suit heart-suit">H</span></p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2NT</td>
+<td>Balanced, invitational. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>2<span class="suit spade-suit">S</span></td>
+<td>5<span class="suit spade-suit">S</span>, invitational. Opener naturally places the contract.</td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit club-suit">C</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit diamond-suit">D</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>, invitational.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>. Exactly 4-4-3-2, choice of games.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, forcing <span class="suit heart-suit">H</span> raise.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>. Exactly 4-4-3-2, choice of games.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantatative invite to 6NT. Promises at least one 4 card major.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>2<span class="suit spade-suit">S</span></td>
+<td><p class="first">4+ <span class="suit spade-suit">S</span></p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2NT</td>
+<td>Balanced, invitational. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit club-suit">C</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit diamond-suit">D</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, forcing <span class="suit spade-suit">S</span> raise.</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>, invitational.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>. Exactly 4-4-3-2, choice of games.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantatative invite to 6NT. Promises at least one 4 card major.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">2<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong> to <span class="suit heart-suit">H</span>, Any shape</p>
 <p>Opener naturally completes the transfer.
 With a max and 4 card support; complete the transfer at the 3 level.</p>
-<p>Responder's rebids:</p>
 <table border="1" class="colwidths-auto last docutils">
 <tbody valign="top">
 <tr><td><p class="alert first last">2<span class="suit spade-suit">S</span></p>
 </td>
 <td><strong class="art">Artificial</strong>, invitational.  Opener bids naturally to accept/decline the invite.</td>
 </tr>
-<tr><td><p class="alert first last">2NT / 3<span class="suit club-suit">C</span></p>
+<tr><td><p class="announce first last">2NT</p>
 </td>
-<td><p class="first"><strong class="art">Artificial</strong>, 5+ <span class="suit club-suit">C</span> / <span class="suit diamond-suit">D</span>, game forcing</p>
-<p>Openers Responses:</p>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit club-suit">C</span>; game forcing.</p>
 <table border="1" class="colwidths-auto last docutils">
 <tbody valign="top">
-<tr><td>3<span class="suit club-suit">C</span> / 3<span class="suit diamond-suit">D</span></td>
-<td><strong>Natural</strong>. No major fit. No good outsie stoppers</td>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td>Natrual. No major fit. Good (4+) <span class="suit club-suit">C</span> fit or missing outside stoppers.</td>
 </tr>
 <tr><td>3<span class="suit heart-suit">H</span></td>
-<td><div class="first last line-block">
-<div class="line"><em>After</em> 2<span class="suit diamond-suit">D</span>: Major fit, good hand for slam</div>
-<div class="line"><em>After</em> 2<span class="suit heart-suit">H</span>: No fit, good outside stoppers, good hand for slam</div>
-</div>
-</td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
 </tr>
-<tr><td>3<span class="suit spade-suit">S</span></td>
-<td><div class="first last line-block">
-<div class="line"><em>After</em> 2<span class="suit diamond-suit">D</span>: No fit, good outside stoppers, good hand for slam</div>
-<div class="line"><em>After</em> 2<span class="suit heart-suit">H</span>: Major fit, good hand for slam</div>
-</div>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
 </td>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
 </tr>
 <tr><td>3NT</td>
-<td>Good outside stoppers, bad hand for slam</td>
+<td>Good outside stoppers; bad hand for slam.</td>
 </tr>
-<tr><td>4<span class="suit heart-suit">H</span> / 4<span class="suit spade-suit">S</span></td>
-<td>Major fit, bad hand for slam</td>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>Major fit, bad hand for slam.</td>
 </tr>
 </tbody>
 </table>
 </td>
 </tr>
-<tr><td><p class="alert first last">3D</p>
+<tr><td><p class="announce first last">3<span class="suit club-suit">C</span></p>
 </td>
-<td><strong class="art">Artificial</strong>, retransfer to <span class="suit heart-suit">H</span>, invitational to game or slam.</td>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit diamond-suit">D</span>; game forcing.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td>Natrual. No major fit. Good (4+) <span class="suit diamond-suit">D</span> fit or missing outside stoppers.</td>
 </tr>
-<tr><td><p class="alert first last">3H</p>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
 </td>
-<td><p class="first"><strong class="art">Artificial</strong>, retransfer to <span class="suit spade-suit">S</span></p>
-<div class="last line-block">
-<div class="line"><em>After</em> 2<span class="suit diamond-suit">D</span>: 5+ <span class="suit spade-suit">S</span>, game forcing.</div>
-<div class="line"><em>After</em> 2<span class="suit heart-suit">H</span>: 6+ <span class="suit spade-suit">S</span>, invitational to game or slam.</div>
-</div>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers; bad hand for slam.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>Major fit, bad hand for slam.</td>
+</tr>
+</tbody>
+</table>
 </td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Transfer</strong>, 6+ <span class="suit heart-suit">H</span>, invitational to game or slam.</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Transfer</strong>, 5+ <span class="suit spade-suit">S</span>, game forcing.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. Game forcing with 5<span class="suit heart-suit">H</span>; Opener must bid 4<span class="suit heart-suit">H</span> with 3 card support.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, choice of games.</td>
+</tr>
+<tr><td><p class="alert first last">4<span class="suit club-suit">C</span></p>
+</td>
+<td>Keycard in <span class="suit heart-suit">H</span> (1430). 6+ <span class="suit heart-suit">H</span>, mild slam interest.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>Very mild slam invite. Responder was hoping for a super-accept.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quant invite, exactly 5<span class="suit heart-suit">H</span>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">2<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong> to <span class="suit spade-suit">S</span>, any shape, not invitational.</p>
+<p>Opener naturally completes the transfer.
+With a max and 4 card support; complete the transfer at the 3 level.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="announce first last">2NT</p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit club-suit">C</span>; game forcing.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td>Natrual. No major fit. Good (4+) <span class="suit club-suit">C</span> fit or missing outside stoppers.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers; bad hand for slam.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>Major fit, bad hand for slam.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit diamond-suit">D</span>; game forcing.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td>Natrual. No major fit. Good (4+) <span class="suit diamond-suit">D</span> fit or missing outside stoppers.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers; bad hand for slam.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>Major fit, bad hand for slam.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Transfer</strong>, 5+ <span class="suit heart-suit">H</span>, invitational to game or slam.</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Transfer</strong>, 6+ <span class="suit spade-suit">S</span>, invitational to game or slam.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. Game forcing with exactly 5<span class="suit spade-suit">S</span>; Opener must bid 4<span class="suit spade-suit">S</span> with 3 card support.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, choice of games.</td>
+</tr>
+<tr><td><p class="alert first last">4<span class="suit club-suit">C</span></p>
+</td>
+<td>Keycard in <span class="suit spade-suit">S</span> (1430). 6+ <span class="suit spade-suit">S</span>, mild slam interest.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>Very mild slam invite. Responder was hoping for a super-accept.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quant invite, exactly 5<span class="suit spade-suit">S</span>.</td>
 </tr>
 </tbody>
 </table>
@@ -1065,27 +1355,7 @@ With a max and 4 card support; complete the transfer at the 3 level.</p>
 <tr><td><p class="alert first last">2<span class="suit spade-suit">S</span></p>
 </td>
 <td><p class="first">Size Ask. Opener bids 2NT with a minimum, and 3C with a maximum.</p>
-<p>After a <em>lead-directing</em> double of 2<span class="suit spade-suit">S</span>:</p>
 <table border="1" class="colwidths-auto docutils">
-<tbody valign="top">
-<tr><td>Pass</td>
-<td>Minimal hand, no stop in <span class="suit spade-suit">S</span></td>
-</tr>
-<tr><td>2NT</td>
-<td>Minimal hand, stop in <span class="suit spade-suit">S</span></td>
-</tr>
-<tr><td><p class="alert first last">XX</p>
-</td>
-<td>Maximal hand, no stop in <span class="suit spade-suit">S</span></td>
-</tr>
-<tr><td><p class="alert first last">3C</p>
-</td>
-<td>Maximal hand, stop in <span class="suit spade-suit">S</span></td>
-</tr>
-</tbody>
-</table>
-<p>Responder's rebids:</p>
-<table border="1" class="colwidths-auto last docutils">
 <tbody valign="top">
 <tr><td>3<span class="suit club-suit">C</span></td>
 <td><strong>Natural</strong>, sign-off</td>
@@ -1108,7 +1378,41 @@ controls.</p>
 </td>
 </tr>
 <tr><td>3NT</td>
-<td><strong>Natural</strong>, sign-off</td>
+<td><strong>Natural</strong>, sign-off.</td>
+</tr>
+<tr><td><p class="alert first last">4<span class="suit club-suit">C</span></p>
+</td>
+<td>Gerber. Responses are 01234, in steps.</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Texas-transfer</strong> to <span class="suit heart-suit">H</span>.</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Texas-transfer</strong> to <span class="suit spade-suit">S</span>.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Re-quant.</td>
+</tr>
+</tbody>
+</table>
+<p>After a <em>lead-directing</em> double of 2<span class="suit spade-suit">S</span>:</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>Pass</td>
+<td>Minimal hand, no stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td>2NT</td>
+<td>Minimal hand, stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td><p class="alert first last">XX</p>
+</td>
+<td>Maximal hand, no stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td><p class="alert first last">3C</p>
+</td>
+<td>Maximal hand, stop in <span class="suit spade-suit">S</span></td>
 </tr>
 </tbody>
 </table>
@@ -1117,14 +1421,40 @@ controls.</p>
 <tr><td><p class="alert first last">2NT</p>
 </td>
 <td><p class="first">Game forcing, puppet stayman.</p>
-<p>Opener bids 3<span class="suit heart-suit">H</span>/3<span class="suit spade-suit">S</span> with a 5-card suit, otherwise bids 3<span class="suit club-suit">C</span>.</p>
-<p>Responders' rebids:</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first">No 5 card major.</p>
 <table border="1" class="colwidths-auto last docutils">
 <tbody valign="top">
 <tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
 </td>
-<td><p class="first">Major stopper ask. Usually (3-1)=(5-4) shape. At least 8 cards in the minor suits.</p>
-<p class="last">Opener should bid 3NT with good stops in both major suits, otherwise:</p>
+<td><p class="first">Major stopper ask.
+At least 8 cards in the minor suits.
+Usually (3-1)=(5-4) shape.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, asks which suit needs a stopper.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td>Spade stopper required.</td>
+</tr>
+<tr><td>3NT</td>
+<td>Heart stopper required.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good stops in both majors.</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 <tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
@@ -1134,6 +1464,20 @@ controls.</p>
 <tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
 </td>
 <td><strong class="art">Artificial</strong>, exactly 4<span class="suit heart-suit">H</span>. Opener naturally places the contract.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><p class="first">5 <span class="suit heart-suit">H</span>.</p>
+<p class="last">New suits are cue bids agreeing to <span class="suit heart-suit">H</span>.</p>
+</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><p class="first">5 <span class="suit spade-suit">S</span></p>
+<p class="last">New suits are cue bids agreeing to <span class="suit spade-suit">S</span>.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1176,9 +1520,6 @@ controls.</p>
 </tr>
 <tr><td>4<span class="suit spade-suit">S</span></td>
 <td><em>Undefined</em></td>
-</tr>
-<tr><td>4NT</td>
-<td><strong class="art">Artificial</strong>, specific ace ask. See <a class="reference internal" href="#specific-aces">Specific Aces</a>.</td>
 </tr>
 </tbody>
 </table>

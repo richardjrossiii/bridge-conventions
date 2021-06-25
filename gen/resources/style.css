@@ -45,11 +45,13 @@
 	   color: red;
 	}
 
-	.announce, 
+	.announce
+    /*
 	.announce .club-suit, 
 	.announce .diamond-suit, 
 	.announce .heart-suit, 
-	.announce .spade-suit {
+	.announce .spade-suit 
+    */ {
             color: blue;
 	}
 	

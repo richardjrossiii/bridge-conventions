@@ -11,10 +11,11 @@ macros:
     "\\<table\\:(.+)\\>": |
 
       .. include:: \1.rst 
+    
     "\\<section\\:(.+)\\>": "`\\1`_"
     "(\\s|^)Natural": "**Natural**"
     "(\\s|^)Artificial": "~~Artificial~~"
-    "(\\s|^)Transfer": "\ :announce:`Transfer`"
+    "(\\s|^)Transfer": ":announce:`Transfer`"
 
   left:
     "~(.*)~": |-
