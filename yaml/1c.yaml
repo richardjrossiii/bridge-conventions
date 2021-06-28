@@ -1,8 +1,21 @@
 # vim: tabstop=2 shiftwidth=2 expandtab
 ---
 response:
-  ~1!D~: Artificial. 0-7 HCP, any shape. *Non-forcing*, but rarely passed.
-  ~1!H~: Artificial, game forcing. 8-11 HCP, any shape without 5!S
+  ~1!D~: |
+    Artificial. 0-7 HCP, any shape. *Non-forcing*, but rarely passed.
+
+    <table:1c-1d>
+
+  ~1!H~: |
+    Artificial, game forcing. 8-11 HCP, any shape without 5!S.
+
+    Responder's spade bid now often gets re-purposed, i.e.:
+
+    In the sequence 1!C - P - 1!H - 2!C, 2!D by responder denys a 5-card suit, 
+    and 2!S shows a 5-card diamond suit.
+
+    <table:1c-1h>
+
   1!S: Natural, game forcing. 5+ !S, 8+ HCP
   ~1NT~: Artificial, game forcing. 5+ !H, 12+ HCP
   2!C/!D: Natural, game forcing. 5+ !C/!D, 12+ HCP
@@ -11,6 +24,25 @@ response:
   2NT: "*Undefined*"
   3!C/!D/!H/!S: 4-6 HCP preemptive, 7+ (!C/!D/!H/!S), all points in bid suit.
   3NT: "*Undefined*"
+
+1c-1d:
+  1!H: 4+ !H, unbalanced, forcing 1 round
+  1!S: 4+ !S, unbalanced, forcing 1 round
+  1!NT: 17-19 HCP, balanced. All systems on. See <section:Responding to 1NT>
+  2!C: 5+ !C, unbalanced, non-forcing. Denies 4 card major
+  2!D: 5+ !D, unbalanced, non-forcing. Denies 4 card major
+  2!H: 6+ !H, 20+ HCP. Forcing. 
+  2!H: 6+ !S, 20+ HCP. Forcing. 
+  2NT: 22-24 HCP, balanced. All systems on. See <section:Responding to 2NT>
+
+1c-1h:
+  1!S: 5+ !S, unbalanced.
+  1NT: 17-19 HCP, balanced. All systems on. See <section:Responding to 1NT>
+  2!C: 5+ !C, unbalanced.
+  2!D: 5+ !D, unbalanced.
+  2!H: 5+ !H, unbalanced.
+  2!S: 5+ !S, unbalanced.
+  2NT: 22-24 HCP, balanced. All systems on. See <section:Responding to 2NT>
 
 passed-hand-response:
   ~1!D~: Artificial. 0-7 HCP, any shape. *Non-forcing*, but rarely passed.

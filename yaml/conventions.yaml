@@ -106,6 +106,22 @@ sections:
 
       <table:1nt/response>
 
+  -
+    title: "Responding to a 2!C opening:"
+    anchor: Responding to 2C
+    contents: |
+      Things are fairly artificial here; due to the lack of space. Often times;
+      responder will raise !C preemptively instead of showing a 5-card major 
+      with a sub-invite hand.
+
+      <table:2c/response>
+
+  -
+    title: "Responding to a 2NT opening:"
+    anchor: Responding to 2NT
+    contents: |
+        <Section left Empty>
+
   - 
     title: "Specific Ace Ask"
     anchor: Specific Aces
@@ -117,5 +133,6 @@ include:
   - 1c.yaml
   - 1m.yaml
   - 1nt.yaml
+  - 2c.yaml
   - opening.yaml
 

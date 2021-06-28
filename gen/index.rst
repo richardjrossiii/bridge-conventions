@@ -95,6 +95,28 @@ Frequently has a 5 card major, 6 card minor, often contains singleton honor, or 
 .. include:: 1nt/response.rst 
 
 
+.. _Responding to 2C:
+
+------------------------------------------
+Responding to a 2\ :club-suit:`C` opening:
+------------------------------------------
+
+Things are fairly artificial here; due to the lack of space. Often times;
+responder will raise \ :club-suit:`C` preemptively instead of showing a 5-card major 
+with a sub-invite hand.
+
+
+.. include:: 2c/response.rst 
+
+
+.. _Responding to 2NT:
+
+----------------------------
+Responding to a 2NT opening:
+----------------------------
+
+<Section left Empty>
+
 .. _Specific Aces:
 
 ----------------
