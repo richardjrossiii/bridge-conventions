@@ -13,7 +13,7 @@
     |                      | without both majors stopped.                                |
     | 2\ :spade-suit:`S`   |                                                             |
     +----------------------+-------------------------------------------------------------+
-    | 2NT                  | Natrual, stops in both majors, non-minimal hand.            |
+    | 2NT                  | **Natural**, stops in both majors, non-minimal hand.        |
     +----------------------+-------------------------------------------------------------+
     | 3\ :club-suit:`C`    | **Natural**, I have a poor hand (10-12 HCP).                |
     +----------------------+-------------------------------------------------------------+

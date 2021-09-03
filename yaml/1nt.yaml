@@ -45,7 +45,7 @@ response:
     | TODO: Agree on a good method to search for stoppers here.
   ~3!H~: Artifcial, void in !H. shows exactly 4!S, slam interest.
   ~3!S~: Artificial, void in !S. shows exactly 4!H, slam interest.
-  3NT: Natrual, to play.
+  3NT: Natural, to play.
   4!C: "*Undefined*"
   =4!D=: ==Texas-transfer== to !H. 6+!H, game or slam forcing.
   =4!H=: ==Texas-transfer== to !S. 6+!S, game or slam forcing.
@@ -132,14 +132,14 @@ response:
   4NT: Quant invite, exactly 5!H.
 
 1nt-2d-2h-2nt:
-  3!C: Natrual. No major fit. Good (4+) !C fit or missing outside stoppers.
+  3!C: Natural. No major fit. Good (4+) !C fit or missing outside stoppers.
   3!H: Natural. Major fit, good hand for slam (4+ A/K).
   ~3!S~: Artificial. No fit; good outside stoppers; good hand for slam (4+ A/K).
   3NT: Good outside stoppers; bad hand for slam.
   4!H: Major fit, bad hand for slam.
 
 1nt-2d-2h-3c:
-  3!D: Natrual. No major fit. Good (4+) !D fit or missing outside stoppers.
+  3!D: Natural. No major fit. Good (4+) !D fit or missing outside stoppers.
   3!H: Natural. Major fit, good hand for slam (4+ A/K).
   ~3!S~: Artificial. No fit; good outside stoppers; good hand for slam (4+ A/K).
   3NT: Good outside stoppers; bad hand for slam.
@@ -168,14 +168,14 @@ response:
   4NT: Quant invite, exactly 5!S.
 
 1nt-2h-2s-2nt:
-  3!C: Natrual. No major fit. Good (4+) !C fit or missing outside stoppers.
+  3!C: Natural. No major fit. Good (4+) !C fit or missing outside stoppers.
   ~3!H~: Artificial. No fit; good outside stoppers; good hand for slam (4+ A/K).
   3!S: Natural. Major fit, good hand for slam (4+ A/K).
   3NT: Good outside stoppers; bad hand for slam.
   4!S: Major fit, bad hand for slam.
 
 1nt-2h-2s-3c:
-  3!D: Natrual. No major fit. Good (4+) !D fit or missing outside stoppers.
+  3!D: Natural. No major fit. Good (4+) !D fit or missing outside stoppers.
   ~3!H~: Artificial. No fit; good outside stoppers; good hand for slam (4+ A/K).
   3!S: Natural. Major fit, good hand for slam (4+ A/K).
   3NT: Good outside stoppers; bad hand for slam.

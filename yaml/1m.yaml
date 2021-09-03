@@ -69,7 +69,7 @@ spade-responses:
     <table:1s-2nt>
 
   3!H: Natural, invitational.
-  3!S: Natrual, mixed !S raise.
+  3!S: Natural, mixed !S raise.
   3zNT: Natural, Choice of games. Exactly 3!S, Likely 3=3=(4-3).
   ~4!C~: Artificial, 4+ !S, void in !C, slam interest.
   ~4!D~: Artificial, 4+ !S, void in !D, slam interest.
@@ -118,7 +118,7 @@ spade-responses:
   2!H: Natural, to play
   2!S: Natural, sign-off. Trash raise (0-6 HCP), or two card support.
 
-  3!H: Natrual, invite with hearts
+  3!H: Natural, invite with hearts
   3!S: Natural, 3 card limit raise.
 
 1h-2c:
