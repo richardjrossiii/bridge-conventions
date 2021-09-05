@@ -124,3 +124,12 @@ Specific Ace Ask
 ----------------
 
 <Section left empty>
+
+.. _Slam Agreements:
+
+---------------
+Slam Agreements
+---------------
+
+- When you've shown a void, partner should answer keycard asks as though 
+  they were exclusion

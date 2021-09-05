@@ -17,7 +17,11 @@ response:
 
   =3!C=: Transfer to !H. 6+, invite or better.
   =3!D=: Transfer to !S. 6+, invite or better.
-  =3!H=: Transfer to !D. 6+, invite or better.
+  =3!H=: |
+    Transfer to !D. 6+, invite or better. 
+    3!S: 3-card support, good hand for slam,
+    3NT/4!C: no fit, shape showing,
+    4!D: 3-card support, bad hand for slam.
   3!S: Artificial. 6!S, 4!H, game forcing.
 
 2c-2d:
