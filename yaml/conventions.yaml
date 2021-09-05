@@ -128,6 +128,13 @@ sections:
     contents: |
       <Section left empty>
 
+  -
+    title: "Slam Agreements"
+    anchor: Slam Agreements
+    contents: |
+      - When you've shown a void, partner should answer keycard asks as though 
+        they were exclusion
+
 # Begin Convention tables
 include:
   - 1c.yaml
