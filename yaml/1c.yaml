@@ -19,7 +19,9 @@ response:
   1!S: Natural, game forcing. 5+ !S, 8+ HCP
   ~1NT~: Artificial, game forcing. 5+ !H, 12+ HCP
   2!C/!D: Natural, game forcing. 5+ !C/!D, 12+ HCP
-  ~2!H~: Artificial, game forcing. 12+ HCP, balanced.
+  ~2!H~: |
+    Artificial, game forcing. 12+ HCP, balanced.
+    <table:1c-2h>
   ~2!S~: |
     Artificial, game forcing. Any 4-4-4-1 hand; 12+ HCP
     Asks for singleton (high/mid/low), followed by 4!C/4!D/RKC
@@ -46,6 +48,14 @@ response:
   2!S: Any 4-4-4-1 hand. 2NT asks for singleton (high/mid/low), followed by
        4!C/4!D/RKC
   2NT: 22-24 HCP, balanced. All systems on. See <section:Responding to 2NT>
+
+1c-2h:
+  2!S: 5+ !S
+  2NT: 5+ !H
+  3!C: Stayman
+  3!D: Range ask (3!H 12-13, 3!S 14-15, 3NT 16+)
+  3!H: 6+ !C
+  3!S: 6+ !D
 
 passed-hand-response:
   ~1!D~: Artificial. 0-7 HCP, any shape. *Non-forcing*, but rarely passed.
