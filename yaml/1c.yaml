@@ -54,8 +54,8 @@ response:
   2NT: 5+ !H
   3!C: Stayman
   3!D: Range ask (3!H 12-13, 3!S 14-15, 3NT 16+)
-  3!H: 6+ !C
-  3!S: 6+ !D
+  3!H: 6+ !C, trump-setting
+  3!S: 6+ !D, trump-setting
 
 passed-hand-response:
   ~1!D~: Artificial. 0-7 HCP, any shape. *Non-forcing*, but rarely passed.
