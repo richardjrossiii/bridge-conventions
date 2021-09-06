@@ -53,7 +53,7 @@ response:
   2!S: 5+ !S
   2NT: 5+ !H
   3!C: Stayman
-  3!D: Range ask (3!H min, 3!S max)
+  3!D: Range ask (3!H 12-13, 3!S 14-15, 3NT 16+)
   3!H: 6+ !C
   3!S: 6+ !D
 
