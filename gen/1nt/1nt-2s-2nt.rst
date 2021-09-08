@@ -24,11 +24,11 @@
     |                      |                                                                                            |
     | 4\ :club-suit:`C`    |                                                                                            |
     +----------------------+--------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Texas-transfer` to \ :heart-suit:`H`.                                           |
+    | .. class:: announce  | :announce:`Texas transfer` to \ :heart-suit:`H`.                                           |
     |                      |                                                                                            |
     | 4\ :diamond-suit:`D` |                                                                                            |
     +----------------------+--------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Texas-transfer` to \ :spade-suit:`S`.                                           |
+    | .. class:: announce  | :announce:`Texas transfer` to \ :spade-suit:`S`.                                           |
     |                      |                                                                                            |
     | 4\ :heart-suit:`H`   |                                                                                            |
     +----------------------+--------------------------------------------------------------------------------------------+

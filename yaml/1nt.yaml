@@ -24,7 +24,7 @@ response:
     <table:1nt-2h-2s>
 
   ~2!S~: |
-    Size Ask. Opener bids 2NT with a minimum, and 3C with a maximum.
+    Size Ask. Opener bids 2NT with a minimum, and 3!C with a maximum.
 
     <table:1nt-2s-2nt>
     
@@ -33,7 +33,7 @@ response:
     <table:1nt-2s-dbl>
 
   ~2NT~: |
-    Game forcing, puppet stayman. 
+    Game forcing, puppet Stayman. 
     
     <table:1nt-2nt>
 
@@ -43,12 +43,12 @@ response:
     
     | Opener should bid 3NT with good stops in the major suits.
     | TODO: Agree on a good method to search for stoppers here.
-  ~3!H~: Artifcial, void in !H. shows exactly 4!S, slam interest.
+  ~3!H~: Artificial, void in !H. shows exactly 4!S, slam interest.
   ~3!S~: Artificial, void in !S. shows exactly 4!H, slam interest.
   3NT: Natural, to play.
   4!C: "*Undefined*"
-  =4!D=: ==Texas-transfer== to !H. 6+!H, game or slam forcing.
-  =4!H=: ==Texas-transfer== to !S. 6+!S, game or slam forcing.
+  =4!D=: ==Texas transfer== to !H. 6+!H, game or slam forcing.
+  =4!H=: ==Texas transfer== to !S. 6+!S, game or slam forcing.
   4!S: "*Undefined*"
   # Let's not do this mmkay
   # 4NT: Artificial, specific ace ask. See <section:Specific Aces>.
@@ -77,20 +77,20 @@ response:
     3!C: Natural. Game forcing, 5+ !C. Promises at least one 4 card major.
     3!D: Natural. Game forcing, 5+ !D. Promises at least one 4 card major.
     3zNT: Natural. Exactly 4-4-3-2, choice of games.
-    4zNT: Quantatative invite to 6NT. Promises at least one 4 card major.
+    4zNT: Quantitative invite to 6NT. Promises at least one 4 card major.
 
 1nt-2c-2d:
   <<: *1nt-2c-2x
   2!H: |
-    Crawling stayman. Weak, usually 5!H, 4!S.
+    Crawling Stayman. Weak, usually 5!H, 4!S.
     
     Opener must pass/correct.
 
     Very rarely 5!H & 5!C, weak. Will pull opener's 2!S bid to 3!C.
     
   2!S: 5!S, invitational. Opener naturally places the contract.
-  ~3!H~: Artificial, smolen. 5!S, 4!H; game forcing.
-  ~3!S~: Artificial, smolen. 5!H, 4!S; game forcing.
+  ~3!H~: Artificial, Smolen. 5!S, 4!H; game forcing.
+  ~3!S~: Artificial, Smolen. 5!H, 4!S; game forcing.
 
 1nt-2c-2h:
   <<: *1nt-2c-2x
@@ -98,7 +98,6 @@ response:
   2!S: 5!S, invitational. Opener naturally places the contract.
   3!H: Natural, invitational.
   ~3!S~: Artificial, forcing !H raise.
-  3NT: Natural. Exactly 4-4-3-2, choice of games.
 
 1nt-2c-2s:
   <<: *1nt-2c-2x
@@ -129,7 +128,7 @@ response:
   3NT: Natural, choice of games.
   ~4!C~: Keycard in !H (1430). 6+ !H, mild slam interest.
   4!H: Very mild slam invite. Responder was hoping for a super-accept.
-  4NT: Quant invite, exactly 5!H.
+  4NT: Quantitative invite, exactly 5!H.
 
 1nt-2d-2h-2nt:
   3!C: Natural. No major fit. Good (4+) !C fit or missing outside stoppers.
@@ -165,7 +164,7 @@ response:
   3NT: Natural, choice of games.
   ~4!C~: Keycard in !S (1430). 6+ !S, mild slam interest.
   4!S: Very mild slam invite. Responder was hoping for a super-accept.
-  4NT: Quant invite, exactly 5!S.
+  4NT: Quantitative invite, exactly 5!S.
 
 1nt-2h-2s-2nt:
   3!C: Natural. No major fit. Good (4+) !C fit or missing outside stoppers.
@@ -186,7 +185,7 @@ response:
   Pass: Minimal hand, no stop in !S
   2NT: Minimal hand, stop in !S
   ~XX~: Maximal hand, no stop in !S
-  ~3C~: Maximal hand, stop in !S
+  ~3!C~: Maximal hand, stop in !S
 
 1nt-2s-2nt:
   3!C: Natural, sign-off
@@ -205,11 +204,11 @@ response:
 
   3NT: Natural, sign-off.
   ~4!C~: Gerber. Responses are 01234, in steps.
-  =4!D=: ==Texas-transfer== to !H.
-  =4!H=: ==Texas-transfer== to !S.
+  =4!D=: ==Texas transfer== to !H.
+  =4!H=: ==Texas transfer== to !S.
   4NT: Re-quant.
 
-# Puppet stayman
+# Puppet Stayman
 1nt-2nt:
   ~3!C~: |
     No 5 card major.

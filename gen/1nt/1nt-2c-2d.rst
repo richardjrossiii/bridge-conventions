@@ -2,7 +2,7 @@
     :widths: auto
 
     +----------------------+---------------------------------------------------------------------------------------------------------------------------+
-    | 2\ :heart-suit:`H`   | Crawling stayman. Weak, usually 5\ :heart-suit:`H`, 4\ :spade-suit:`S`.                                                   |
+    | 2\ :heart-suit:`H`   | Crawling Stayman. Weak, usually 5\ :heart-suit:`H`, 4\ :spade-suit:`S`.                                                   |
     |                      |                                                                                                                           |
     |                      | Opener must pass/correct.                                                                                                 |
     |                      |                                                                                                                           |
@@ -17,15 +17,15 @@
     +----------------------+---------------------------------------------------------------------------------------------------------------------------+
     | 3\ :diamond-suit:`D` | **Natural**. Game forcing, 5+ \ :diamond-suit:`D`. Promises at least one 4 card major.                                    |
     +----------------------+---------------------------------------------------------------------------------------------------------------------------+
-    | .. class:: alert     | :art:`Artificial`, smolen. 5\ :spade-suit:`S`, 4\ :heart-suit:`H`; game forcing.                                          |
+    | .. class:: alert     | :art:`Artificial`, Smolen. 5\ :spade-suit:`S`, 4\ :heart-suit:`H`; game forcing.                                          |
     |                      |                                                                                                                           |
     | 3\ :heart-suit:`H`   |                                                                                                                           |
     +----------------------+---------------------------------------------------------------------------------------------------------------------------+
-    | .. class:: alert     | :art:`Artificial`, smolen. 5\ :heart-suit:`H`, 4\ :spade-suit:`S`; game forcing.                                          |
+    | .. class:: alert     | :art:`Artificial`, Smolen. 5\ :heart-suit:`H`, 4\ :spade-suit:`S`; game forcing.                                          |
     |                      |                                                                                                                           |
     | 3\ :spade-suit:`S`   |                                                                                                                           |
     +----------------------+---------------------------------------------------------------------------------------------------------------------------+
     | 3NT                  | **Natural**. Exactly 4-4-3-2, choice of games.                                                                            |
     +----------------------+---------------------------------------------------------------------------------------------------------------------------+
-    | 4NT                  | Quantatative invite to 6NT. Promises at least one 4 card major.                                                           |
+    | 4NT                  | Quantitative invite to 6NT. Promises at least one 4 card major.                                                           |
     +----------------------+---------------------------------------------------------------------------------------------------------------------------+

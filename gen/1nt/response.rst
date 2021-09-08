@@ -29,7 +29,7 @@
     |                      |                                                                                                |
     |                      |                                                                                                |
     +----------------------+------------------------------------------------------------------------------------------------+
-    | .. class:: alert     | Size Ask. Opener bids 2NT with a minimum, and 3C with a maximum.                               |
+    | .. class:: alert     | Size Ask. Opener bids 2NT with a minimum, and 3\ :club-suit:`C` with a maximum.                |
     |                      |                                                                                                |
     | 2\ :spade-suit:`S`   |                                                                                                |
     |                      | .. include:: 1nt-2s-2nt.rst                                                                    |
@@ -42,7 +42,7 @@
     |                      |                                                                                                |
     |                      |                                                                                                |
     +----------------------+------------------------------------------------------------------------------------------------+
-    | .. class:: alert     | Game forcing, puppet stayman.                                                                  |
+    | .. class:: alert     | Game forcing, puppet Stayman.                                                                  |
     |                      |                                                                                                |
     | 2NT                  |                                                                                                |
     |                      | .. include:: 1nt-2nt.rst                                                                       |
@@ -59,7 +59,7 @@
     |                      | | TODO: Agree on a good method to search for stoppers here.                                    |
     |                      |                                                                                                |
     +----------------------+------------------------------------------------------------------------------------------------+
-    | .. class:: alert     | Artifcial, void in \ :heart-suit:`H`. shows exactly 4\ :spade-suit:`S`, slam interest.         |
+    | .. class:: alert     | :art:`Artificial`, void in \ :heart-suit:`H`. shows exactly 4\ :spade-suit:`S`, slam interest. |
     |                      |                                                                                                |
     | 3\ :heart-suit:`H`   |                                                                                                |
     +----------------------+------------------------------------------------------------------------------------------------+
@@ -71,11 +71,11 @@
     +----------------------+------------------------------------------------------------------------------------------------+
     | 4\ :club-suit:`C`    | *Undefined*                                                                                    |
     +----------------------+------------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Texas-transfer` to \ :heart-suit:`H`. 6+\ :heart-suit:`H`, game or slam forcing.    |
+    | .. class:: announce  | :announce:`Texas transfer` to \ :heart-suit:`H`. 6+\ :heart-suit:`H`, game or slam forcing.    |
     |                      |                                                                                                |
     | 4\ :diamond-suit:`D` |                                                                                                |
     +----------------------+------------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Texas-transfer` to \ :spade-suit:`S`. 6+\ :spade-suit:`S`, game or slam forcing.    |
+    | .. class:: announce  | :announce:`Texas transfer` to \ :spade-suit:`S`. 6+\ :spade-suit:`S`, game or slam forcing.    |
     |                      |                                                                                                |
     | 4\ :heart-suit:`H`   |                                                                                                |
     +----------------------+------------------------------------------------------------------------------------------------+
