@@ -109,6 +109,15 @@ with a sub-invite hand.
 .. include:: 2c/response.rst 
 
 
+.. _Responding to 2M:
+
+--------------------------------------------------------------
+Responding to a 2\ :heart-suit:`H`/2\ :spade-suit:`S` opening:
+--------------------------------------------------------------
+
+
+.. include:: 2m/response.rst 
+
 .. _Responding to 2NT:
 
 ----------------------------
