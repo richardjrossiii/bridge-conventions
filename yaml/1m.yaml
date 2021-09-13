@@ -3,7 +3,7 @@
 shared-responses: &shared-responses
   __re-sort__: True
 
-  2!D: Natural, game forcing. 4+ !D
+  2!D: Natural, game forcing. 5+ !D
   3!C/!D: Natural, invitational.
 
 heart-responses:
@@ -30,7 +30,6 @@ heart-responses:
 
     <table:1h-2c>
 
-  2!D: Natural, game forcing. 4+ !D
   2!H: Natural, constructive raise. 7-10 HCP
   2!S: Natural, constructive. 6+ !S, 6-10 HCP. Non-forcing
   ~2zNT~: |
