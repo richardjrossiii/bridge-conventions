@@ -97,12 +97,24 @@ response:
   
   2!S: 5!S, invitational. Opener naturally places the contract.
   3!H: Natural, invitational.
-  ~3!S~: Artificial, forcing !H raise.
+  ~3!S~: |
+    Artificial, forcing !H raise.
+
+    Promises shortness. 3NT relays to ask (hi/med/low).
+
+  4!C: Artificial, keycard in !S.
+  4!D: Artificial, quantatative with !H fit.
 
 1nt-2c-2s:
   <<: *1nt-2c-2x
   
-  ~3!H~: Artificial, forcing !S raise.
+  ~3!H~: |
+    Artificial, forcing !S raise.
+    
+    Promising shortness. 3NT relays to ask (hi/med/low).
+
+  4!C: Artificial, keycard in !S.
+  4!D: Artificail, quantatative with !S fit. 
   3!S: Natural, invitational.
 
 # Heart transfer
