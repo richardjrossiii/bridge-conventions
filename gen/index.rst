@@ -116,7 +116,7 @@ Responding to a 2\ :heart-suit:`H`/2\ :spade-suit:`S` opening:
 --------------------------------------------------------------
 
 
-.. include:: 2m/response.rst 
+.. include:: 2M/response.rst 
 
 .. _Responding to 2NT:
 

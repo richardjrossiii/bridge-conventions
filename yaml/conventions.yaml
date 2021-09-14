@@ -118,7 +118,7 @@ sections:
   - 
     title: "Responding to a 2!H/2!S opening:"
     anchor: Responding to 2M
-    contents: <table:2m/response>
+    contents: <table:2M/response>
 
   -
     title: "Responding to a 2NT opening:"
@@ -145,6 +145,6 @@ include:
   - 1m.yaml
   - 1nt.yaml
   - 2c.yaml
-  - 2m.yaml
+  - 2M.yaml
   - opening.yaml
 
