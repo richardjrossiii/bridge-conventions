@@ -21,15 +21,11 @@
     +----------------------+---------------------------------------------------------------------+
     | 3\ :spade-suit:`S`   | **Natural**. 10-11 HCP, bad hand.                                   |
     +----------------------+---------------------------------------------------------------------+
-    | 3NT                  | :art:`Artificial`.                                                  |
+    | .. class:: alert     | :art:`Artificial`.                                                  |
     |                      |                                                                     |
-    |                      | Source of tricks sidesuit; at least 3/4 honors step bid asks to     |
+    | 3NT                  | Source of tricks sidesuit; at least 3/4 honors step bid asks to     |
     |                      | show side-suit.                                                     |
     |                      |                                                                     |
-    +----------------------+---------------------------------------------------------------------+
-    | .. class:: alert     | **Natural**. 14-15 HCP, 6-7 \ :spade-suit:`S`, balanced.            |
-    |                      |                                                                     |
-    | 3NT                  |                                                                     |
     +----------------------+---------------------------------------------------------------------+
     | .. class:: alert     | :art:`Artificial`. Void in \ :club-suit:`C`                         |
     |                      |                                                                     |

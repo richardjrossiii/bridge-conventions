@@ -163,7 +163,7 @@ spade-responses:
   __re-sort__: True
 
   ~3!D~: Artificial. Balanced hand (12-15 HCP).
-  3zNT: |
+  ~3zNT~: |
     Artificial. 
     
     Source of tricks sidesuit; at least 3/4 honors step bid asks to 
@@ -198,7 +198,6 @@ spade-responses:
 
   ~3!H~: Artificial, void in !H. 
   3!S: Natural. 10-11 HCP, bad hand.
-  ~3zNT~: Natural. 14-15 HCP, 6-7 !S, balanced.
   4!S: Natural. 10-11 HCP, 6-7 !S. Law of total tricks.
 
 1m-2nt-3c: &1m-2nt-3c
