@@ -53,7 +53,10 @@ response:
   2!S: 5+ !S
   2NT: 5+ !H
   3!C: Stayman
-  3!D: Range ask (3!H 12-13, 3!S 14-15, 3NT 16+)
+  3!D: |
+    Range ask. 
+    
+    Response in 2 HCP increments. (3!H 12-13, 3!S 14-15, 3NT 16-17, etc.)
   3!H: 6+ !C, trump-setting
   3!S: 6+ !D, trump-setting
 
