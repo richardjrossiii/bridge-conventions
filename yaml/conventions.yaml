@@ -118,13 +118,12 @@ sections:
   - 
     title: "Responding to a 2!H/2!S opening:"
     anchor: Responding to 2M
-    contents: <table:2M/response>
+    contents: <table:2m/response>
 
   -
     title: "Responding to a 2NT opening:"
     anchor: Responding to 2NT
-    contents: |
-        <Section left Empty>
+    contents: <table:2nt/response>
 
   - 
     title: "Specific Ace Ask"
@@ -145,6 +144,7 @@ include:
   - 1m.yaml
   - 1nt.yaml
   - 2c.yaml
-  - 2M.yaml
+  - 2m.yaml
+  - 2nt.yaml
   - opening.yaml
 
