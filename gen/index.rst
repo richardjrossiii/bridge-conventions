@@ -150,5 +150,5 @@ Slam Agreements
 Competing Against Precision
 ---------------------------
 
-- Over 1\ :club-suit:`C`: Mathe (dbl: majors, 1NT: minors, 1suit: 5+ cards)
-- Over 1\ :diamond-suit:`D`:**Natural** 2\ :diamond-suit:`D`
+- Over 1\ :club-suit:`C`: Mathe (X: majors, 1NT: minors, 1suit: 5+ cards)
+- Over 1\ :diamond-suit:`D`: X: 12+ balanced, 2\ :diamond-suit:`D`: natural

@@ -142,8 +142,8 @@ sections:
     title: "Competing Against Precision"
     anchor: Competing Against Precision
     contents: |
-      - Over 1!C: Mathe (dbl: majors, 1NT: minors, 1suit: 5+ cards)
-      - Over 1!D: Natural 2!D
+      - Over 1!C: Mathe (X: majors, 1NT: minors, 1suit: 5+ cards)
+      - Over 1!D: X: 12+ balanced, 2!D: natural
 
 # Begin Convention tables
 include:
