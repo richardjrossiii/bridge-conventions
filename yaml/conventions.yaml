@@ -84,17 +84,17 @@ sections:
       
       (**EVENTUALLY**) After a double, we play a basic transfer system:
 
-      <table:1m/after-double>
+      <table:1major/after-double>
  
   - 
     title: "Responding to a 1!H opening:"
     anchor: Responding to 1H
-    contents: <table:1m/heart-responses>
+    contents: <table:1major/heart-responses>
     
   - 
     title: "Responding to a 1!S opening:"
     anchor: Responding to 1S
-    contents: <table:1m/spade-responses>
+    contents: <table:1major/spade-responses>
 
   -
     title: "Responding to a 1NT opening:"
@@ -118,7 +118,7 @@ sections:
   - 
     title: "Responding to a 2!H/2!S opening:"
     anchor: Responding to 2M
-    contents: <table:2m/response>
+    contents: <table:2major/response>
 
   -
     title: "Responding to a 2NT opening:"
@@ -138,13 +138,20 @@ sections:
       - When you've shown a void, partner should answer keycard asks as though 
         they were exclusion
 
+  -
+    title: "Competing Against Precision"
+    anchor: Competing Against Precision
+    contents: |
+      - Over 1!C: Mathe (X: majors, 1NT: minors, 1suit: 5+ cards)
+      - Over 1!D: X: 12+ balanced, 2!D: natural
+
 # Begin Convention tables
 include:
   - 1c.yaml
-  - 1m.yaml
+  - 1major.yaml
   - 1nt.yaml
   - 2c.yaml
-  - 2m.yaml
+  - 2major.yaml
   - 2nt.yaml
   - opening.yaml
 

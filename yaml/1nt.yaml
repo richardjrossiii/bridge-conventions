@@ -91,6 +91,8 @@ response:
   2!S: 5!S, invitational. Opener naturally places the contract.
   ~3!H~: Artificial, Smolen. 5!S, 4!H; game forcing.
   ~3!S~: Artificial, Smolen. 5!H, 4!S; game forcing.
+  =4!D=: ==Texas transfer== to !H, 4=6 majors
+  =4!H=: ==Texas transfer== to !S, 6=4 majors
 
 1nt-2c-2h:
   <<: *1nt-2c-2x
@@ -103,7 +105,7 @@ response:
     Promises shortness. 3NT relays to ask (hi/med/low).
 
   4!C: Artificial, keycard in !H.
-  4!D: Artificial, quantatative with !H fit.
+  4!D: Artificial, quantitative with !H fit.
 
 1nt-2c-2s:
   <<: *1nt-2c-2x
@@ -114,7 +116,7 @@ response:
     Promising shortness. 3NT relays to ask (hi/med/low).
 
   4!C: Artificial, keycard in !S.
-  4!D: Artificail, quantatative with !S fit. 
+  4!D: Artificial, quantitative with !S fit. 
   3!S: Natural, invitational.
 
 # Heart transfer

@@ -60,7 +60,7 @@ In addition, new suits at the two level are negative.
 (**EVENTUALLY**) After a double, we play a basic transfer system:
 
 
-.. include:: 1m/after-double.rst 
+.. include:: 1major/after-double.rst 
 
 
 .. _Responding to 1H:
@@ -70,7 +70,7 @@ Responding to a 1\ :heart-suit:`H` opening:
 -------------------------------------------
 
 
-.. include:: 1m/heart-responses.rst 
+.. include:: 1major/heart-responses.rst 
 
 .. _Responding to 1S:
 
@@ -79,7 +79,7 @@ Responding to a 1\ :spade-suit:`S` opening:
 -------------------------------------------
 
 
-.. include:: 1m/spade-responses.rst 
+.. include:: 1major/spade-responses.rst 
 
 .. _Responding to 1NT:
 
@@ -116,7 +116,7 @@ Responding to a 2\ :heart-suit:`H`/2\ :spade-suit:`S` opening:
 --------------------------------------------------------------
 
 
-.. include:: 2m/response.rst 
+.. include:: 2major/response.rst 
 
 .. _Responding to 2NT:
 
@@ -143,3 +143,12 @@ Slam Agreements
 
 - When you've shown a void, partner should answer keycard asks as though 
   they were exclusion
+
+.. _Competing Against Precision:
+
+---------------------------
+Competing Against Precision
+---------------------------
+
+- Over 1\ :club-suit:`C`: Mathe (X: majors, 1NT: minors, 1suit: 5+ cards)
+- Over 1\ :diamond-suit:`D`: X: 12+ balanced, 2\ :diamond-suit:`D`: natural
