@@ -16,13 +16,15 @@
     |                      |                                                                                                                          |
     |                      |                                                                                                                          |
     +----------------------+--------------------------------------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Transfer`, 5+ \ :heart-suit:`H`, invitational to game or slam.                                                |
+    | .. class:: announce  | :announce:`Transfer`, 5+ \ :heart-suit:`H`, game forcing.                                                                |
     |                      |                                                                                                                          |
     | 3\ :diamond-suit:`D` |                                                                                                                          |
     +----------------------+--------------------------------------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Transfer`, 6+ \ :spade-suit:`S`, invitational to game or slam.                                                |
+    | .. class:: announce  | :announce:`Transfer`, 6+ \ :spade-suit:`S`, slam try.                                                                    |
     |                      |                                                                                                                          |
-    | 3\ :heart-suit:`H`   |                                                                                                                          |
+    | 3\ :heart-suit:`H`   | Opener bids 3\ :spade-suit:`S` with any 2 card support, with 3 card support;                                             |
+    |                      | control bidding commences.                                                                                               |
+    |                      |                                                                                                                          |
     +----------------------+--------------------------------------------------------------------------------------------------------------------------+
     | .. class:: alert     | :art:`Artificial`. Game forcing with exactly 5\ :spade-suit:`S`; Opener must bid 4\ :spade-suit:`S` with 3 card support. |
     |                      |                                                                                                                          |
@@ -34,7 +36,7 @@
     |                      |                                                                                                                          |
     | 4\ :club-suit:`C`    |                                                                                                                          |
     +----------------------+--------------------------------------------------------------------------------------------------------------------------+
-    | 4\ :spade-suit:`S`   | Very mild slam invite. Responder was hoping for a super-accept.                                                          |
+    | 4\ :spade-suit:`S`   | To play.                                                                                                                 |
     +----------------------+--------------------------------------------------------------------------------------------------------------------------+
     | 4NT                  | Quantitative invite, exactly 5\ :spade-suit:`S`.                                                                         |
     +----------------------+--------------------------------------------------------------------------------------------------------------------------+

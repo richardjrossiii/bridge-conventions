@@ -3,7 +3,7 @@
 
     +----------------------+------------------------------------------------------------------------------------------------------------------+
     | .. class:: alert     | :art:`Artificial`, invitational.  Opener bids naturally to accept/decline the invite.                            |
-    |                      |                                                                                                                  |
+    |                      | Responder may pull to 3\ :heart-suit:`H` at their discretion.                                                    |
     | 2\ :spade-suit:`S`   |                                                                                                                  |
     +----------------------+------------------------------------------------------------------------------------------------------------------+
     | .. class:: announce  | :announce:`Transfer`, 5+ \ :club-suit:`C`; game forcing.                                                         |
@@ -20,11 +20,13 @@
     |                      |                                                                                                                  |
     |                      |                                                                                                                  |
     +----------------------+------------------------------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Transfer`, 6+ \ :heart-suit:`H`, invitational to game or slam.                                        |
+    | .. class:: announce  | Retransfer, 6+ \ :heart-suit:`H`, slam try.                                                                      |
     |                      |                                                                                                                  |
-    | 3\ :diamond-suit:`D` |                                                                                                                  |
+    | 3\ :diamond-suit:`D` | Opener bids 3\ :heart-suit:`H` with any 2 card support, with 3 card support;                                     |
+    |                      | control bidding commences.                                                                                       |
+    |                      |                                                                                                                  |
     +----------------------+------------------------------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Transfer`, 5+ \ :spade-suit:`S`, game forcing.                                                        |
+    | .. class:: announce  | :announce:`Transfer`, 5+ \ :spade-suit:`S`, invitational.                                                        |
     |                      |                                                                                                                  |
     | 3\ :heart-suit:`H`   |                                                                                                                  |
     +----------------------+------------------------------------------------------------------------------------------------------------------+
@@ -38,7 +40,7 @@
     |                      |                                                                                                                  |
     | 4\ :club-suit:`C`    |                                                                                                                  |
     +----------------------+------------------------------------------------------------------------------------------------------------------+
-    | 4\ :heart-suit:`H`   | Very mild slam invite. Responder was hoping for a super-accept.                                                  |
+    | 4\ :heart-suit:`H`   | To play.                                                                                                         |
     +----------------------+------------------------------------------------------------------------------------------------------------------+
     | 4NT                  | Quantitative invite, exactly 5\ :heart-suit:`H`.                                                                 |
     +----------------------+------------------------------------------------------------------------------------------------------------------+

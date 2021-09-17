@@ -125,6 +125,8 @@ response:
     Artificial, invitational. 
     Opener bids naturally to accept/decline the invite.
 
+    Responder may pull to 3!H at their discretion.
+
   =2zNT=: |
     Transfer, 5+ !C; game forcing.
   
@@ -135,13 +137,18 @@ response:
     
     <table:1nt-2d-2h-3c>
   
-  =3!D=: Transfer, 6+ !H, invitational to game or slam.
-  =3!H=: Transfer, 5+ !S, game forcing.
+  =3!D=: |
+    Retransfer, 6+ !H, slam try.
+    
+    Opener bids 3!H with any 2 card support, with 3 card support; 
+    control bidding commences.
+
+  =3!H=: Transfer, 5+ !S, invitational.
   ~3!S~: |
     Artificial. Game forcing with 5!H; Opener must bid 4!H with 3 card support.
   3NT: Natural, choice of games.
   ~4!C~: Keycard in !H (1430). 6+ !H, mild slam interest.
-  4!H: Very mild slam invite. Responder was hoping for a super-accept.
+  4!H: To play. 
   4NT: Quantitative invite, exactly 5!H.
 
 1nt-2d-2h-2nt:
@@ -170,14 +177,19 @@ response:
 
     <table:1nt-2h-2s-3c>
 
-  =3!D=: Transfer, 5+ !H, invitational to game or slam.
-  =3!H=: Transfer, 6+ !S, invitational to game or slam.
+  =3!D=: Transfer, 5+ !H, game forcing.
+  =3!H=: |
+    Transfer, 6+ !S, slam try.
+
+    Opener bids 3!S with any 2 card support, with 3 card support; 
+    control bidding commences.
+
   ~3!S~: >
     Artificial. Game forcing with exactly 5!S; Opener must bid 4!S with 3
     card support.
   3NT: Natural, choice of games.
   ~4!C~: Keycard in !S (1430). 6+ !S, mild slam interest.
-  4!S: Very mild slam invite. Responder was hoping for a super-accept.
+  4!S: To play.
   4NT: Quantitative invite, exactly 5!S.
 
 1nt-2h-2s-2nt:
