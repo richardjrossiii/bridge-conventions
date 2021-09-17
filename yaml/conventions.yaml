@@ -138,6 +138,13 @@ sections:
       - When you've shown a void, partner should answer keycard asks as though 
         they were exclusion
 
+  -
+    title: "Competing Against Precision"
+    anchor: Competing Against Precision
+    contents: |
+      - Over 1!C: Mathe (dbl: majors, 1NT: minors, 1suit: 5+ cards)
+      - Over 1!D: Natural 2!D
+
 # Begin Convention tables
 include:
   - 1c.yaml

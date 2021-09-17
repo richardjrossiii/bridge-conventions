@@ -143,3 +143,12 @@ Slam Agreements
 
 - When you've shown a void, partner should answer keycard asks as though 
   they were exclusion
+
+.. _Competing Against Precision:
+
+---------------------------
+Competing Against Precision
+---------------------------
+
+- Over 1\ :club-suit:`C`: Mathe (dbl: majors, 1NT: minors, 1suit: 5+ cards)
+- Over 1\ :diamond-suit:`D`:**Natural** 2\ :diamond-suit:`D`
