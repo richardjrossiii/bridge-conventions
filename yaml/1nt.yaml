@@ -105,7 +105,7 @@ response:
     Promises shortness. 3NT relays to ask (hi/med/low).
 
   4!C: Artificial, keycard in !H.
-  4!D: Artificial, quantatative with !H fit.
+  4!D: Artificial, quantitative with !H fit.
 
 1nt-2c-2s:
   <<: *1nt-2c-2x
@@ -116,7 +116,7 @@ response:
     Promising shortness. 3NT relays to ask (hi/med/low).
 
   4!C: Artificial, keycard in !S.
-  4!D: Artificail, quantatative with !S fit. 
+  4!D: Artificial, quantitative with !S fit. 
   3!S: Natural, invitational.
 
 # Heart transfer
