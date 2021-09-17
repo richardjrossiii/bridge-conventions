@@ -5,7 +5,7 @@
     | .. class:: alert     | :art:`Artificial`. Default bid. Can still be unbalanced. |
     |                      |                                                          |
     | 2\ :diamond-suit:`D` |                                                          |
-    |                      | .. include:: 1h-2c-2d-continuations.rst                  |
+    |                      | .. include:: 1h-2c-2d.rst                                |
     |                      |                                                          |
     |                      |                                                          |
     +----------------------+----------------------------------------------------------+

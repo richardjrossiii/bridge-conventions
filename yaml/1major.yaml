@@ -99,10 +99,6 @@ spade-responses:
   3!C: Natural, invite with clubs.
   3!D: Natural, invite with diamonds.
 
-  3zNT: >
-    Natural, gambling. Strong running minor, partner is encouraged to pass
-    with decent outside stoppers
-
 1h-1nt:
   <<: *1m-1nt
 
@@ -124,7 +120,7 @@ spade-responses:
   ~2!D~: |
     Artificial. Default bid. Can still be unbalanced.
 
-    <table:1h-2c-2d-continuations>
+    <table:1h-2c-2d>
 
   2!H: 6+ !H. Denies 4!S.
   2!S: 4+ !S. Does not deny 6+ !H
@@ -137,7 +133,7 @@ spade-responses:
   ~2!D~: |
     Artificial. Default bid. Can still be unbalanced.
 
-    <table:1s-2c-2d-continuations>
+    <table:1s-2c-2d>
   2!H: 4+ !H. Does not deny 6+ !S.
   2!S: 6+ !S. Denies 4!H.
   ~2NT~: (5-0)=4=4 shape, exactly.
