@@ -23,8 +23,12 @@ response:
     Artificial, game forcing. 12+ HCP, balanced.
     <table:1c-2h>
   ~2!S~: |
-    Artificial, game forcing. Any 4-4-4-1 hand, 12+ HCP.
-    2NT asks for singleton (high/mid/low), followed by 4!C/4!D/RKC
+    Artificial, game forcing. 
+
+    Any 4-4-4-1 hand, 12+ HCP.
+
+    Opener's 2NT asks for singleton (high -> low), followed by 4!C/4!D/RKC
+
   2NT: "*Undefined*"
   3!C/!D/!H/!S: 4-6 HCP preemptive, 7+ (!C/!D/!H/!S), all points in bid suit.
   3NT: "*Undefined*"
@@ -45,8 +49,11 @@ response:
   2!C: 5+ !C, unbalanced.
   2!D: 5+ !D, unbalanced.
   2!H: 5+ !H, unbalanced.
-  2!S: Any 4-4-4-1 hand. 2NT asks for singleton (high/mid/low), followed by
-       4!C/4!D/RKC
+  ~2!S~: |
+    Any 4-4-4-1 hand. 
+
+    Responder's 2NT asks for singleton (high -> low), followed by 4!C/4!D/RKC
+
   2NT: 22-24 HCP, balanced. All systems on. See <section:Responding to 2NT>
 
 1c-2h:

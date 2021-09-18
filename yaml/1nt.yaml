@@ -24,7 +24,7 @@ response:
     <table:1nt-2h-2s>
 
   ~2!S~: |
-    Size Ask. Opener bids 2NT with a minimum, and 3!C with a maximum.
+    Range Ask. Opener bids 2NT with a minimum, and 3!C with a maximum.
 
     <table:1nt-2s-2nt>
     
@@ -206,7 +206,6 @@ response:
   3NT: Good outside stoppers; bad hand for slam.
   4!S: Major fit, bad hand for slam.
 
-# Size ask
 1nt-2s-dbl:
   Pass: Minimal hand, no stop in !S
   2NT: Minimal hand, stop in !S
@@ -240,6 +239,8 @@ response:
     No 5 card major.
 
     <table:1nt-2nt-3c>
+
+  3!D: "*Undefined*"
     
   3!H: |
     5 !H.

@@ -29,7 +29,7 @@
     |                      |                                                                                                |
     |                      |                                                                                                |
     +----------------------+------------------------------------------------------------------------------------------------+
-    | .. class:: alert     | Size Ask. Opener bids 2NT with a minimum, and 3\ :club-suit:`C` with a maximum.                |
+    | .. class:: alert     | Range Ask. Opener bids 2NT with a minimum, and 3\ :club-suit:`C` with a maximum.               |
     |                      |                                                                                                |
     | 2\ :spade-suit:`S`   |                                                                                                |
     |                      | .. include:: 1nt-2s-2nt.rst                                                                    |
