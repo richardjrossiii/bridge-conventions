@@ -37,7 +37,7 @@ sections:
     title: Preamble
     hidden: True
     contents: |
-      .. include:: Preamble.rst
+      .. include:: static/Preamble.rst
   - 
     title: Opening Bids
     anchor: Opening

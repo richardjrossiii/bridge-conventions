@@ -1,4 +1,4 @@
-.. include:: Preamble.rst
+.. include:: static/Preamble.rst
 
 .. _Opening:
 
