@@ -20,7 +20,7 @@
     |                      |                                                                                                                          |
     | 3\ :diamond-suit:`D` |                                                                                                                          |
     +----------------------+--------------------------------------------------------------------------------------------------------------------------+
-    | .. class:: announce  | :announce:`Transfer`, 6+ \ :spade-suit:`S`, slam try.                                                                    |
+    | .. class:: alert     | Retransfer, 6+ \ :spade-suit:`S`, slam try.                                                                              |
     |                      |                                                                                                                          |
     | 3\ :heart-suit:`H`   | Opener bids 3\ :spade-suit:`S` with any 2 card support, with 3 card support;                                             |
     |                      | control bidding commences.                                                                                               |
