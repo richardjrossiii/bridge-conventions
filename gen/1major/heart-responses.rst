@@ -13,7 +13,7 @@
     |                                       |                                                                                                                                    |
     |                                       |                                                                                                                                    |
     +---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-    | .. class:: alert                      | :art:`Artificial`, forcing 1 round.                                                                                                |
+    | .. class:: announce                   | :art:`Artificial`, forcing 1 round.                                                                                                |
     |                                       |                                                                                                                                    |
     | 1NT                                   | Default bid is 2\ :club-suit:`C`, 2\ :diamond-suit:`D` shows at least 4\ :diamond-suit:`D`. 2\ :spade-suit:`S` is still a reverse. |
     |                                       |                                                                                                                                    |

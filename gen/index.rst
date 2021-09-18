@@ -39,7 +39,15 @@ force or not.
 Responding to a 1\ :diamond-suit:`D` opening:
 ---------------------------------------------
 
-<Section left empty>
+Generally, we treat opener's hand as 11-13 balanced unless otherwise told.
+
+Important note: Reverses are alertable, and *non-forcing*, showing only 
+extreme shape. Care should be taken when reversing if responder has a
+potentially weak hand.
+
+
+.. include:: 1d/response.rst 
+
 
 --------------------
 General notes on 1M:

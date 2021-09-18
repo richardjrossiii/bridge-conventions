@@ -40,29 +40,29 @@
     +----------------------+----------------------------------------------------------------------------------------+
     | 3NT                  | Gambling, promises outside A/K                                                         |
     +----------------------+----------------------------------------------------------------------------------------+
-    | 4\ :club-suit:`C`    | *In first/second seat*:                                                                |
+    | .. class:: announce  | *In first/second seat*:                                                                |
     |                      |                                                                                        |
-    |                      | :announce:`Namyats` 8+ \ :heart-suit:`H`, 'good preempt' 4-5 losers, < 16 HCP.         |
-    |                      |                                                                                        |
-    |                      | *In third/fourth seat*:                                                                |
-    |                      |                                                                                        |
-    |                      | **Natural**, weak.                                                                     |
-    |                      |                                                                                        |
-    +----------------------+----------------------------------------------------------------------------------------+
-    | 4\ :diamond-suit:`D` | *In first/second seat*:                                                                |
-    |                      |                                                                                        |
-    |                      | :announce:`Namyats` 8+ \ :spade-suit:`S`, 'good preempt' 4-5 losers, < 16 HCP.         |
+    | 4\ :club-suit:`C`    | :announce:`Namyats` 8+ \ :heart-suit:`H`, 'good preempt' 4-5 losers, < 16 HCP.         |
     |                      |                                                                                        |
     |                      | *In third/fourth seat*:                                                                |
     |                      |                                                                                        |
     |                      | **Natural**, weak.                                                                     |
     |                      |                                                                                        |
     +----------------------+----------------------------------------------------------------------------------------+
-    | .. class:: alert     | **Natural**, weak.                                                                     |
+    | .. class:: announce  | *In first/second seat*:                                                                |
+    |                      |                                                                                        |
+    | 4\ :diamond-suit:`D` | :announce:`Namyats` 8+ \ :spade-suit:`S`, 'good preempt' 4-5 losers, < 16 HCP.         |
+    |                      |                                                                                        |
+    |                      | *In third/fourth seat*:                                                                |
+    |                      |                                                                                        |
+    |                      | **Natural**, weak.                                                                     |
+    |                      |                                                                                        |
+    +----------------------+----------------------------------------------------------------------------------------+
+    | .. class:: announce  | **Natural**, weak.                                                                     |
     |                      |                                                                                        |
     | 4\ :heart-suit:`H`   |                                                                                        |
     +----------------------+----------------------------------------------------------------------------------------+
-    | .. class:: alert     | **Natural**, weak.                                                                     |
+    | .. class:: announce  | **Natural**, weak.                                                                     |
     |                      |                                                                                        |
     | 4\ :spade-suit:`S`   |                                                                                        |
     +----------------------+----------------------------------------------------------------------------------------+

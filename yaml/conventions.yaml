@@ -65,7 +65,13 @@ sections:
     title: "Responding to a 1!D opening:"
     anchor: Responding to 1D
     contents: |
-      <Section left empty>
+      Generally, we treat opener's hand as 11-13 balanced unless otherwise told.
+
+      Important note: Reverses are alertable, and *non-forcing*, showing only 
+      extreme shape. Care should be taken when reversing if responder has a
+      potentially weak hand.
+
+      <table:1d/response>
   
   -
     title: "General notes on 1M:"
@@ -148,6 +154,7 @@ sections:
 # Begin Convention tables
 include:
   - 1c.yaml
+  - 1d.yaml
   - 1major.yaml
   - 1nt.yaml
   - 2c.yaml

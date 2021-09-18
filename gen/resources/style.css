@@ -34,7 +34,6 @@
 	    color: red;
 	}
 	
-	.alert, 
 	.art 
 	/*
 	.alert .club-suit, 
@@ -54,6 +53,26 @@
     */ {
             color: blue;
 	}
+
+	tr > td:first-child > .alert {
+		margin-left: -0.25em;
+		margin-right: -0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+		background-color: #f007;
+	}
+	
+	tr > td:first-child > .announce {
+		margin-left: -0.25em;
+		margin-right: -0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+		background-color: #00f7;
+		color: black;
+	}
+	
 	
 	.club-suit, 
 	.spade-suit, 
@@ -61,7 +80,7 @@
 	.heart-suit {
 	    visibility: collapse;
 	    font-size: 0px;
-        }
+    }
 
 	/* Table styling */
 
@@ -78,13 +97,15 @@
 	    border-right: 1px solid black;
 	    border-top: none;
 	    border-bottom: none;
-        }
+		margin: none;     
+   }
 	
 	tr {
 	   border-top: 1px solid black;
 	   border-bottom: 1px solid black;
 	   border-left: none;
 	   border-right: none;
+		margin: none;     
 	}
 
 	tr:first-child {
@@ -99,7 +120,7 @@
 	    border-left: none;
 	    font-weight: bold;
 	}
-	
+
 	td:last-child {
 	    border-right: none; 
 	}

@@ -399,7 +399,6 @@ ul.auto-toc {
 	    color: red;
 	}
 	
-	.alert, 
 	.art 
 	/*
 	.alert .club-suit, 
@@ -419,6 +418,26 @@ ul.auto-toc {
     */ {
             color: blue;
 	}
+
+	tr > td:first-child > .alert {
+		margin-left: -0.25em;
+		margin-right: -0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+		background-color: #f007;
+	}
+	
+	tr > td:first-child > .announce {
+		margin-left: -0.25em;
+		margin-right: -0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+		background-color: #00f7;
+		color: black;
+	}
+	
 	
 	.club-suit, 
 	.spade-suit, 
@@ -426,7 +445,7 @@ ul.auto-toc {
 	.heart-suit {
 	    visibility: collapse;
 	    font-size: 0px;
-        }
+    }
 
 	/* Table styling */
 
@@ -443,13 +462,15 @@ ul.auto-toc {
 	    border-right: 1px solid black;
 	    border-top: none;
 	    border-bottom: none;
-        }
+		margin: none;     
+   }
 	
 	tr {
 	   border-top: 1px solid black;
 	   border-bottom: 1px solid black;
 	   border-left: none;
 	   border-right: none;
+		margin: none;     
 	}
 
 	tr:first-child {
@@ -464,7 +485,7 @@ ul.auto-toc {
 	    border-left: none;
 	    font-weight: bold;
 	}
-	
+
 	td:last-child {
 	    border-right: none; 
 	}
@@ -525,25 +546,27 @@ ul.auto-toc {
 <tr><td>3NT</td>
 <td>Gambling, promises outside A/K</td>
 </tr>
-<tr><td>4<span class="suit club-suit">C</span></td>
+<tr><td><p class="announce first last">4<span class="suit club-suit">C</span></p>
+</td>
 <td><p class="first"><em>In first/second seat</em>:</p>
 <p><strong class="announce">Namyats</strong> 8+ <span class="suit heart-suit">H</span>, 'good preempt' 4-5 losers, &lt; 16 HCP.</p>
 <p><em>In third/fourth seat</em>:</p>
 <p class="last"><strong>Natural</strong>, weak.</p>
 </td>
 </tr>
-<tr><td>4<span class="suit diamond-suit">D</span></td>
+<tr><td><p class="announce first last">4<span class="suit diamond-suit">D</span></p>
+</td>
 <td><p class="first"><em>In first/second seat</em>:</p>
 <p><strong class="announce">Namyats</strong> 8+ <span class="suit spade-suit">S</span>, 'good preempt' 4-5 losers, &lt; 16 HCP.</p>
 <p><em>In third/fourth seat</em>:</p>
 <p class="last"><strong>Natural</strong>, weak.</p>
 </td>
 </tr>
-<tr><td><p class="alert first last">4<span class="suit heart-suit">H</span></p>
+<tr><td><p class="announce first last">4<span class="suit heart-suit">H</span></p>
 </td>
 <td><strong>Natural</strong>, weak.</td>
 </tr>
-<tr><td><p class="alert first last">4<span class="suit spade-suit">S</span></p>
+<tr><td><p class="announce first last">4<span class="suit spade-suit">S</span></p>
 </td>
 <td><strong>Natural</strong>, weak.</td>
 </tr>
@@ -712,7 +735,88 @@ and 2<span class="suit spade-suit">S</span> shows a 5-card diamond suit.</p>
 </div>
 <div class="section" id="responding-to-a-1d-opening">
 <span id="responding-to-1d"></span><h1>Responding to a 1<span class="suit diamond-suit">D</span> opening:</h1>
-<p>&lt;Section left empty&gt;</p>
+<p>Generally, we treat opener's hand as 11-13 balanced unless otherwise told.</p>
+<p>Important note: Reverses are alertable, and <em>non-forcing</em>, showing only
+extreme shape. Care should be taken when reversing if responder has a
+potentially weak hand.</p>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr><td>1<span class="suit heart-suit">H</span></td>
+<td><p class="first"><strong>Natural</strong>, typically 4+ <span class="suit heart-suit">H</span>. Forcing 1 round.</p>
+<p class="last">Rarely, when weak, and &lt; 5 diamonds; can be a 3 card <span class="suit heart-suit">H</span> suit.</p>
+</td>
+</tr>
+<tr><td>1<span class="suit spade-suit">S</span></td>
+<td><p class="first"><strong>Natural</strong>, typically 4+ <span class="suit spade-suit">S</span>. Forcing 1 round.</p>
+<p class="last">Rarely, when weak, and &lt; 5 diamonds; can be a 3 card <span class="suit spade-suit">S</span> suit.</p>
+</td>
+</tr>
+<tr><td>1NT</td>
+<td><p class="first"><strong>Natural</strong>, 8-11 HCP. Non-forcing.</p>
+<p class="last">Opener will pass with any balanced hand, but may pull
+with a variety of unbalanced shapes.</p>
+</td>
+</tr>
+<tr><td>2<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>, 4+ <span class="suit club-suit">C</span>; invitational or better. Forcing 1 round.</td>
+</tr>
+<tr><td><p class="alert first last">2<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong>Natural</strong>, 4+ <span class="suit diamond-suit">D</span>; invitational or better. Forcing 1 round.</td>
+</tr>
+<tr><td><p class="alert first last">2<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, reverse flannery. 5+ <span class="suit spade-suit">S</span>, 4+ <span class="suit heart-suit">H</span>, sub-invite (6-11 HCP).</td>
+</tr>
+<tr><td><p class="alert first last">2<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, reverse flannery. 5+ <span class="suit spade-suit">S</span>, 4+ <span class="suit heart-suit">H</span>, invitational (12-13 HCP).</td>
+</tr>
+<tr><td>2NT</td>
+<td><strong>Natural</strong>, 12-13 HCP, balanced invite.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, 5-4 or better in the minors, either way.</p>
+<p class="last">Sub-invite (6-11 HCP), pass/correct.</p>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong>Natural</strong>, weak. Typically shows at least 6 <span class="suit diamond-suit">D</span>.</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>, invitational jump shift.</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>, invitational jump shift.</td>
+</tr>
+<tr><td>3NT</td>
+<td><p class="first"><strong>Natural</strong>, 14-17 HCP balanced.</p>
+<p class="last">Opener may pull this with an unbalanced hand that has serious slam interest.</p>
+</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td><em>Undefined</em>, presumably natural</td>
+</tr>
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td><em>Undefined</em>, presumably natural.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td><p class="first"><strong>Natural</strong>, to play.</p>
+<p class="last">Opener may not bid on, unless competing to the 5 level.</p>
+</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td><p class="first"><strong>Natural</strong>, to play.</p>
+<p class="last">Opener may not bid on, unless competing to the 5 level.</p>
+</td>
+</tr>
+<tr><td>4NT</td>
+<td><strong class="art">Artificial</strong>, two places to play. Typically 6-5 in the minors or better.</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="general-notes-on-1m">
 <h1>General notes on 1M:</h1>
@@ -781,7 +885,7 @@ we re-purpose the bid immediately before as a mixed raise.</p>
 </table>
 </td>
 </tr>
-<tr><td><p class="alert first last">1NT</p>
+<tr><td><p class="announce first last">1NT</p>
 </td>
 <td><p class="first"><strong class="art">Artificial</strong>, forcing 1 round.</p>
 <p>Default bid is 2<span class="suit club-suit">C</span>, 2<span class="suit diamond-suit">D</span> shows at least 4<span class="suit diamond-suit">D</span>. 2<span class="suit spade-suit">S</span> is still a reverse.</p>
@@ -988,7 +1092,7 @@ show side-suit.</p>
 <span id="responding-to-1s"></span><h1>Responding to a 1<span class="suit spade-suit">S</span> opening:</h1>
 <table border="1" class="colwidths-auto docutils">
 <tbody valign="top">
-<tr><td><p class="alert first last">1NT</p>
+<tr><td><p class="announce first last">1NT</p>
 </td>
 <td><p class="first"><strong class="art">Artificial</strong>, forcing 1 round.</p>
 <p>Default bid is 2<span class="suit club-suit">C</span>, 2<span class="suit diamond-suit">D</span>/<span class="suit heart-suit">H</span> shows at least 4<span class="suit diamond-suit">D</span>/<span class="suit heart-suit">H</span>.</p>

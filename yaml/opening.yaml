@@ -18,7 +18,7 @@ bids:
   3!H: Natural, weak. See *section not written*
   3!S: Natural, weak. See *section not written*
   3NT: Gambling, promises outside A/K
-  4!C: |
+  =4!C=: |
     *In first/second seat*:
 
     ==Namyats== 8+ !H, 'good preempt' 4-5 losers, < 16 HCP.
@@ -27,7 +27,7 @@ bids:
 
 
     Natural, weak.
-  4!D: |
+  =4!D=: |
     *In first/second seat*:
 
     ==Namyats== 8+ !S, 'good preempt' 4-5 losers, < 16 HCP.
@@ -37,6 +37,6 @@ bids:
 
     Natural, weak.
     
-  ~4!H~: Natural, weak.
-  ~4!S~: Natural, weak.
+  =4!H=: Natural, weak.
+  =4!S=: Natural, weak.
   4NT: Specific ace ask.

@@ -1,0 +1,60 @@
+# vim: tabstop=2 shiftwidth=2 expandtab
+---
+response:
+  1!H: |
+    Natural, typically 4+ !H. Forcing 1 round.
+
+    Rarely, when weak, and < 5 diamonds; can be a 3 card !H suit.
+
+  1!S: |
+    Natural, typically 4+ !S. Forcing 1 round.
+
+    Rarely, when weak, and < 5 diamonds; can be a 3 card !S suit.
+
+  1NT: |
+    Natural, 8-11 HCP. Non-forcing.
+
+    Opener will pass with any balanced hand, but may pull 
+    with a variety of unbalanced shapes.
+
+  2!C:
+    Natural, 4+ !C; invitational or better. Forcing 1 round.
+
+  ~2!D~:
+    Natural, 4+ !D; invitational or better. Forcing 1 round.
+
+  ~2!H~: |
+    Artificial, reverse flannery. 5+ !S, 4+ !H, sub-invite (6-11 HCP).
+
+  ~2!S~: |
+    Artificial, reverse flannery. 5+ !S, 4+ !H, invitational (12-13 HCP).
+
+  2NT: Natural, 12-13 HCP, balanced invite.
+  ~3!C~: |
+    Artificial, 5-4 or better in the minors, either way. 
+    
+    Sub-invite (6-11 HCP), pass/correct.
+
+  ~3!D~: Natural, weak. Typically shows at least 6 !D.
+  3!H: Natural, invitational jump shift.
+  3!S: Natural, invitational jump shift.
+  3NT: |
+    Natural, 14-17 HCP balanced. 
+    
+    Opener may pull this with an unbalanced hand that has serious slam interest.
+
+  4!C: "*Undefined*, presumably natural"
+  4!D: "*Undefined*, presumably natural."
+
+  4!H: |
+    Natural, to play. 
+    
+    Opener may not bid on, unless competing to the 5 level.
+
+  4!S: |
+    Natural, to play. 
+    
+    Opener may not bid on, unless competing to the 5 level.
+
+  4NT: Artificial, two places to play. Typically 6-5 in the minors or better.
+
