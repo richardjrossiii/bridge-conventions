@@ -6,10 +6,18 @@
     |                      |                                                                                                            |
     |                      | Rarely, when weak, and < 5 diamonds; can be a 3 card \ :heart-suit:`H` suit.                               |
     |                      |                                                                                                            |
+    |                      |                                                                                                            |
+    |                      | .. include:: 1d-1h.rst                                                                                     |
+    |                      |                                                                                                            |
+    |                      |                                                                                                            |
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | 1\ :spade-suit:`S`   | **Natural**, typically 4+ \ :spade-suit:`S`. Forcing 1 round.                                              |
     |                      |                                                                                                            |
     |                      | Rarely, when weak, and < 5 diamonds; can be a 3 card \ :spade-suit:`S` suit.                               |
+    |                      |                                                                                                            |
+    |                      |                                                                                                            |
+    |                      | .. include:: 1d-1s.rst                                                                                     |
+    |                      |                                                                                                            |
     |                      |                                                                                                            |
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | 1NT                  | **Natural**, 8-11 HCP. Non-forcing.                                                                        |
@@ -19,10 +27,14 @@
     |                      |                                                                                                            |
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | 2\ :club-suit:`C`    | **Natural**, 4+ \ :club-suit:`C`; invitational or better. Forcing 1 round.                                 |
+    |                      |                                                                                                            |
+    |                      | .. include:: 1d-2c.rst                                                                                     |
+    |                      |                                                                                                            |
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | .. class:: alert     | **Natural**, 4+ \ :diamond-suit:`D`; invitational or better. Forcing 1 round.                              |
     |                      |                                                                                                            |
-    | 2\ :diamond-suit:`D` |                                                                                                            |
+    | 2\ :diamond-suit:`D` | .. include:: 1d-2d.rst                                                                                     |
+    |                      |                                                                                                            |
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | .. class:: alert     | :art:`Artificial`, reverse flannery. 5+ \ :spade-suit:`S`, 4+ \ :heart-suit:`H`, sub-invite (6-11 HCP).    |
     |                      |                                                                                                            |
