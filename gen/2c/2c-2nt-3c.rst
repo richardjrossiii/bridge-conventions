@@ -8,11 +8,11 @@
     |                      |                                                                            |
     | 3\ :diamond-suit:`D` |                                                                            |
     +----------------------+----------------------------------------------------------------------------+
-    | .. class:: alert     | :art:`Artificial`, 5\ :diamond-suit:`D`, 5\ :spade-suit:`S`, game forcing. |
+    | .. class:: alert     | :art:`Artificial`, 5\ :diamond-suit:`D`, 5\ :heart-suit:`H`, game forcing. |
     |                      |                                                                            |
     | 3\ :heart-suit:`H`   |                                                                            |
     +----------------------+----------------------------------------------------------------------------+
-    | .. class:: alert     | :art:`Artificial`, 5\ :diamond-suit:`D`, 5\ :heart-suit:`H`, game forcing. |
+    | .. class:: alert     | :art:`Artificial`, 5\ :diamond-suit:`D`, 5\ :spade-suit:`S`, game forcing. |
     |                      |                                                                            |
     | 3\ :spade-suit:`S`   |                                                                            |
     +----------------------+----------------------------------------------------------------------------+

@@ -69,6 +69,6 @@ response:
 2c-2nt-3c:
   Pass: To play, preemptive raise.
   ~3!D~: Artificial, 5!H, 5!S, game forcing.
-  ~3!H~: Artificial, 5!D, 5!S, game forcing.
-  ~3!S~: Artificial, 5!D, 5!H, game forcing.
+  ~3!H~: Artificial, 5!D, 5!H, game forcing.
+  ~3!S~: Artificial, 5!D, 5!S, game forcing.
   3NT: "*Undefined*"
