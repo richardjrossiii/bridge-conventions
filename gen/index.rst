@@ -135,6 +135,48 @@ Responding to a 2NT opening:
 
 .. include:: 2nt/response.rst 
 
+.. _Responding to Namyats:
+
+--------------------------------
+Responding to a Namyats opening:
+--------------------------------
+
+The Namyats bids are somewhat awkward in the system.
+
+As our 1\ :club-suit:`C` bid *promises* 16+ HCP; we are not allowed to 
+(in Basic/Basic+ games) put hands that evaluate highly 
+on shape into that bid. 
+
+Thus; they get thrown into these bids instead. 
+
+Generally; we say 8+; (may occasionally be 7 with a *very* strong suit).
+Must contain at least two outside controls (void/aces/kings). 
+
+Usually has at least 2 of top 3 honors in the major, and is a 
+hand we cannot risk passing in 1\ :heart-suit:`H`/\ :spade-suit:`S`. 
+
+(Otherwise; 1\ :heart-suit:`H` - ?? - 4\ :heart-suit:`H` is a much more reasonable sequence).
+
+As this bid focuses on very shapely hands; the conventions cooked up 
+here are about ensuring that we can find slam if partner has the *exact*
+freak hand we need to make.
+
+Note that these bids are **TRUMP SETTING**. 
+
+There is **no** way to sign off in another suit than the preempted one 
+(aside from 6NT/7NT signoff). Every new suit is *always* forcing, 
+or an alternate slam offering.
+
+Over 4\ :club-suit:`C`:
+
+.. include:: namyats/4c-responses.rst 
+
+
+Over 4\ :diamond-suit:`D`:
+
+.. include:: namyats/4d-responses.rst 
+
+
 .. _Specific Aces:
 
 ----------------

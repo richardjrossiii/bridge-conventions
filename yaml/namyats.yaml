@@ -1,0 +1,44 @@
+# vim: tabstop=2 shiftwidth=2 expandtab
+---
+4c-responses:
+  ~4!D~: |
+    Artificial. Asks for void. Useful so that openers voids do not force us to slam.
+
+    <table:4c-4d>
+
+    After response; the next step bid is RKC, other new suits are
+    natural control bids.
+
+  4!H: Natural. Sign off. 
+  ~4!S~: Artificial. Kickback keycard. Opener *must not* use void responses.
+  ~4NT~: Artificial. Spade exclusion keycard.
+  ~5!C~: Artificial. Club exclusion keycard.
+  ~5!D~: Artificial. Diamond exclusion keycard.
+
+4d-responses:
+  ~4!H~: |
+    Artificial. Asks for void. Useful so that openers voids do not force us to slam.
+
+    <table:4d-4h>
+    
+    After response; the next step bid is RKC, other new suits are
+    natural control bids.
+
+  4!S: Natural. Sign off. 
+  ~4!NT~: Artificial. Kickback keycard. Opener *must not* use void responses.
+  ~5!C~: Artificial. Club exclusion keycard.
+  ~5!D~: Artificial. Diamond exclusion keycard.
+  ~5!H~: Artificial. Heart exclusion keycard.
+
+4c-4d:
+  ~4!H~: No void.
+  ~4!S~: Void in !S.
+  ~4NT~: Void in !D.
+  ~5!C~: Void in !C.
+
+4d-4h:
+  ~4!S~: No void.
+  ~4NT~: Void in !H.
+  ~5!C~: Void in !D.
+  ~5!D~: Void in !C.
+

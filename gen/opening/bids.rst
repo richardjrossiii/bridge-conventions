@@ -44,6 +44,8 @@
     |                      |                                                                                        |
     | 4\ :club-suit:`C`    | :announce:`Namyats` 8+ \ :heart-suit:`H`, 'good preempt' 4-5 losers, < 16 HCP.         |
     |                      |                                                                                        |
+    |                      | See `Responding to Namyats`_.                                                          |
+    |                      |                                                                                        |
     |                      | *In third/fourth seat*:                                                                |
     |                      |                                                                                        |
     |                      | **Natural**, weak.                                                                     |
@@ -52,6 +54,8 @@
     | .. class:: announce  | *In first/second seat*:                                                                |
     |                      |                                                                                        |
     | 4\ :diamond-suit:`D` | :announce:`Namyats` 8+ \ :spade-suit:`S`, 'good preempt' 4-5 losers, < 16 HCP.         |
+    |                      |                                                                                        |
+    |                      | See `Responding to Namyats`_.                                                          |
     |                      |                                                                                        |
     |                      | *In third/fourth seat*:                                                                |
     |                      |                                                                                        |
