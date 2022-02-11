@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # link static resources
-rm -r gen/
+rm -rf gen/
 mkdir gen
 (cd gen && ln -s ../static static)
 
