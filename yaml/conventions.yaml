@@ -10,8 +10,8 @@ macros:
     zNT: NT
     "\\<table\\:(.+)\\>": |
 
-      .. include:: \1.rst 
-    
+      .. include:: \1.rst
+
     "\\<section\\:(.+)\\>": "`\\1`_"
     "(\\s|^)Natural": "**Natural**"
     "(\\s|^)Artificial": "~~Artificial~~"
@@ -22,7 +22,7 @@ macros:
       .. class:: alert
 
       \1
-    
+
     "=(.*)=": |-
       .. class:: announce
 
@@ -38,7 +38,7 @@ sections:
     hidden: True
     contents: |
       .. include:: static/Preamble.rst
-  - 
+  -
     title: Opening Bids
     anchor: Opening
     contents: |
@@ -48,56 +48,56 @@ sections:
 
       <table:opening/bids>
 
-  - 
+  -
     title: "Responding to a 1!C opening:"
     anchor: Responding to 1C
     contents: |
       The first priority of responder is to let opener know if we are in a game
       force or not.
-      
+
       <table:1c/response>
 
       *If responder is a passed hand*:
-      
+
       <table:1c/passed-hand-response>
 
-  - 
+  -
     title: "Responding to a 1!D opening:"
     anchor: Responding to 1D
     contents: |
       Generally, we treat opener's hand as 11-13 balanced unless otherwise told.
 
-      Important note: Reverses are alertable, and *non-forcing*, showing only 
+      Important note: Reverses are alertable, and *non-forcing*, showing only
       extreme shape. Care should be taken when reversing if responder has a
       potentially weak hand.
 
       <table:1d/response>
-  
+
   -
     title: "General notes on 1M:"
-    contents: | 
-      Opener's hand is limited, so our raise structure is a bit different from 
+    contents: |
+      Opener's hand is limited, so our raise structure is a bit different from
       normal 2/1 systems.
 
-      Important note: Reverses are alertable, and *non-forcing*, showing only 
+      Important note: Reverses are alertable, and *non-forcing*, showing only
       extreme shape. Care should be taken when reversing if responder has a
       potentially weak  hand (especially after forcing 1NT).
-      
-      In competition (except after double), 3M is strictly weak, and 
+
+      In competition (except after double), 3M is strictly weak, and
       we re-purpose the bid immediately before as a mixed raise.
 
       In addition, new suits at the two level are negative.
-      
+
       (**EVENTUALLY**) After a double, we play a basic transfer system:
 
       <table:1major/after-double>
- 
-  - 
+
+  -
     title: "Responding to a 1!H opening:"
     anchor: Responding to 1H
     contents: <table:1major/heart-responses>
-    
-  - 
+
+  -
     title: "Responding to a 1!S opening:"
     anchor: Responding to 1S
     contents: <table:1major/spade-responses>
@@ -106,8 +106,8 @@ sections:
     title: "Responding to a 1NT opening:"
     anchor: Responding to 1NT
     contents: |
-      14-16 HCP; Balanced. 
-      
+      14-16 HCP; Balanced.
+
       Frequently has a 5 card major, 6 card minor, often contains singleton honor, or two doubletons.
 
       <table:1nt/response>
@@ -117,11 +117,11 @@ sections:
     anchor: Responding to 2C
     contents: |
       Things are fairly artificial here; due to the lack of space. Often times;
-      responder will raise !C preemptively instead of showing a 5-card major 
+      responder will raise !C preemptively instead of showing a 5-card major
       with a sub-invite hand.
 
       <table:2c/response>
-  - 
+  -
     title: "Responding to a 2!H/2!S opening:"
     anchor: Responding to 2M
     contents: <table:2major/response>
@@ -137,28 +137,28 @@ sections:
     contents: |
       The Namyats bids are somewhat awkward in the system.
 
-      As our 1!C bid *promises* 16+ HCP; we are not allowed to 
-      (in Basic/Basic+ games) put hands that evaluate highly 
-      on shape into that bid. 
-      
-      Thus; they get thrown into these bids instead. 
-      
-      Generally; we say 8+; (may occasionally be 7 with a *very* strong suit).
-      Must contain at least two outside controls (void/aces/kings). 
+      As our 1!C bid *promises* 16+ HCP; we are not allowed to
+      (in Basic/Basic+ games) put hands that evaluate highly
+      on shape into that bid.
 
-      Usually has at least 2 of top 3 honors in the major, and is a 
-      hand we cannot risk passing in 1!H/!S. 
-      
+      Thus; they get thrown into these bids instead.
+
+      Generally; we say 8+; (may occasionally be 7 with a *very* strong suit).
+      Must contain at least two outside controls (void/aces/kings).
+
+      Usually has at least 2 of top 3 honors in the major, and is a
+      hand we cannot risk passing in 1!H/!S.
+
       (Otherwise; 1!H - ?? - 4!H is a much more reasonable sequence).
 
-      As this bid focuses on very shapely hands; the conventions cooked up 
+      As this bid focuses on very shapely hands; the conventions cooked up
       here are about ensuring that we can find slam if partner has the *exact*
       freak hand we need to make.
 
-      Note that these bids are **TRUMP SETTING**. 
-      
-      There is **no** way to sign off in another suit than the preempted one 
-      (aside from 6NT/7NT signoff). Every new suit is *always* forcing, 
+      Note that these bids are **TRUMP SETTING**.
+
+      There is **no** way to sign off in another suit than the preempted one
+      (aside from 6NT/7NT signoff). Every new suit is *always* forcing,
       or an alternate slam offering.
 
       Over 4!C:
@@ -167,7 +167,7 @@ sections:
       Over 4!D:
       <table:namyats/4d-responses>
 
-  - 
+  -
     title: "Specific Ace Ask"
     anchor: Specific Aces
     contents: |
@@ -177,7 +177,7 @@ sections:
     title: "Slam Agreements"
     anchor: Slam Agreements
     contents: |
-      - When you've shown a void, partner should answer keycard asks as though 
+      - When you've shown a void, partner should answer keycard asks as though
         they were exclusion
 
   -

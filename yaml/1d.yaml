@@ -18,18 +18,18 @@ response:
   1NT: |
     Natural, 8-11 HCP. Non-forcing.
 
-    Opener will pass with any balanced hand, but may pull 
+    Opener will pass with any balanced hand, but may pull
     with a variety of unbalanced shapes.
 
   2!C:
     Natural, 4+ !C; invitational or better. Forcing 1 round.
 
-    <table:1d-2c>
+    <table:2minor/2c>
 
   ~2!D~:
     Natural, 4+ !D; invitational or better. Forcing 1 round.
 
-    <table:1d-2d>
+    <table:2minor/2d>
 
   ~2!H~: |
     Artificial, reverse flannery. 5+ !S, 4+ !H, sub-invite (6-11 HCP).
@@ -39,29 +39,29 @@ response:
 
   2NT: Natural, 12-13 HCP, balanced invite.
   ~3!C~: |
-    Artificial, 5-4 or better in the minors, either way. 
-    
+    Artificial, 5-4 or better in the minors, either way.
+
     Sub-invite (6-11 HCP), pass/correct.
 
   ~3!D~: Natural, weak. Typically shows at least 6 !D.
   3!H: Natural, invitational jump shift.
   3!S: Natural, invitational jump shift.
   3NT: |
-    Natural, 14-17 HCP balanced. 
-    
+    Natural, 14-17 HCP balanced.
+
     Opener may pull this with an unbalanced hand that has serious slam interest.
 
   4!C: "*Undefined*, presumably natural"
   4!D: "*Undefined*, presumably natural."
 
   4!H: |
-    Natural, to play. 
-    
+    Natural, to play.
+
     Opener may not bid on, unless competing to the 5 level.
 
   4!S: |
-    Natural, to play. 
-    
+    Natural, to play.
+
     Opener may not bid on, unless competing to the 5 level.
 
   4NT: Artificial, two places to play. Typically 6-5 in the minors or better.
@@ -80,10 +80,10 @@ response:
 1d-1h:
   <<: *1major-continuations
 
-  1!S: Natural, 4!S. 
+  1!S: Natural, 4!S.
   2!C: |
     Natural. 4+ !C, unbalanced.
-    
+
     Possible shapes include:
       - 1=3=4=5
       - 1=3=5=4
@@ -107,30 +107,11 @@ response:
      - 1=3=4=5
      - 3=1=4=5
      - 3=1=5=4
-  
+
   ~2!H~: 6+ !D, 5+ !H. Non-forcing reverse.
   2!S: 4 !S, 10-13 HCP.
   2zNT: ?? 6+ !D, exactly 3!S.
   3!S: 4+ !S, 14-15 HCP.
 
-1d-2c:
-  2!D: Natural, 5+ !D, unbalanced. Denies 4+ !C.
-  ~2!H~: Artificial, any balanced hand.
-  ~2!S~: Artificial. 4+ !C, unbalanced, unspecified shortness.
-  ~2NT~: Artificial, exactly 4=4=4=1, minimum.
-  ~3!C~: Artificial. exactly (4-1)=5=3.
-  3!D: Natural, self-sufficient !D suit.
-  3!H: 6+ !D, 5+ !H
-  3!S: 6+ !D, 5+ !S
-  ~3NT~: Artificial, exaactly 4=4=4=1, maximum.
-
-1d-2d:
-  ~2!H~: Artificial, any balanced hand.
-  ~2!S~: Artificial. 4+ !D, unbalanced, unspecified shortness.
-  ~2NT~: Artificial, 6+ !D balanced minimum.
-  ~3!C~: Artificial. exactly (4-1)=3=5.
-  3!D: Natural, self-sufficient !D suit.
-  3!H: 6+ !D, 5+ !H
-  3!S: 6+ !D, 5+ !S
-  ~3NT~: Artificial, 6+ !D balanced maximum. 
-
+include:
+  - 1d/2minor.yaml

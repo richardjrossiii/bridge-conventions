@@ -28,12 +28,12 @@
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | 2\ :club-suit:`C`    | **Natural**, 4+ \ :club-suit:`C`; invitational or better. Forcing 1 round.                                 |
     |                      |                                                                                                            |
-    |                      | .. include:: 1d-2c.rst                                                                                     |
+    |                      | .. include:: 2minor/2c.rst                                                                                 |
     |                      |                                                                                                            |
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | .. class:: alert     | **Natural**, 4+ \ :diamond-suit:`D`; invitational or better. Forcing 1 round.                              |
     |                      |                                                                                                            |
-    | 2\ :diamond-suit:`D` | .. include:: 1d-2d.rst                                                                                     |
+    | 2\ :diamond-suit:`D` | .. include:: 2minor/2d.rst                                                                                 |
     |                      |                                                                                                            |
     +----------------------+------------------------------------------------------------------------------------------------------------+
     | .. class:: alert     | :art:`Artificial`, reverse flannery. 5+ \ :spade-suit:`S`, 4+ \ :heart-suit:`H`, sub-invite (6-11 HCP).    |
