@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<title>index.rst</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document">
+
+
+<style type="text/css">
+	/* Suit handling */
+	.club-suit:after, 
+	.diamond-suit:after, 
+	.heart-suit:after, 
+	.spade-suit:after {
+	    visibility: visible;
+	    font-size: initial;
+	}
+
+	.club-suit:after {
+	    content: "\2663";
+	}
+
+	.diamond-suit:after {
+	    content: "\2666";
+	}
+
+	.heart-suit:after {
+	    content: "\2665";
+	}
+
+	.spade-suit:after {
+	    content: "\2660";	
+	}
+
+	.club-suit, 
+	.spade-suit {
+	    color: black;
+	}
+
+	.diamond-suit, 
+	.heart-suit {
+	    color: red;
+	}
+	
+	.art 
+	/*
+	.alert .club-suit, 
+	.alert .diamond-suit,
+	.alert .heart-suit,
+	.alert .spade-suit 
+	*/ {
+	   color: red;
+	}
+
+	.announce
+    /*
+	.announce .club-suit, 
+	.announce .diamond-suit, 
+	.announce .heart-suit, 
+	.announce .spade-suit 
+    */ {
+            color: blue;
+	}
+
+	tr > td:first-child > .alert {
+		margin-left: -0.25em;
+		margin-right: -0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+		background-color: #f007;
+	}
+	
+	tr > td:first-child > .announce {
+		margin-left: -0.25em;
+		margin-right: -0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+		background-color: #00f7;
+		color: black;
+	}
+	
+	.club-suit, 
+	.spade-suit, 
+	.diamond-suit, 
+	.heart-suit {
+	    visibility: collapse;
+	    font-size: 0px;
+    }
+
+    dd  {
+        margin: 0px;
+    }
+
+	/* Table styling */
+
+	table {
+	    border: none;
+	    /* width: 100%; */
+	}
+	table, tr, td {
+	    border-collapse: collapse;
+	}
+
+	td {
+	    border-left: 1px solid black;
+	    border-right: 1px solid black;
+	    border-top: none;
+	    border-bottom: none;
+		margin: none;     
+   }
+	
+	tr {
+	   border-top: 1px solid black;
+	   border-bottom: 1px solid black;
+	   border-left: none;
+	   border-right: none;
+		margin: none;     
+	}
+
+	tr:first-child {
+		border-top: none;
+	}
+
+	tr:last-child {
+		border-bottom: none;
+	}
+
+	td:first-child {
+	    border-left: none;
+	    font-weight: bold;
+	}
+
+	td:last-child {
+	    border-right: none; 
+	}
+
+</style>
+<div class="section" id="opening-bids">
+<span id="opening"></span><h1>Opening Bids</h1>
+<p>We open all 11 counts; and many good 10s, frequently upgrading on shape.</p>
+<p>Main features of the system:</p>
+<p>Preempting style is very light in 3rd seat; sound in 1st/2nd red and light 1st/2nd white.</p>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">1<span class="suit club-suit">C</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, 0+ <span class="suit club-suit">C</span>, 10-18 HCP.</td>
+</tr>
+<tr><td><p class="alert first last">1<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, 16+ HCP, forcing.</td>
+</tr>
+<tr><td>1<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>, 5+ <span class="suit heart-suit">H</span>, 10-19 HCP. See <a class="reference internal" href="#responding-to-1h">Responding to 1H</a></td>
+</tr>
+<tr><td>1<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>, 5+ <span class="suit spade-suit">S</span>, 10-15 HCP. See <a class="reference internal" href="#responding-to-1s">Responding to 1S</a></td>
+</tr>
+<tr><td>1NT</td>
+<td><strong>Natural</strong>, 14-16 HCP, balanced. See <a class="reference internal" href="#responding-to-1nt">Responding to 1NT</a></td>
+</tr>
+<tr><td><p class="alert first last">2<span class="suit club-suit">C</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, 5+ <span class="suit club-suit">C</span>, 5+ <span class="suit diamond-suit">D</span>, 10-15 HCP. See ` Responding to 2C`_</td>
+</tr>
+<tr><td><p class="alert first last">2<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, Flannery. Exactly 5<span class="suit heart-suit">H</span>, 4<span class="suit spade-suit">S</span>, 10-15 HCP. See ` Responding to 2D`_</td>
+</tr>
+<tr><td>2<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>, weak. See <a class="reference internal" href="#responding-to-2m">Responding to 2M</a></td>
+</tr>
+<tr><td>2<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>, weak. See <a class="reference internal" href="#responding-to-2m">Responding to 2M</a></td>
+</tr>
+<tr><td>2NT</td>
+<td><strong>Natural</strong>, 19-20 HCP Balanced. See <a class="reference internal" href="#responding-to-2nt">Responding to 2NT</a></td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>, weak. See <em>section not written</em></td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>, weak. See <em>section not written</em></td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>, weak. See <em>section not written</em></td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>, weak. See <em>section not written</em></td>
+</tr>
+<tr><td>3NT</td>
+<td>Gambling, promises no outside A/K</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>, weak.</td>
+</tr>
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>, weak.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>, weak.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>, weak.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="responding-to-a-1c-opening">
+<span id="responding-to-1c"></span><h1>Responding to a 1<span class="suit club-suit">C</span> opening:</h1>
+<p>Welcome to the thunderdome.</p>
+<dl class="docutils">
+<dt>1<span class="suit club-suit">C</span> can generally be considered a 'catch all' bid in the system; designed for hands that have:</dt>
+<dd><ul class="first last simple">
+<li>Are 11-13 HCP; balanced</li>
+<li>Have no 5 card major</li>
+<li>Have a minor as a primary suit</li>
+</ul>
+</dd>
+</dl>
+<p>Because so many hand shapes could exist here; any intermediate hand with 5+ <span class="suit club-suit">C</span> and 5+ <span class="suit diamond-suit">D</span> will bid 2<span class="suit club-suit">C</span>; instead.
+This makes a lot of our relay sequences later much more trivial.</p>
+<p>It's best to treat 1<span class="suit club-suit">C</span> as semiforcing. As no <em>extremely</em> strong hands exist behind this bid; it can often be correct to pass with a weak hand and good tolerance (4+) for clubs.</p>
+<p>Be aware that partner may still have a very strong two-suited hand; below the 1D threshold.</p>
+<p>Responders goals change slightly depending on whether we are at MPs or IMPs. But in general:</p>
+<div class="section" id="weak-hands">
+<h2>Weak Hands</h2>
+<dl class="docutils">
+<dt>Weak hands with a 6 card suit should nearly always attempt to follow their drop sequence - even if they have another side 4 card suit:</dt>
+<dd><ul class="first last simple">
+<li><span class="suit club-suit">C</span>: 1<span class="suit club-suit">C</span> - P - 1<span class="suit spade-suit">S</span> - 1NT - 2<span class="suit club-suit">C</span></li>
+<li><span class="suit diamond-suit">D</span>: 1<span class="suit club-suit">C</span> - P - 1<span class="suit spade-suit">S</span> - 1NT - 2<span class="suit club-suit">C</span></li>
+<li><span class="suit heart-suit">H</span>: 1<span class="suit club-suit">C</span> - P - 1<span class="suit diamond-suit">D</span> - ? - 2<span class="suit heart-suit">H</span></li>
+<li><span class="suit spade-suit">S</span>: 1<span class="suit club-suit">C</span> - P - 1<span class="suit heart-suit">H</span> - ? - 2<span class="suit spade-suit">S</span></li>
+</ul>
+</dd>
+</dl>
+<p>In general; hands with a 6 card suit should not attempt to play at the one level (even in clubs - partner may give you a response that significantly improves your hand).</p>
+<p>Weak hands with a single 5 card suit often have a tougher decision to make.</p>
+<p>When that 5 card suit is a major; transfering to it <em>nearly always</em> gets us to the correct par-score.</p>
+<p>With a 5 card minor and no other mitigating factors; generally trying to drop partner in 1NT is the correct call, as we don't have the space to determine partners minor distribution (they can still have a void in clubs).</p>
+<p>Weak hands with a single 4 card major should strongly consider passing partner in 1<span class="suit heart-suit">H</span>/<span class="suit spade-suit">S</span> if the opportunity arises.</p>
+<p>With equal length in the majors; hands with 4/4 start by transfering to hearts. If partner responds 1<span class="suit heart-suit">H</span>; we can ask for spade support as well by bidding 1<span class="suit spade-suit">S</span> (forcing 1 round). From there; we generally have a good grasp on the correct place to land the contract.</p>
+<p>Hands with 5/5 in the majors should transfer to spades; and then rebid 2<span class="suit heart-suit">H</span> (non forcing), or potentially pass opener's 2<span class="suit club-suit">C</span>/<span class="suit diamond-suit">D</span> call.</p>
+<p># Invitational hands</p>
+</div>
+</div>
+<div class="section" id="responding-to-a-1d-opening">
+<span id="responding-to-1d"></span><h1>Responding to a 1<span class="suit diamond-suit">D</span> opening:</h1>
+<p>This is strong and forcing.</p>
+<p><em>Only</em> hands with a self-sufficient suit will respond anything other than 1<span class="suit heart-suit">H</span>.</p>
+</div>
+<div class="section" id="general-notes-on-1m">
+<h1>General notes on 1M:</h1>
+<p>Opener's hand is limited, so our raise structure is a bit different from
+normal 2/1 systems.</p>
+</div>
+<div class="section" id="responding-to-a-1h-opening">
+<span id="responding-to-1h"></span><h1>Responding to a 1<span class="suit heart-suit">H</span> opening:</h1>
+<p>TODO</p>
+</div>
+<div class="section" id="responding-to-a-1s-opening">
+<span id="responding-to-1s"></span><h1>Responding to a 1<span class="suit spade-suit">S</span> opening:</h1>
+<p>TODO</p>
+</div>
+<div class="section" id="responding-to-a-1nt-opening">
+<span id="responding-to-1nt"></span><h1>Responding to a 1NT opening:</h1>
+<p>14-16 HCP; Balanced.</p>
+<p>Frequently has a 5 card major, 6 card minor, often contains singleton honor, or two doubletons.</p>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr><td>2<span class="suit club-suit">C</span></td>
+<td><p class="first">Stayman. In general, promises at least one 4-card major.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2<span class="suit diamond-suit">D</span></td>
+<td><p class="first">No 4 or 5 card major.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2<span class="suit heart-suit">H</span></td>
+<td><p class="first">Crawling Stayman. Weak, usually 5<span class="suit heart-suit">H</span>, 4<span class="suit spade-suit">S</span>.</p>
+<p>Opener must pass/correct.</p>
+<p class="last">Very rarely 5<span class="suit heart-suit">H</span> &amp; 5<span class="suit club-suit">C</span>, weak. Will pull opener's 2<span class="suit spade-suit">S</span> bid to 3<span class="suit club-suit">C</span>.</p>
+</td>
+</tr>
+<tr><td>2NT</td>
+<td>Balanced, invitational. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>2<span class="suit spade-suit">S</span></td>
+<td>5<span class="suit spade-suit">S</span>, invitational. Opener naturally places the contract.</td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit club-suit">C</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit diamond-suit">D</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, Smolen. 5<span class="suit spade-suit">S</span>, 4<span class="suit heart-suit">H</span>; game forcing.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, Smolen. 5<span class="suit heart-suit">H</span>, 4<span class="suit spade-suit">S</span>; game forcing.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>. Exactly 4-4-3-2, choice of games.</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit heart-suit">H</span>, 4=6 majors</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit spade-suit">S</span>, 6=4 majors</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantitative invite to 6NT. Promises at least one 4 card major.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>2<span class="suit heart-suit">H</span></td>
+<td><p class="first">4+ <span class="suit heart-suit">H</span></p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2NT</td>
+<td>Balanced, invitational. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>2<span class="suit spade-suit">S</span></td>
+<td>5<span class="suit spade-suit">S</span>, invitational. Opener naturally places the contract.</td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit club-suit">C</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit diamond-suit">D</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>, invitational.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, forcing <span class="suit heart-suit">H</span> raise.</p>
+<p class="last">Promises shortness. 3NT relays to ask (hi/med/low).</p>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>. Exactly 4-4-3-2, choice of games.</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td><strong class="art">Artificial</strong>, keycard in <span class="suit heart-suit">H</span>.</td>
+</tr>
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td><strong class="art">Artificial</strong>, quantitative with <span class="suit heart-suit">H</span> fit.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantitative invite to 6NT. Promises at least one 4 card major.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>2<span class="suit spade-suit">S</span></td>
+<td><p class="first">4+ <span class="suit spade-suit">S</span></p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2NT</td>
+<td>Balanced, invitational. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit club-suit">C</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. Game forcing, 5+ <span class="suit diamond-suit">D</span>. Promises at least one 4 card major.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, forcing <span class="suit spade-suit">S</span> raise.</p>
+<p class="last">Promising shortness. 3NT relays to ask (hi/med/low).</p>
+</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>, invitational.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>. Exactly 4-4-3-2, choice of games.</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td><strong class="art">Artificial</strong>, keycard in <span class="suit spade-suit">S</span>.</td>
+</tr>
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td><strong class="art">Artificial</strong>, quantitative with <span class="suit spade-suit">S</span> fit.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantitative invite to 6NT. Promises at least one 4 card major.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">2<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong> to <span class="suit heart-suit">H</span>, Any shape</p>
+<p>Opener naturally completes the transfer.
+With a max and 4 card support; complete the transfer at the 3 level.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">2<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, invitational.  Opener bids naturally to accept/decline the invite.
+Responder may pull to 3<span class="suit heart-suit">H</span> at their discretion.</td>
+</tr>
+<tr><td><p class="announce first last">2NT</p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit club-suit">C</span>; game forcing.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. No major fit. Good (4+) <span class="suit club-suit">C</span> fit or missing outside stoppers.</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers; bad hand for slam.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>Major fit, bad hand for slam.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit diamond-suit">D</span>; game forcing.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. No major fit. Good (4+) <span class="suit diamond-suit">D</span> fit or missing outside stoppers.</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers; bad hand for slam.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>Major fit, bad hand for slam.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first">Retransfer, 6+ <span class="suit heart-suit">H</span>, slam try.</p>
+<p class="last">Opener bids 3<span class="suit heart-suit">H</span> with any 2 card support, with 3 card support;
+control bidding commences.</p>
+</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Transfer</strong>, 5+ <span class="suit spade-suit">S</span>, invitational.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>.</p>
+<p class="last">Game forcing, unbalanced with 5<span class="suit heart-suit">H</span>;
+Opener must bid 4<span class="suit heart-suit">H</span> with 3 card support.</p>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, choice of games.</td>
+</tr>
+<tr><td><p class="alert first last">4<span class="suit club-suit">C</span></p>
+</td>
+<td>Keycard in <span class="suit heart-suit">H</span> (1430). 6+ <span class="suit heart-suit">H</span>, mild slam interest.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>To play.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantitative invite, exactly 5<span class="suit heart-suit">H</span>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">2<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong> to <span class="suit spade-suit">S</span>, any shape, not invitational.</p>
+<p>Opener naturally completes the transfer.
+With a max and 4 card support; complete the transfer at the 3 level.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="announce first last">2NT</p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit club-suit">C</span>; game forcing.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>. No major fit. Good (4+) <span class="suit club-suit">C</span> fit or missing outside stoppers.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers; bad hand for slam.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>Major fit, bad hand for slam.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong>, 5+ <span class="suit diamond-suit">D</span>; game forcing.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>. No major fit. Good (4+) <span class="suit diamond-suit">D</span> fit or missing outside stoppers.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>. No fit; good outside stoppers; good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><strong>Natural</strong>. Major fit, good hand for slam (4+ A/K).</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good outside stoppers; bad hand for slam.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>Major fit, bad hand for slam.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Transfer</strong>, 5+ <span class="suit heart-suit">H</span>, game forcing.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first">Retransfer, 6+ <span class="suit spade-suit">S</span>, slam try.</p>
+<p class="last">Opener bids 3<span class="suit spade-suit">S</span> with any 2 card support, with 3 card support;
+control bidding commences.</p>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>.</p>
+<p class="last">Game forcing, unbalanced with exactly 5<span class="suit spade-suit">S</span>;
+Opener must bid 4<span class="suit spade-suit">S</span> with 3 card support.</p>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, choice of games.</td>
+</tr>
+<tr><td><p class="alert first last">4<span class="suit club-suit">C</span></p>
+</td>
+<td>Keycard in <span class="suit spade-suit">S</span> (1430). 6+ <span class="suit spade-suit">S</span>, mild slam interest.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>To play.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantitative invite, exactly 5<span class="suit spade-suit">S</span>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">2<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first">Range Ask. Opener bids 2NT with a minimum, and 3<span class="suit club-suit">C</span> with a maximum.</p>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><strong>Natural</strong>, sign-off</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><strong>Natural</strong>, sign-off</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, 6+ <span class="suit club-suit">C</span>. Likely slam interest.</p>
+<p class="last">Opener should bid 3NT on any 2 card <span class="suit club-suit">C</span> holding. New suits are fit-showing
+controls.</p>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, 6+ <span class="suit diamond-suit">D</span>. Likely slam interest.</p>
+<p class="last">Opener should bid 3NT on any 2 card <span class="suit diamond-suit">D</span> holding. New suits are fit-showing
+controls.</p>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, sign-off.</td>
+</tr>
+<tr><td><p class="alert first last">4<span class="suit club-suit">C</span></p>
+</td>
+<td>Gerber. Responses are 01234, in steps.</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit heart-suit">H</span>.</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit spade-suit">S</span>.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Re-quant.</td>
+</tr>
+</tbody>
+</table>
+<p>After a <em>lead-directing</em> double of 2<span class="suit spade-suit">S</span>:</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>Pass</td>
+<td>Minimal hand, no stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td>2NT</td>
+<td>Minimal hand, stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td><p class="alert first last">XX</p>
+</td>
+<td>Maximal hand, no stop in <span class="suit spade-suit">S</span></td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td>Maximal hand, stop in <span class="suit spade-suit">S</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">2NT</p>
+</td>
+<td><p class="first">Game forcing, puppet Stayman.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td><p class="first">No 5 card major.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first">Major stopper ask.
+At least 8 cards in the minor suits.
+Usually (3-1)=(5-4) shape.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="art">Artificial</strong>, asks which suit needs a stopper.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td>Spade stopper required.</td>
+</tr>
+<tr><td>3NT</td>
+<td>Heart stopper required.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td>Good stops in both majors.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, exactly 4<span class="suit spade-suit">S</span>. Opener naturally places the contract.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, exactly 4<span class="suit heart-suit">H</span>. Opener naturally places the contract.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>3<span class="suit diamond-suit">D</span></td>
+<td><em>Undefined</em></td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td><p class="first">5 <span class="suit heart-suit">H</span>.</p>
+<p class="last">New suits are cue bids agreeing to <span class="suit heart-suit">H</span>.</p>
+</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td><p class="first">5 <span class="suit spade-suit">S</span></p>
+<p class="last">New suits are cue bids agreeing to <span class="suit spade-suit">S</span>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit club-suit">C</span></p>
+</td>
+<td>Both minors, weak. Pass/correct.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first">Both minors, game forcing.</p>
+<div class="last line-block">
+<div class="line">Opener should bid 3NT with good stops in the major suits.</div>
+<div class="line">TODO: Agree on a good method to search for stoppers here.</div>
+</div>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, void in <span class="suit heart-suit">H</span>. shows exactly 4<span class="suit spade-suit">S</span>, slam interest.</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><strong class="art">Artificial</strong>, void in <span class="suit spade-suit">S</span>. shows exactly 4<span class="suit heart-suit">H</span>, slam interest.</td>
+</tr>
+<tr><td>3NT</td>
+<td><strong>Natural</strong>, to play.</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td><em>Undefined</em></td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit heart-suit">H</span>. 6+<span class="suit heart-suit">H</span>, game or slam forcing.</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit spade-suit">S</span>. 6+<span class="suit spade-suit">S</span>, game or slam forcing.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td><em>Undefined</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="responding-to-a-2h-2s-opening">
+<span id="responding-to-2m"></span><h1>Responding to a 2<span class="suit heart-suit">H</span>/2<span class="suit spade-suit">S</span> opening:</h1>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr><td>2NT</td>
+<td>Ogust</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="responding-to-a-2nt-opening">
+<span id="responding-to-2nt"></span><h1>Responding to a 2NT opening:</h1>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td>Modified Puppet Puppet Stayman.</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit diamond-suit">D</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong> to <span class="suit heart-suit">H</span>, Any shape</p>
+<p class="last">Opener naturally completes the transfer.
+With a 4 card support; complete the transfer at the 4 level.</p>
+</td>
+</tr>
+<tr><td><p class="announce first last">3<span class="suit heart-suit">H</span></p>
+</td>
+<td><p class="first"><strong class="announce">Transfer</strong> to <span class="suit spade-suit">S</span>, any shape, not invitational.</p>
+<p class="last">Opener naturally completes the transfer.
+With a 4 card support; complete the transfer at the 4 level.</p>
+</td>
+</tr>
+<tr><td><p class="alert first last">3<span class="suit spade-suit">S</span></p>
+</td>
+<td><p class="first">Puppet to 3NT.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td>Single suited; clubs. Slam try.</td>
+</tr>
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td>Single suited; diamonds. Slam try.</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>??</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>??</td>
+</tr>
+<tr><td>4NT</td>
+<td>?? Specific aces?</td>
+</tr>
+<tr><td>5<span class="suit club-suit">C</span></td>
+<td>Single suited; sign off.</td>
+</tr>
+<tr><td>5<span class="suit diamond-suit">D</span></td>
+<td>Single suited; sign off.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>3NT</td>
+<td>To play. Eventually; exactly 5<span class="suit spade-suit">S</span> and 4<span class="suit heart-suit">H</span>.</td>
+</tr>
+<tr><td>4<span class="suit club-suit">C</span></td>
+<td><p class="first">Both minors, slam seeking.</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>4<span class="suit diamond-suit">D</span></td>
+<td>Keycard for <span class="suit club-suit">C</span> (1430).</td>
+</tr>
+<tr><td>4<span class="suit heart-suit">H</span></td>
+<td>Keycard for <span class="suit diamond-suit">D</span> (1430).</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td>?? Two losers in <span class="suit heart-suit">H</span>.</td>
+</tr>
+<tr><td>4NT</td>
+<td>Show me your better minor.</td>
+</tr>
+<tr><td>5<span class="suit club-suit">C</span></td>
+<td>?? My preferred minor, 2+ losers in <span class="suit spade-suit">S</span>.</td>
+</tr>
+<tr><td>5<span class="suit diamond-suit">D</span></td>
+<td>?? My preferred minor, 2+ losers in <span class="suit spade-suit">S</span>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit diamond-suit">D</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit heart-suit">H</span>. 6+<span class="suit heart-suit">H</span>, game or slam forcing.</td>
+</tr>
+<tr><td><p class="announce first last">4<span class="suit heart-suit">H</span></p>
+</td>
+<td><strong class="announce">Texas transfer</strong> to <span class="suit spade-suit">S</span>. 6+<span class="suit spade-suit">S</span>, game or slam forcing.</td>
+</tr>
+<tr><td>4<span class="suit spade-suit">S</span></td>
+<td><strong>!!!!GERBER!!!!</strong></td>
+</tr>
+<tr><td>4NT</td>
+<td>Quantitative invite to 6NT</td>
+</tr>
+<tr><td>5<span class="suit club-suit">C</span></td>
+<td>Both minors, sign off. Pass/correct.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id1">
+<span id="slam-agreements"></span><h1>Slam Agreements</h1>
+<ul class="simple">
+<li>When you've shown a void, partner should answer keycard asks as though
+they were exclusion</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
