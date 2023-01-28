@@ -1,0 +1,71 @@
+# vim: tabstop=2 shiftwidth=2 expandtab
+---
+macros:
+  everywhere:
+    "!C": \ :club-suit:`C`
+    "!D": \ :diamond-suit:`D`
+    "!H": \ :heart-suit:`H`
+    "!S": \ :spade-suit:`S`
+    # Necessary to fix sorting quirks
+    zNT: NT
+    "\\<table\\:(.+)\\>": |
+
+      .. include:: \1.rst
+
+    "\\<section\\:(.+)\\>": "`\\1`_"
+    "(\\s|^)Natural": "**Natural**"
+    "(\\s|^)Artificial": "~~Artificial~~"
+    "(\\s|^)Transfer": ":announce:`Transfer`"
+
+  left:
+    "~(.*)~": |-
+      .. class:: alert
+
+      \1
+
+    "=(.*)=": |-
+      .. class:: announce
+
+      \1
+  right:
+    "\\~~(.*)\\~~": :art:`\1`
+    "\\~(.*)\\~": :alert:`\1`
+    "\\==(.*)\\==": :announce:`\1`
+
+    # Macros for doing exact shape relays
+    "\\{suits:S (\\d+), H (\\d+), D (\\d+), C (\\d+)\\}": "\\1=\\2=\\3=\\4"
+    "\\{suits:S (\\d+), H (\\d+), C (\\d+), D (\\d+)\\}": "\\1=\\2=\\4=\\3"
+    "\\{suits:S (\\d+), D (\\d+), H (\\d+), C (\\d+)\\}": "\\1=\\3=\\2=\\4"
+    "\\{suits:S (\\d+), D (\\d+), C (\\d+), H (\\d+)\\}": "\\1=\\4=\\2=\\3"
+    "\\{suits:S (\\d+), C (\\d+), H (\\d+), D (\\d+)\\}": "\\1=\\3=\\4=\\2"
+    "\\{suits:S (\\d+), C (\\d+), D (\\d+), H (\\d+)\\}": "\\1=\\4=\\3=\\2"
+
+sections:
+  -
+    title: Preamble
+    hidden: True
+    contents: |
+      .. include:: static/Preamble.rst
+  -
+    title: Opening Bids
+    anchor: Opening
+    contents: |
+      We open all 11 counts; and many good 10s, frequently upgrading on shape.
+
+      Preempting style is very light in 3rd seat; sound in 1st/2nd red and light 1st/2nd white.
+
+      <table:opening/bids>
+
+  -
+    title: "Responding to a 1!C opening:"
+    anchor: Responding to 1C
+    contents: |
+      The first priority of responder is to let opener know if we are in a game
+      force or not.
+
+      <table:relay/relay-response>
+
+# Begin Convention tables
+include:
+  - opening.yaml
+  - relay.yaml

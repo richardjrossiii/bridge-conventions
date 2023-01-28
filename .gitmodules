@@ -1,4 +1,4 @@
 [submodule "conventor"]
 	path = conventor
 	url = https://github.com/richardjrossiii/conventor
-	branch = head
+	branch = main

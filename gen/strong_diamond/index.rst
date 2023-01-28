@@ -57,11 +57,18 @@ With a 5 card minor and no other mitigating factors; generally trying to drop pa
 
 Weak hands with a single 4 card major should strongly consider passing partner in 1\ :heart-suit:`H`/\ :spade-suit:`S` if the opportunity arises.
 
-With equal length in the majors; hands with 4/4 start by transfering to hearts. If partner responds 1\ :heart-suit:`H`; we can ask for spade support as well by bidding 1\ :spade-suit:`S` (forcing 1 round). From there; we generally have a good grasp on the correct place to land the contract.
+With equal length in the majors; hands start by transfering to hearts. 
 
-Hands with 5/5 in the majors should transfer to spades; and then rebid 2\ :heart-suit:`H` (non forcing), or potentially pass opener's 2\ :club-suit:`C`/\ :diamond-suit:`D` call.
+If partner responds 1\ :heart-suit:`H`; we can ask for spade support as well by bidding 1\ :spade-suit:`S` (forcing 1 round). From there; we generally have a good grasp on the correct place to land the contract. 
+
+When opener responds 1NT; we comfortably pass with 4/4; and with 5/5 we now have the confidence to safely bid 2\ :spade-suit:`S` (non forcing), as there is precisely one shape with a 2 card spade fit that exists (2=2=(5-4)).
+We would also end up in a 5/2 fit in our precision system; so no edge has been lost here.
 
 # Invitational hands
+
+The rules change slightly with invitational strength. When holding a 6 card minor; we need to still attempt to find our major fit.
+
+When the fit does not exist; we  
 
 .. _Responding to 1D:
 
