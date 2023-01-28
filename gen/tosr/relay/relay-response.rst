@@ -16,6 +16,9 @@
     | .. class:: announce | 4+ \ :heart-suit:`H`                                                   |
     |                     |                                                                        |
     | 1NT                 |                                                                        |
+    |                     | .. include:: 1C-1NT.rst                                                |
+    |                     |                                                                        |
+    |                     |                                                                        |
     +---------------------+------------------------------------------------------------------------+
     | .. class:: announce | 4+ \ :diamond-suit:`D`, can be 3-suited in both minors                 |
     |                     |                                                                        |

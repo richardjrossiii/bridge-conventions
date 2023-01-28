@@ -6,7 +6,11 @@ relay-response:
     <table:1C-1H>
 
   ~1!S~: Balanced, or 4+ !H, 4+ !D, unbalanced.
-  =1NT=: 4+ !H 
+  =1NT=: |
+    4+ !H 
+
+    <table:1C-1NT>
+
   =2C=: 4+ !D, can be 3-suited in both minors
   =2D=: 5+ !C, single suited 
 
@@ -33,7 +37,7 @@ single-suited: &single-suited
     
     This is not an exact shape, we do not disambiguate between high/middle shortness.
 
-single-suited-3c-indirect-continuations: &ss-3c-direct
+single-3c-direct: &ss-3c-direct
   3!H: |
     **{suits:primary_suit 6, high_suit 2, middle_suit 3, short_suit 2}**
   3!S: |
@@ -45,7 +49,7 @@ single-suited-3c-indirect-continuations: &ss-3c-direct
 
     3 Controls.
   
-single-suited-3c-direct-continuations: &ss-3c-indirect
+single-3c-indirect: &ss-3c-indirect
   3!H: |
     **{suits:primary_suit 7, high_suit 2, middle_suit 2, short_suit 2}**
   3!S: |
@@ -79,6 +83,8 @@ ss-hearts-zoom: &ss-hearts-zoom
       middle_suit: D
       short_suit: C
 
+
+# SPADES 
 1C-1H:
   ~1!S~: <table:1C-1H-1S>
 
@@ -104,7 +110,6 @@ ss-hearts-zoom: &ss-hearts-zoom
     Even shortness
 
     <table:1C-1H-1S-3C>
-
 
 1C-1H-1S-2S:
   ~2NT~: <table:1C-1H-1S-2S-2NT>
@@ -161,5 +166,88 @@ ss-hearts-zoom: &ss-hearts-zoom
     right:
       primary_suit: S
       high_suit: H
+      middle_suit: D
+      short_suit: C
+
+# HEARTS 
+1C-1NT:
+  ~2!C~: <table:1C-1NT-2C>
+
+1C-1NT-2C:
+  <<: *ss-hearts-zoom
+
+  __re-sort__: true
+
+  =2!D=: 4+ !C
+  =2!H=: 5+ !C, exactly 4 !H
+  ~2!S~: |
+    Single suited, !S shortness
+
+    <table:1C-1NT-2C-2S>
+  ~2zNT~: |
+    Single suited, !D shortness
+
+    <table:1C-1NT-2C-2NT>
+
+  ~3!C~: | 
+    Even shortness
+
+    <table:1C-1NT-2C-3C>
+
+1C-1NT-2C-2S:
+  ~2NT~: <table:1C-1NT-2C-2S-2NT>
+
+1C-1NT-2C-2S-2NT:
+  <<: *single-suited
+
+  macros:
+    right:
+      primary_suit: H
+      high_suit: D
+      middle_suit: C
+      short_suit: S
+
+  3!C: | 
+    Even Shortness
+
+
+    <table:1C-1NT-2C-2S-2NT-3C>
+
+1C-1NT-2C-2S-2NT-3C:
+  ~3D~: <table:1C-1NT-2C-2S-2NT-3C-3D>
+
+1C-1NT-2C-2S-2NT-3C-3D:
+  <<: *ss-3c-indirect
+  
+  macros:
+    right:
+      primary_suit: H
+      high_suit: D
+      middle_suit: C
+      short_suit: S
+
+1C-1NT-2C-2NT:
+  ~3!C~: <table:1C-1NT-2C-2NT-3C>
+
+1C-1NT-2C-2NT-3C:
+  <<: *single-suited
+
+  macros:
+    right:
+      primary_suit: H
+      short_suit: D
+      high_suit: S
+      middle_suit: C
+
+1C-1NT-2C-3C:
+  ~3D~: <table:1C-1NT-2C-3C-3D>
+
+1C-1NT-2C-3C:
+  <<: *ss-3c-direct
+
+  macros:
+    right:
+      primary_suit: H
+      high_suit: S
       middle_suit: D
       short_suit: C
