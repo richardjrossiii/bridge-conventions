@@ -148,11 +148,11 @@
 	    background-color: #ff07;
     	}
 
-	.hint:not(:hover) {
+	.hint:not(:hover, :active) {
 	    color: transparent;
 	}
 
-	.hint:not(:hover) > span {
+	.hint:not(:hover, :active) > span {
 	    color: transparent;
 	}
 </style>

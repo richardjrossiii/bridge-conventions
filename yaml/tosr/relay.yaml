@@ -1,11 +1,9 @@
 ---
 relay-response:
-  =1!H= [4+ !S]: |
-    <table:1C-1H>
+  =1!H= [4+ !S]: <table:1C-1H>
 
   ~1!S~: Balanced, or 4+ !H, 4+ !D, unbalanced.
-  =1NT= (!H): |
-    <table:1C-1NT>
+  =1NT= [4+ !H]: <table:1C-1NT>
 
   =2C=: 4+ !D, can be 3-suited in both minors
   =2D=: 5+ !C, single suited 

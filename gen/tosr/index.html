@@ -513,11 +513,11 @@ ul.auto-toc {
 	    background-color: #ff07;
     	}
 
-	.hint:not(:hover) {
+	.hint:not(:hover, :active) {
 	    color: transparent;
 	}
 
-	.hint:not(:hover) > span {
+	.hint:not(:hover, :active) > span {
 	    color: transparent;
 	}
 </style>
@@ -1024,7 +1024,8 @@ force or not.</p>
 </td>
 <td>Balanced, or 4+ <span class="suit heart-suit">H</span>, 4+ <span class="suit diamond-suit">D</span>, unbalanced.</td>
 </tr>
-<tr><td><p class="announce first last">1NT (<span class="suit heart-suit">H</span>)</p>
+<tr><td><p class="announce first">1NT</p>
+<p class="hint last">4+ <span class="suit heart-suit">H</span></p>
 </td>
 <td><table border="1" class="colwidths-auto first last docutils">
 <tbody valign="top">
