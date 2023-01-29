@@ -27,6 +27,19 @@ macros:
       .. class:: announce
 
       \1
+    
+    "\\{(.*)\\}": |-
+      .. class:: relay 
+
+      \1
+
+    "\\[(.*)\\]": |-
+
+
+      .. class:: hint
+
+      \1
+
   right:
     "\\~~(.*)\\~~": :art:`\1`
     "\\~(.*)\\~": :alert:`\1`
@@ -77,3 +90,4 @@ sections:
 include:
   - opening.yaml
   - relay.yaml
+  - two-suited.yaml

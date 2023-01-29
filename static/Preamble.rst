@@ -9,6 +9,8 @@
    :class: suit, heart-suit
 .. role:: spade-suit
    :class: suit, spade-suit
+.. role:: hint
+   :class: hint
 
 .. role:: alert(strong)
 .. role:: announce(strong)

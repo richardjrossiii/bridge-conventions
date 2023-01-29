@@ -53,6 +53,11 @@
     */ {
             color: blue;
 	}
+	
+	.relay
+	{
+	    color: green;
+	}
 
 	tr > td:first-child > .alert {
 		margin-left: -0.25em;
@@ -70,6 +75,16 @@
 		padding-right: 0.5em;
 
 		background-color: #00f7;
+		color: black;
+	}
+	
+	tr > td:first-child > .relay {
+		margin-left: -0.25em;
+		margin-right: -0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+		background-color: #0707;
 		color: black;
 	}
 	
@@ -128,4 +143,16 @@
 	    border-right: none; 
 	}
 
+	.hint {
+	    font-weight: normal;
+	    background-color: #ff07;
+    	}
+
+	.hint:not(:hover) {
+	    color: transparent;
+	}
+
+	.hint:not(:hover) > span {
+	    color: transparent;
+	}
 </style>
