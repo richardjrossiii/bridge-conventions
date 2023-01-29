@@ -513,12 +513,14 @@ ul.auto-toc {
 	    background-color: #ff07;
     	}
 
-	.hint:not(:hover, :active) {
-	    color: transparent;
-	}
+	@media(hover: hover) and (pointer: fine) {
+		.hint:not(:hover) {
+		    color: transparent;
+		}
 
-	.hint:not(:hover, :active) > span {
-	    color: transparent;
+		.hint:not(:hover) > span {
+		    color: transparent;
+		}
 	}
 </style>
 <div class="section" id="opening-bids">
