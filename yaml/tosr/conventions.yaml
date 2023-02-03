@@ -78,16 +78,21 @@ sections:
       <table:opening/bids>
 
   -
-    title: "Responding to a 1!C opening:"
-    anchor: Responding to 1C
+    title: "Responding to a 1!C opening (negative):"
+    anchor: Responding to 1C (negative)
     contents: |
-      The first priority of responder is to let opener know if we are in a game
-      force or not.
+      Responder bids 1!D with 0-7, and then:
+      <table:negative/negative>
 
+  -
+    title: "Responding to a 1!C opening (game forcing):"
+    anchor: Responding to 1C (game forcing)
+    contents: |
       <table:relay/relay-response>
 
 # Begin Convention tables
 include:
+  - negative.yaml
   - opening.yaml
   - relay.yaml
   - two-suited.yaml
