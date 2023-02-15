@@ -601,11 +601,8 @@ ul.auto-toc {
 <p>Responder bids 1<span class="suit diamond-suit">D</span> with 0-7, and then:</p>
 <table border="1" class="colwidths-auto docutils">
 <tbody valign="top">
-<tr><td>1<span class="suit heart-suit">H</span></td>
-<td>4+ <span class="suit heart-suit">H</span>, unbalanced, forcing 1 round</td>
-</tr>
-<tr><td>1<span class="suit spade-suit">S</span></td>
-<td><p class="first">4+ <span class="suit spade-suit">S</span>, unbalanced, forcing 1 round</p>
+<tr><td>1<span class="suit heart-suit">H</span>/1<span class="suit spade-suit">S</span></td>
+<td><p class="first">4+M, unbalanced, forcing 1 round</p>
 <table border="1" class="colwidths-auto last docutils">
 <tbody valign="top">
 <tr><td>1<span class="suit spade-suit">S</span></td>
@@ -624,10 +621,41 @@ ul.auto-toc {
 <td>6-7, 5+<span class="suit heart-suit">H</span>, no spade fit</td>
 </tr>
 <tr><td>2M</td>
-<td>4/5-card support, 0-4, not forcing</td>
+<td>4-card support, 0-4, not forcing</td>
 </tr>
 <tr><td>2NT</td>
-<td>mini-splinter, 4-card support, 5-7</td>
+<td><p class="first">game forcing, 4-card support</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit club-suit">C</span></td>
+<td><p class="first">show your shortness</p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td>high shortness</td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td>mid shortness</td>
+</tr>
+<tr><td>3NT</td>
+<td>low shortness</td>
+</tr>
+<tr><td>4x</td>
+<td>4-card support, void in x</td>
+</tr>
+<tr><td>4M</td>
+<td>4-card support, 7-8 without 2 controls</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td>else</td>
+<td>control bids</td>
+</tr>
+</tbody>
+</table>
+</td>
 </tr>
 <tr><td>jump shift</td>
 <td>4-6, 6+ card suit, all HCP in this suit, not forcing</td>
@@ -636,37 +664,63 @@ ul.auto-toc {
 <td>4-card support, balanced, 5-7, invitational</td>
 </tr>
 <tr><td>double jump shift</td>
-<td>5+card support, 6-7, 1- in jump suit</td>
+<td>5+card support, 6-7, void in jump suit</td>
+</tr>
+<tr><td>4M</td>
+<td>5-card support, 0-4</td>
 </tr>
 </tbody>
 </table>
 </td>
 </tr>
 <tr><td>1NT</td>
-<td>17-18 HCP, balanced. All systems on.</td>
+<td>17-18 HCP, balanced. All systems on. (good 17-18 3V/4)</td>
 </tr>
-<tr><td>2<span class="suit club-suit">C</span></td>
-<td>5+ <span class="suit club-suit">C</span>, unbalanced, non-forcing. Denies 4 card major</td>
-</tr>
-<tr><td>2<span class="suit diamond-suit">D</span></td>
-<td><p class="first">5+ <span class="suit diamond-suit">D</span>, unbalanced, non-forcing. Denies 4 card major</p>
+<tr><td>2<span class="suit club-suit">C</span>/2<span class="suit diamond-suit">D</span></td>
+<td><p class="first">5+m, unbalanced, non-forcing. Denies 4 card major</p>
 <table border="1" class="colwidths-auto last docutils">
 <tbody valign="top">
 <tr><td>2M</td>
-<td>TODO</td>
+<td>5+M</td>
+</tr>
+<tr><td>2NT</td>
+<td>6-7</td>
+</tr>
+<tr><td>jump shift</td>
+<td>4-6, 6+ card suit, all HCP in this suit, not forcing</td>
 </tr>
 </tbody>
 </table>
 </td>
 </tr>
 <tr><td>2<span class="suit heart-suit">H</span></td>
-<td>Kokish relay, either strong hearts or 21-22 / 25-26 balanced</td>
+<td><p class="first">Kokish relay, forces 2<span class="suit spade-suit">S</span></p>
+<table border="1" class="colwidths-auto last docutils">
+<tbody valign="top">
+<tr><td>2NT</td>
+<td>23-24 balanced</td>
+</tr>
+<tr><td>3<span class="suit club-suit">C</span>/3<span class="suit diamond-suit">D</span></td>
+<td>superforcing 6+m</td>
+</tr>
+<tr><td>3<span class="suit heart-suit">H</span></td>
+<td>superforcing 6+<span class="suit heart-suit">H</span></td>
+</tr>
+<tr><td>3<span class="suit spade-suit">S</span></td>
+<td>superforcing 6<span class="suit spade-suit">S</span> / 4<span class="suit heart-suit">H</span></td>
+</tr>
+<tr><td>3NT</td>
+<td>27-28 balanced</td>
+</tr>
+</tbody>
+</table>
+</td>
 </tr>
 <tr><td>2<span class="suit spade-suit">S</span></td>
-<td>6+ <span class="suit spade-suit">S</span>, 20+ HCP. Forcing.</td>
+<td>6+ <span class="suit spade-suit">S</span>, 20+ HCP. Forcing. 2NT is second negative.</td>
 </tr>
 <tr><td>2NT</td>
-<td>23-24 HCP, balanced. All systems on.</td>
+<td>21-22 HCP, balanced. All systems on.</td>
 </tr>
 </tbody>
 </table>
