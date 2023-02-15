@@ -1,0 +1,54 @@
+---
+negative:
+  1!H/1!S: |
+    4+M, unbalanced, forcing 1 round
+    <table:1c-1d-1M>
+  1NT: 17-18 HCP, balanced. All systems on. (good 17-18 3V/4)
+  2!C/2!D: |
+    5+m, unbalanced, non-forcing. Denies 4 card major
+    <table:1c-1d-2m>
+  2!H: |
+    Kokish relay, forces 2!S
+    <table:1c-1d-2h-2s>
+  2!S: 6+ !S, 20+ HCP. Forcing. 2NT is second negative. 
+  2NT: 21-22 HCP, balanced. All systems on.
+
+1c-1d-1M:
+  1!S: 4+ !S, 3- !H, 0-7, forcing
+  1NT: 0-5, no 4-card support, not forcing
+  2!C: 6-7, no 3-card support (or no 5!H), forcing
+  2!D: 5-7, 3-card support, forcing
+  2!H (over 1!S): 6-7, 5+!H, no spade fit
+  2M: 4-card support, 0-4, not forcing
+  2NT: |
+    game forcing, 4-card support
+    <table:1c-1d-1M-2nt>
+  jump shift: 4-6, 6+ card suit, all HCP in this suit, not forcing
+  3M: 4-card support, balanced, 5-7, invitational
+  double jump shift: 5+card support, 6-7, void in jump suit
+  4M: 5-card support, 0-4
+
+1c-1d-2m:
+  2M: 5+M
+  2NT: 6-7
+  jump shift: 4-6, 6+ card suit, all HCP in this suit, not forcing
+
+1c-1d-2h-2s:
+  2NT: 23-24 balanced
+  3!C/3!D: superforcing 6+m
+  3!H: superforcing 6+!H
+  3!S: superforcing 6!S / 4!H
+  3NT: 27-28 balanced
+
+1c-1d-1M-2nt:
+  3!C: |
+    show your shortness
+    <table:1c-1d-1M-2nt-3c>
+  else: control bids
+
+1c-1d-1M-2nt-3c:
+  3!H: high shortness
+  3!S: mid shortness
+  3NT: low shortness
+  4x: 4-card support, void in x
+  4M: 4-card support, 7-8 without 2 controls
