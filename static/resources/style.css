@@ -1,160 +1,180 @@
-<style type="text/css">
-	/* Suit handling */
-	.club-suit:after, 
-	.diamond-suit:after, 
-	.heart-suit:after, 
-	.spade-suit:after {
-	    visibility: visible;
-	    font-size: initial;
-	}
+/* Suit handling */
+.club-suit:after,
+.diamond-suit:after,
+.heart-suit:after,
+.spade-suit:after {
+    visibility: visible;
+    font-size: initial;
+}
 
-	.club-suit:after {
-	    content: "\2663";
-	}
+.club-suit:after {
+    content: "\2663";
+}
 
-	.diamond-suit:after {
-	    content: "\2666";
-	}
+.diamond-suit:after {
+    content: "\2666";
+}
 
-	.heart-suit:after {
-	    content: "\2665";
-	}
+.heart-suit:after {
+    content: "\2665";
+}
 
-	.spade-suit:after {
-	    content: "\2660";	
-	}
+.spade-suit:after {
+    content: "\2660";
+}
 
-	.club-suit, 
-	.spade-suit {
-	    color: black;
-	}
+.club-suit,
+.spade-suit {
+    color: black;
+}
 
-	.diamond-suit, 
-	.heart-suit {
-	    color: red;
-	}
-	
-	.art 
-	/*
+.diamond-suit,
+.heart-suit {
+    color: red;
+}
+
+.art
+/*
 	.alert .club-suit, 
 	.alert .diamond-suit,
 	.alert .heart-suit,
 	.alert .spade-suit 
 	*/ {
-	   color: red;
-	}
+    color: red;
+}
 
-	.announce
-    /*
+.announce
+/*
 	.announce .club-suit, 
 	.announce .diamond-suit, 
 	.announce .heart-suit, 
 	.announce .spade-suit 
     */ {
-            color: blue;
-	}
-	
-	.relay
-	{
-	    color: green;
-	}
+    color: blue;
+}
 
-	tr > td:first-child > .alert {
-		margin-left: -0.25em;
-		margin-right: -0.25em;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
+.relay {
+    color: green;
+}
 
-		background-color: #f007;
-	}
-	
-	tr > td:first-child > .announce {
-		margin-left: -0.25em;
-		margin-right: -0.25em;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
+tr > td:first-child > .alert {
+    background-color: #f007;
 
-		background-color: #00f7;
-		color: black;
-	}
-	
-	tr > td:first-child > .relay {
-		margin-left: -0.25em;
-		margin-right: -0.25em;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
+    display: inline-block;
+    width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
 
-		background-color: #0707;
-		color: black;
-	}
-	
-	.club-suit, 
-	.spade-suit, 
-	.diamond-suit, 
-	.heart-suit {
-	    visibility: collapse;
-	    font-size: 0px;
+tr > td:first-child > .announce {
+    background-color: #00f7;
+    color: black;
+    
+    display: inline-block;
+    width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+tr > td:first-child > .relay {
+    background-color: #0707;
+    color: black;
+    
+    display: inline-block;
+    width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+.club-suit,
+.spade-suit,
+.diamond-suit,
+.heart-suit {
+    visibility: collapse;
+    font-size: 0px;
+}
+
+dd {
+    margin: 0px;
+}
+
+/* Table styling */
+
+table {
+    border: none;
+    /* width: 100%; */
+}
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
+td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    margin: unset;
+    vertical-align: top;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+td p:first-child {
+    margin: 0px;
+}
+
+td p:last-child {
+    margin: 0px;
+}
+
+td p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+tr {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    margin: unset;
+}
+
+    tr:first-child {
+        border-top: none;
     }
 
-    dd  {
-        margin: 0px;
+    tr:last-child {
+        border-bottom: none;
     }
 
-	/* Table styling */
+td:first-child {
+    border-left: none;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}
 
-	table {
-	    border: none;
-	    /* width: 100%; */
-	}
-	table, tr, td {
-	    border-collapse: collapse;
-	}
+td:last-child {
+    border-right: none;
+}
 
-	td {
-	    border-left: 1px solid black;
-	    border-right: 1px solid black;
-	    border-top: none;
-	    border-bottom: none;
-		margin: none;     
-   }
-	
-	tr {
-	   border-top: 1px solid black;
-	   border-bottom: 1px solid black;
-	   border-left: none;
-	   border-right: none;
-		margin: none;     
-	}
+.hint {
+    font-weight: normal;
+    background-color: #ff07;
+}
 
-	tr:first-child {
-		border-top: none;
-	}
+@media(hover: hover) and (pointer: fine) {
+    .hint:not(:hover) {
+        color: transparent;
+    }
 
-	tr:last-child {
-		border-bottom: none;
-	}
+        .hint:not(:hover) > span {
+            color: transparent;
+        }
+}
 
-	td:first-child {
-	    border-left: none;
-	    font-weight: bold;
-	}
-
-	td:last-child {
-	    border-right: none; 
-	}
-
-	.hint {
-	    font-weight: normal;
-	    background-color: #ff07;
-    	}
-
-	@media(hover: hover) and (pointer: fine) {
-		.hint:not(:hover) {
-		    color: transparent;
-		}
-
-		.hint:not(:hover) > span {
-		    color: transparent;
-		}
-	}
-</style>
+details[open] > summary {
+    display: none;
+}

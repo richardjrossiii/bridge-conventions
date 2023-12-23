@@ -1,0 +1,22 @@
+define:
+    "\\sC(\\b|\\.|\\,)": <span class="club-suit">C</span> 
+    "\\sD(\\b|\\.|\\,)": <span class="diamond-suit">D</span>
+    "\\sH(\\b|\\.|\\,)": <span class="heart-suit">H</span>
+    "\\sS(\\b|\\.|\\,)": <span class="spade-suit">S</span>
+
+    "(\\s|^)Natural": "**Natural**"
+    "(\\s|^)Artificial": "~~Artificial~~"
+    "(\\s|^)Transfer\\b": <span class="announce">Transfer</span>
+
+    "~~(.*)~~": <span class="art">$1</span>
+    "==(.*)==": <span class="announce">$1</span>
+    "~(.*)~": <span class=alert>$1</span>
+
+    "\\{\\s*(\\d+)\\s*S\\s*-\\s*(\\d+)\\s*H\\s*-\\s*(\\d+)\\s*D\\s*-\\s*(\\d+)\\s*C\\s*\\}": "$1=$2=$3=$4"
+    "\\{\\s*(\\d+)\\s*S\\s*-\\s*(\\d+)\\s*H\\s*-\\s*(\\d+)\\s*C\\s*-\\s*(\\d+)\\s*D\\s*\\}": "$1=$2=$4=$3"
+
+sections:
+    -
+        name: Major Openings
+        path: major_opening.yaml
+        description: We open all 10HCP hands and frequently upgrade 9s due to shape.
