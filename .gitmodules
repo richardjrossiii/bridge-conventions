@@ -2,3 +2,6 @@
 	path = conventor
 	url = https://github.com/richardjrossiii/conventor
 	branch = main
+[submodule "Conventor2"]
+	path = Conventor2
+	url = https://github.com/richardjrossiii/Conventor2
