@@ -20,3 +20,21 @@ sections:
         name: Major Openings
         path: major_opening.yaml
         description: We open all 10HCP hands and frequently upgrade 9s due to shape.
+    -
+        name: Major Overcalls
+        path: major_overcall.yaml
+        descripton: |
+            Our major overcall style is fairly standard, but slightly wider ranging than 'standard'.
+            We prefer doubling with any hand that has a 1-card difference between the two major suits,
+            and generally prefer only power doubling with 20+ hands.
+
+            Note that our only forcing major overcalls are our *jump* power double overcalls.
+
+    - name: 1NT Opening
+      path: 1nt_opening.yaml
+      description: |
+        This is 14 to 16 balanced in most seats, and 15 to bad 17 in 3rd vulnerable and 4th seat.
+
+        Our current style is to treat *any* 5-4-2-2 hand in the point range as a 1NT opener, even 5=4=2=2 hands.
+
+        Better minor lebonsohl is turned on for any 2-level interference.
