@@ -1,0 +1,36 @@
+conventions:
+  1D!!: Could be 2.
+
+  1D!! - X | 1H:
+    description: |
+      Transfers on. Generally speaking, the style is to forego showing a single 4 card major, instead prefering to wait and attempt to find an adequate time to penalty double.
+
+    -:
+      XX!!: 4+ H, forcing one round
+      1H!!|X!!: 4+ S, forcing one round
+      1S!: |
+        ~~Relay to notrump~~.
+
+        Generally speaking, this bid is used for hands that are looking to sign off in a certain contract, or which have specific questions to ask the opener.
+
+        Rarely, with slam-oriented hands, may contain a 4+ card major.
+
+      1NT!!:
+        description: 5+ C, invitational+.
+
+        2C: A hand that has exactly 2 clubs, or would not accept any invite.
+        2D: Natural, non-forcing. 5+ D, 2- C.
+        2H: Game forcing, showing a heart stopper.
+        2S: Game forcing, showing a spade stopper.
+        2NT: Forcing one round. Shows decent scattered values in all suits.
+        3C: Would not accept an invite, but shows 4+ C support.
+        3D: Immediate slam try in clubs, likely 4+ card support.
+
+
+      2C:
+        description: 5+ D, invitational+.
+
+  1D - X - 2D!: Artificial, shows a hand looking to sign-off in 2 H / S. Most of the time opener will bid 2H, pass/correct.
+  1D - X - 2H!: Reverse flannery. 5+ H, 4+ S sub-invite
+  1D - X - 2S!: Reverse flannery. 5+ H, 4+ S invitational
+  1D - X - 2NT: Pick a minor. Can be game forcing/slam interested, but does not offer notrump as a potential place to play.

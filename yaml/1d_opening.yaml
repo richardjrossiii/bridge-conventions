@@ -1,0 +1,68 @@
+conventions:
+  1D!!:
+    description: ==Could be 2.==
+
+    1M:
+      description: |
+        4+ $M, forcing one round.
+
+        Occasionally, responder will be obligated to bid 1 $M on a 3 card fragment with short diamonds and no strength.
+        We considered this psych, and the system has no psychic control to determine that this has happened.
+
+        Opener *must* always consider responder to have a 4 card suit when making their call, and may not assume a psych has happened.
+
+      1S: 4+ S, non-forcing. Our style is to never bypass a 4 card spade suit on the way to 1NT.
+      1NT: 10-13 HCP, balanced.
+      2D: 6+ D
+      2H!: 6+ D, 5+ H, non-forcing reverse.
+      2S!: 6+ D, 5+ S, non-forcing reverse.
+      2M: 4 $M, 10-15 HCP.
+      2NT: 6+ D, 4 $M
+      3C: 6+ D, 5+ C
+      3M: 5+ $M, implies 6+ D.
+
+    1NT: 8-11 HCP, to play.
+
+    # 'Inverted minors' auctions
+    2m!:
+      description: 4+ $m. Invite+
+
+      2D: Natural, 6+ D any strength.
+      2H: Balanced 10-13 HCP.
+
+      2S:
+        description: 4+ $m, undisclosed splinter.
+        2NT: Asks for splinter location.
+        3m: Re-invite.
+
+      3C:
+        description: Shows exactly (4-1)=(3-5) pattern hand, with 5 $Om and 3 $m.
+        3D: Asks for the 4 card major
+
+    2C/2NT: 4=4=4=1, minimum.
+    2C/3NT: 4=4=4=1, maximum.
+
+    2D/2NT: 6+ D, minimum.
+    2D/3NT: 6+ D, maximum.
+
+    # Reverse flanery
+    2H!: Reverse flannery, 5+ H, 4+ S. Sub-invite.
+    2S!: Reverse flannery, 5+ H, 4+ S. Invitational.
+    2H|2S:
+      2NT!:
+        description: Artificial, asking for strength (3 point ranges).
+        steps:
+         - Low strength
+         - Medium strength
+         - Maximum strength
+
+    2NT: 12-3 HCP, balanced invitational.
+    3C!: 5+ - 4+ in the minors, either way, pass/correct.
+    3D!: 6+ D, sub-invite.
+    3M: 6+ $M, invitational
+    3NT: 14+ HCP balanced, to play. Opener may still pull with freak shape (usually 6-5 or better).
+    4C: 6+ - 5+ in the minors, either way, pass/correct.
+    4D: 7+ D, sub-invite.
+    4M: Natural, to play. Opener may not use judgement to pull this bid, unless rescue redoubled by partner.
+    4NT: Two places to play, likely both minors.
+    5m: Natural, to play. Opener may not use judgement to pull this bid, unless rescue redoubled by partner.

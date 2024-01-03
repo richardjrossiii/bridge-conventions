@@ -1,5 +1,5 @@
 define:
-    "\\sC(\\b|\\.|\\,)": <span class="club-suit">C</span> 
+    "\\sC(\\b|\\.|\\,)": <span class="club-suit">C</span>
     "\\sD(\\b|\\.|\\,)": <span class="diamond-suit">D</span>
     "\\sH(\\b|\\.|\\,)": <span class="heart-suit">H</span>
     "\\sS(\\b|\\.|\\,)": <span class="spade-suit">S</span>
@@ -38,3 +38,19 @@ sections:
         Our current style is to treat *any* 5-4-2-2 hand in the point range as a 1NT opener, even 5=4=2=2 hands.
 
         Better minor lebonsohl is turned on for any 2-level interference.
+
+    - name: 1D Opening
+      path: 1d_opening.yaml
+      description: |
+        This is our catch all bid for hands which have at least 2 diamonds, and no 5 card major (or have diamonds > major).
+
+        Should be announced as 'could be 2'.
+
+    - name: 1D in competition
+      path: 1d_competition.yaml
+      description: |
+        Due to the ambiguous nature of the 1D opening, things are fairly artificial here.
+
+        Lots of minor preference asking bids (and very few natrual 2NT calls), transfers, and obstructive bids due to the nature of the limited opener.
+
+        Certain negative free bid sequences should likely be alerted, such as 1 D - 2 C - X, as some pairs may not expect a single game-forcing 5 card major behind the double.
