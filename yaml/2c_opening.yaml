@@ -1,0 +1,20 @@
+conventions:
+  2C!:
+    description: 6+ C, 10-15 HCP. non-forcing
+
+    2D!: Artificial, asking for more info
+    2M!: Non-forcing, natural signoff.
+    2NT!: Puppet to 3 C
+    2NT/3C!:
+      P: Signoff
+      3D!: 5+ H, 5+ S, game forcing.
+      3M!: 5+ $M, 5+ D, game forcing.
+
+    3C!!: 6+ H, invite+
+    3D!!: 6+ S, invite+
+    3H!!: 6+ D, invite+
+    3S!: 6 S, 4 H game forcing
+    3NT: To play
+    4C: Preemptive
+    4D: Club RKC
+    4M: To play.

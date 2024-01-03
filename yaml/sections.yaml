@@ -54,3 +54,8 @@ sections:
         Lots of minor preference asking bids (and very few natrual 2NT calls), transfers, and obstructive bids due to the nature of the limited opener.
 
         Certain negative free bid sequences should likely be alerted, such as 1 D - 2 C - X, as some pairs may not expect a single game-forcing 5 card major behind the double.
+
+    - name: 2C opening
+      path: 2c_opening.yaml
+      description: |
+        The 2C opener should be described as 6 or more clubs, opening strength. It is alertable.
