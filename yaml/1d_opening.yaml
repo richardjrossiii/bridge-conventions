@@ -81,8 +81,8 @@ conventions:
     2D/3NT: 6+ D, maximum.
 
     # Reverse flanery
-    2H!: Reverse flannery, 5+ H, 4+ S. Sub-invite.
-    2S!: Reverse flannery, 5+ H, 4+ S. Invitational.
+    2H!: Reverse flannery, 5+ S, 4+ H. Sub-invite.
+    2S!: Reverse flannery, 5+ S, 4+ H. Invitational.
     2H|2S:
       2NT!:
         description: Artificial, asking for strength (3 point ranges).
