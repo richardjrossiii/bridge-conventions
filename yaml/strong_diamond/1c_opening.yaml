@@ -1,0 +1,104 @@
+conventions:
+  1C!:
+    description: ==Could be 0.== Forcing 1 round, can be 23-24 balanced.
+
+    1D!!: 
+        description: 4+ $H, forcing one round.
+        define:
+            "$M": "H"
+    
+    1H!!: 
+        description: 4+ $S, forcing one round.
+        define:
+            "$M": "S"
+    
+    1D|1H:
+      1H|1S: 
+        description: 2-4 $M. If 2 $M, 10-11 balanced.
+        2C!: Artifical, asking
+        2D!: Natural signoff
+ 
+      1NT:
+        description: 0-2 $M. If 2 $M, 12-13 balanced.
+
+        2C!: Aritificial, asking
+        4C: 6+ C, 4 $m invite
+
+      2C: 5+ C, 5+ D
+      2D: 6+ D
+
+    1S!:
+        description: |
+            Game forcing relay, balanced invite, 8+ cards in the minors constructive, or signoff in either minor.
+            Only has 4+ card major if game forcing.
+        
+        1NT:
+            description: 10-13 Balanced.
+            2m!: signoff
+            2H:
+                description: Game forcing balanced relay
+                2S!: Same color, 5 clubs, or 33(43)
+                2NT!: Same rank or 3433
+                3C:
+                    description: 5 diamonds
+                    3D!: Ask
+                    3H!: 5332 patt
+                    3H/3S!: Ask
+                    3S!: 2452
+                    3NT!: 4252
+                
+                3D!: Same shape doubleton D or 4333
+                3H!: Same shape doubleton H
+                3S!: Same shape doubleton S
+                3NT!: Same shape doubleton C
+        
+        2C!:
+            description: 4+ C, 4+ D
+            2D!: Signoff
+            2H!: Game forcing relay
+            
+        2D!: 6+ D
+        2D/2H!: Game forcing relay
+        
+        2H:
+            description: 44(14) or 44(05)
+            2S!: Signoff
+            2NT: Balanced Relay
+            3C!: pass/correct
+            3D!: GF relay
+            
+        2S: 4 S, 5+ D unbalanced
+        
+        2NT: 23-24 balanced
+            
+        1NT|2C|2D/2S!: Puppet to 2NT
+        1NT|2C|2D/2NT: Balanced invite
+            
+
+    # 'Inverted minors' auctions
+    2C!:
+        description: Invite+ with single minor or both minors
+        2D!: Any minimum
+        2H!: Balanced 12-13
+        2S: 4441 pattern
+        2NT: 54 minors max
+        3C: 5C max
+        3D: 5+ D max
+        3H: 6+ D 5 H
+        3S: 6+ D 5 S
+    
+    2D!: 6+ card major, sub-invite. Opener passes with long diamonds or bids 2/3 H as pass/correct.
+
+    # Reverse flanery
+    2H!: Reverse flannery, 5+ S, 4+ H. Sub-invite.
+    2S!: Reverse flannery, 5+ S, 4+ H. Invitational.
+    2H|2S/2NT!: Artificial, asking
+    2NT!: Pick a minor, preemptive in diamonds or balanced game forcing.
+    3C!: Preemptive
+    3D!: 5+ H, 5+ S invitational
+    3M: 5+ $M, 5+ minor invitational
+    3NT: 14+ HCP balanced, to play. Opener may still pull with freak shape (usually 6-5 or better).
+    4m: 7+ $m sub-invite.
+    4M: Natural, to play.
+    4NT: Two places to play, likely both minors.
+    5m: Natural, to play.

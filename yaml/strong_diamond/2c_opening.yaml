@@ -1,0 +1,38 @@
+conventions:
+  2C!:
+    description: 6+ C, 10-15 HCP, or 5C 4M with an unbalanced hand.
+
+    2D!: 
+        description: Artificial, asking for more info
+        2H!: Some 4 card major
+        2H/2S!: Ask
+        2H/2S/2NT: 4H, minimum or 5 clubs
+        2H/2S/3C: 4S, minimum or 5 clubs
+        
+        2H/2NT: Balanced invite
+        2H/3C: Club invite 
+        2H/3D!: Club slam try
+        
+        2S!: Medium/max
+        2NT!: Medium, both majors stopped
+        3C!: Minimum
+        3D!: Maximum, both majors stopped
+        3H: 6+ C 5 H forcing to game
+        3S: 6+ C 5 S forcing to game
+        3NT!!: 6+ C 5 D
+    
+    2M!: Non-forcing, natural signoff.
+    2NT!: Puppet to 3 C
+    2NT/3C!:
+      P: Signoff
+      3D!: 5+ H, 5+ S, game forcing.
+      3M!: 5+ $M, 5+ D, game forcing.
+
+    3C!!: 6+ H, invite+
+    3D!!: 6+ S, invite+
+    3H!!: 6+ D, invite+
+    3S!: 6 S, 4 H game forcing
+    3NT: To play
+    4C: Preemptive
+    4D: Club RKC
+    4M: To play.

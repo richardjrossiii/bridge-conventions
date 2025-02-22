@@ -1,0 +1,63 @@
+define:
+    "\\sC(\\b|\\.|\\,)": <span class="club-suit">C</span>
+    "\\sD(\\b|\\.|\\,)": <span class="diamond-suit">D</span>
+    "\\sH(\\b|\\.|\\,)": <span class="heart-suit">H</span>
+    "\\sS(\\b|\\.|\\,)": <span class="spade-suit">S</span>
+
+    "(\\s|^)Natural": "**Natural**"
+    "(\\s|^)Artificial": "~~Artificial~~"
+    "(\\s|^)Transfer\\b": <span class="announce">Transfer</span>
+
+    "~~(.*)~~": <span class="art">$1</span>
+    "==(.*)==": <span class="announce">$1</span>
+    "~(.*)~": <span class=alert>$1</span>
+
+    "\\{\\s*(\\d+)\\s*S\\s*-\\s*(\\d+)\\s*H\\s*-\\s*(\\d+)\\s*D\\s*-\\s*(\\d+)\\s*C\\s*\\}": "$1=$2=$3=$4"
+    "\\{\\s*(\\d+)\\s*S\\s*-\\s*(\\d+)\\s*H\\s*-\\s*(\\d+)\\s*C\\s*-\\s*(\\d+)\\s*D\\s*\\}": "$1=$2=$4=$3"
+
+sections:
+    - name: 1C Opening
+      path: 1c_opening.yaml
+      description: ""
+
+    - name: 1D Opening
+      path: 1d_opening.yaml
+      description: ""
+
+    -
+        name: Major Openings
+        path: major_opening.yaml
+        description: We open all 10HCP hands and frequently upgrade 9s due to shape.
+        
+    -
+        name: Major Overcalls
+        path: major_overcall.yaml
+        descripton: |
+            Our major overcall style is fairly standard, but slightly wider ranging than 'standard'.
+            We prefer doubling with any hand that has a 1-card difference between the two major suits,
+            and generally prefer only power doubling with 20+ hands.
+
+            Note that our only forcing major overcalls are our *jump* power double overcalls.
+
+    - name: 1NT Opening
+      path: 1nt_opening.yaml
+      description: |
+        This is 14 to 16 balanced in most seats, and 15 to bad 17 in 3rd vulnerable and 4th seat.
+
+        Can be 2254 or (42)(52).
+
+        Better minor lebonsohl is turned on for any 2-level interference.
+
+    - name: 2C opening
+      path: 2c_opening.yaml
+      description: |
+        The 2C opener should be described as 6 or more clubs, or 5 clubs and a 4 card major unbalanced. 10-15 HCP.
+        
+    - name: 2D Opening
+      path: 2d_opening.yaml
+      description: |
+        Flanery. 5H, 4S 10-15 HCP. Note that it is not legal to upgrade a 9HCP hand into the flanery opener, due to this bid being artificial.
+        
+    - name: 2NT Opening
+      path: 2nt_opening.yaml
+      description: 19-20 HCP balanced

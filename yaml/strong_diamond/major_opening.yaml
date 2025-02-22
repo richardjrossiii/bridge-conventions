@@ -1,0 +1,148 @@
+conventions:
+    1H:
+        define:
+            "\\$high": S
+
+    1S:
+        define:
+            "\\$high": H
+            
+    1M: 
+        define: 
+            "\\$med": D
+            "\\$low": C
+        description: 5+ $M, 10-15 HCP.
+   
+        1S: 
+            description: 4+ S, forcing 1 round.
+            1NT / 2m: Natural drop, 5+ $0
+            1NT|2X / 2S!: Artificial, game forcing. 5+ S
+            
+        1NT!!:
+            description: Forcing
+
+            2C/P: To play, likely 6+ C
+            ? - 2C / 2D
+              - 2C|2D / 2H
+            : Natural drop, 5+ $0
+            2D: 4+ D
+            2H: 4+ H
+            2S: Reverse. 6+ H, 5+ S
+            2M: 6+ $M
+            3C|3D|3H: 5+ $0. Typically shows 6-5, but may be 5-5 with a particularly trick-heavy hand.
+            3M: 7+ $M, very strong hand
+            
+            -:
+                X - XX: Any invitational hand
+                X - 2X: Natural drop
+ 
+        # 2/1 auctions 
+        2C!:
+            description: |
+                Artificial. Game forcing. 2+ C.
+                This bid can also contain balanced hands with 5 D at the bidder's discretion.
+
+            2D!: Default rebid.
+            2H: 4 H. Can still have 6 S
+            2S: 4 S. Can still have 6 H
+            2M: 6 $M. Denies 4 $OM
+            2NT: "{5$M - 0$OM - 4D - 4C}"
+            3m: 5+ $m
+            3M: 7+ $M. Trump setting, demands control bids from responder.
+        
+        2D: Game forcing. 5+ D
+        2H: Game forcing. 5+ H
+
+        # Jump shifts
+        3m: 6+ $m, 1- $M, invitational
+        3H|3S: 6+ $0, 1- $M, invitational
+        
+        # Raises
+        1NT / 2X / 2M: Trash raise. 2-3 $M
+        2M:  
+            description: >
+                8-11 points, 3 $M, constructive raise. 
+                
+                Generally, these are hands that 'would accept some game try', 
+                though depending on vulnerability this may also include weaker
+                hands that want to quickly block the auction.
+
+        [ 1NT/2X/2M, 2M ]: 
+            2S!|2NT!: Game try, short in  $OM. 
+            3m!|3H!: Game try, short in  $0.
+            3M!: Reverse trump suit quality game try. Opener likely has 6+ $M, and is looking for outside values with a semi-balanced hand.
+
+            steps:
+                - description: Kokish reverse game try. Asks which suit responder would accept a game try in.
+                  2NT!: Would accept a game try in  S
+                  3C!|3D!|3H!: Would accept a game try in  $0
+                  3M!: Would not accept any game try.
+
+        2NT!: &jac2nt
+            description: |
+                4+ $M, Limit+
+
+            steps:
+                - description: 11-15, HCP, unbalanced
+                  steps:
+                    - description: Asks for shortness
+                      steps:
+                        - Short in  $high
+                        - Short in  $med
+                        - Short in  $low
+                        - No shortness. Strong balanced hand, 14-15 HCP, 6 $M
+                - 11-13, Balanced
+            
+            
+            3H!|3S!: Void in  $0. 
+            3M: 10- HCP, would not accept any limit raise. A very bad hand.
+            3NT: 5+ card side suit, at least 2/3 honors in that suit.
+            4m!: Void in  $m.
+            4M: 7+ $M, very bad hand for slam.
+            
+            3X / 3S!: Void in  $0. Game forcing, slam interest.
+            3X / 3M: Limit raise, re-invite.
+            3X / 3NT!: Serious 3NT. Demands opener show control bids.
+            3X|4X / 4C|4D|4H: Non-serious control bid.
+            3X|3NT|4X / 4M: To play.
+        
+        4m!|4H!: Void in  $0. 4 $M, slam interest.
+        3M: Mixed raise. 10-12 HCP, 4 $M. Likely some useful shortness.
+        3NT: Balanced choice of games. 3 $M, no slam interest.
+        4M!: ~~Wide ranging~~. Can be preemptive, or a strong hand with no slam interest. Opener must pass, unless opponents interfere. 
+
+    # Suit-specific exceptions
+    1H/1NT/2C!!: Could be as short as one club (when exactly 4=5=3=1 shape).
+    1H/1NT/2X/2S: <b>Possible Spade</b>. 6+ S, 2 H. Invitational.
+
+    1H/2S: 6+ S, drop.
+
+    # Competition
+    ? [
+        1M-X-2NT!,
+        1H-2X-2NT!,
+        1S-2X-2NT!,
+    ]
+    : *jac2nt
+
+  
+    ? - 1H - 1S
+      - 1M - X
+    : description:  Transfers on.
+      -:
+        XX!!: 4+ S. Forcing 1 round.
+        1NT!!: == C ==, Invite+. May be as few as 3, if making a game try in  $M
+        2C!!: == D ==, Invite+. May be as few as 3, if making a game try in  $M
+
+    ? [ 
+        1H - 1S - X!,
+        "1H - X - 1S!",
+        1S - X - XX!,
+    ]
+    :
+        description: |
+            Encourages opener to rebid 1NT. 
+            
+            Should be described as "hands looking to signoff, or needing to ask specific questions."
+
+            Opener rebids 1NT with any holding that lacks a non-reverse natural 2 level 4 card suit rebid.

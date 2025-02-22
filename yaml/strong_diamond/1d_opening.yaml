@@ -1,0 +1,25 @@
+conventions:
+  1D!:
+    description: Strong, artificial and forcing. Can be balanced 17-18, 21-22, or 25+.
+    
+    1H!: 
+        description: 0-7 HCP artificial any shape
+        1S!: Asking
+        1S/1NT: 0-5 HCP Any shape
+        1S/2C: 6-7 HCP, no 5 card major
+        1S/2D: 6-7 HCP, 4-4+ majors
+        1S/2M: 6-7 HCP, 5 $M
+        
+        1NT: Likely 17-18 balanced. Systems on.
+        2X: natural, likely single suit NF.
+        2NT: 21-22 balanced.
+        
+        3C: GF single suited or 27-28 balanced.
+        3D: GF 5-5 majors
+        3H: GF H+ minor
+        3S: GF S+ minor
+        3NT: 25-26 balanced.
+    
+    1S: 
+        description: 8-11 HCP balanced/semibalanced or any 12+
+        1NT: Systems on

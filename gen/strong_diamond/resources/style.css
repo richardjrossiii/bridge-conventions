@@ -1,0 +1,180 @@
+/* Suit handling */
+.club-suit:after,
+.diamond-suit:after,
+.heart-suit:after,
+.spade-suit:after {
+    visibility: visible;
+    font-size: initial;
+}
+
+.club-suit:after {
+    content: "\2663";
+}
+
+.diamond-suit:after {
+    content: "\2666";
+}
+
+.heart-suit:after {
+    content: "\2665";
+}
+
+.spade-suit:after {
+    content: "\2660";
+}
+
+.club-suit,
+.spade-suit {
+    color: black;
+}
+
+.diamond-suit,
+.heart-suit {
+    color: red;
+}
+
+.art
+/*
+	.alert .club-suit, 
+	.alert .diamond-suit,
+	.alert .heart-suit,
+	.alert .spade-suit 
+	*/ {
+    color: red;
+}
+
+.announce
+/*
+	.announce .club-suit, 
+	.announce .diamond-suit, 
+	.announce .heart-suit, 
+	.announce .spade-suit 
+    */ {
+    color: blue;
+}
+
+.relay {
+    color: green;
+}
+
+tr > td:first-child > .alert {
+    background-color: #f007;
+
+    display: inline-block;
+    width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+tr > td:first-child > .announce {
+    background-color: #00f7;
+    color: black;
+    
+    display: inline-block;
+    width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+tr > td:first-child > .relay {
+    background-color: #0707;
+    color: black;
+    
+    display: inline-block;
+    width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+.club-suit,
+.spade-suit,
+.diamond-suit,
+.heart-suit {
+    visibility: collapse;
+    font-size: 0px;
+}
+
+dd {
+    margin: 0px;
+}
+
+/* Table styling */
+
+table {
+    border: none;
+    /* width: 100%; */
+}
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
+td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    margin: unset;
+    vertical-align: top;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+td p:first-child {
+    margin: 0px;
+}
+
+td p:last-child {
+    margin: 0px;
+}
+
+td p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+tr {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    margin: unset;
+}
+
+    tr:first-child {
+        border-top: none;
+    }
+
+    tr:last-child {
+        border-bottom: none;
+    }
+
+td:first-child {
+    border-left: none;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+.hint {
+    font-weight: normal;
+    background-color: #ff07;
+}
+
+@media(hover: hover) and (pointer: fine) {
+    .hint:not(:hover) {
+        color: transparent;
+    }
+
+        .hint:not(:hover) > span {
+            color: transparent;
+        }
+}
+
+details[open] > summary {
+    display: none;
+}
