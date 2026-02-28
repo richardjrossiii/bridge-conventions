@@ -1,0 +1,24 @@
+conventions:
+    1m-1M:
+        2m: Limit+ raise in  $M. Any bid other than 2 $M by overcaller forces to game.
+        2M: Constructive raise.
+        2NT: Mixed raise in  $M.
+        3C|3D: 6+ $0, invitational.
+        3m: Western cue bid. Asks for stopper. 
+        3M: Preemptive raise.
+        -:
+            1S|X: Transfers on. Same system as if partner had opened 1 $M.
+
+    1H-1S:
+        2H: Limit+ raise in  S. Any other bid than 2 S by overcaller forces to game.
+        2S: Constructive raise.
+        2NT: Mixed raise in  S.
+        3C|3D: 6+ $0, invitational.
+        3H: Western cue bid. Asks for stopper.
+        3M: Preemptive raise.
+
+    1S-2H:
+        2S: Mixed raise.
+        2NT: Limit+ raise in  H.
+        3H: Constructive raise.
+        3S: Western cue bid. Asks for stopper.

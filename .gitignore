@@ -401,3 +401,5 @@ FodyWeavers.xsd
 
 # MacOS
 .DS_Store
+
+*Zone.Identifier

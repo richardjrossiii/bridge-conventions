@@ -1,0 +1,116 @@
+conventions:
+    1NT: 
+        description: 14-16 
+
+        2C: 
+            description: Stayman
+            -:
+                X - XX: Natural. Offers 2 C XX as a place to play.
+                X - 2D: Natural, 5+ D
+                X - 2M: Natural, 4+ M
+        
+        # Jacoby transfers
+        2D!!: 
+            description: 5+ H.
+            define: 
+                "\\$M": H
+
+            3D!: 6+ H, game forcing, slam try. Opener bids 3 H with any 2 card support, otherwise control bidding commences.
+            3H!: 5 S, 5 H, invitational.
+            4H: Natural, to play.
+
+        2H!!: 
+            description: 5+ S.
+            define:
+                "\\$M": S
+
+            3D: 5 S, 5 H, game forcing.
+            3S: 6+ S, game forcing, slam try. Opener bids 3 S with any 2 card support, otherwise control bidding commences.
+            4S: Natural, to play.
+    
+        # Major transfer followups
+        2D|2H:
+            2S!: Any invitational hand. With 6+ H, responder is free to correct to 3H after a 2NT reibd. 
+            2NT!!: == C ==,  game forcing, likely 5+.
+            3C!!: == D ==, game forcing, likely 5+.
+            3S!: Artificial, forces opener to bid 4 $M with 3 card support, or 3NT without
+            3NT: Balanced choice of games. Opener may pass at their discretion with 3 card support for $M
+            4C: RKC (3014) for $M.
+            4NT: Quant invite, exactly 5 $M. 
+    
+        # Range Ask
+        2S!: 
+            description: Range Ask.
+            2NT!: Minimal hand
+            3C!: Maximal hand
+
+            2NT|3C:
+                P: Signoff. Likely a balanced invite without a 4 card major.
+                3C|3D: Signoff, 6+ $0
+                3H!: Game forcing, 6+ C, slam interest
+                3S!: Game forcing, 6+ D, slam interest
+                3NT: To play. Likely was a balanced invite.
+                4C: Gerber, I guess. Yuck.
+                4D!!: Texas transfer, 6+ H
+                4H!!: Texas transfer, 6+ S
+                4NT: Quant re-invite.
+            
+            3C/P: Signoff,6 +C
+                
+
+            -:
+                X: |
+                  After a double, there are now two questions which need ansewring:
+
+                    - Are you a max?
+                    - Do you have a S stopper?
+ 
+                  Luckily there is just enough room to answer both questions without bypassing the most likely sign-off locations
+
+                X - P!: Minimal hand, no  S stopper.  
+                X - 2NT!: Minimal hand,  S stopper.
+                X - 3C!: Maximal hand, no  S stopper.
+                X - XX!: Maximal hand,  S stopper.
+  
+        2NT!: 
+            description: Puppet Stayman.
+
+            3C: No 5 card major.
+            3H: 5 H. New suits are implied control bids for  H.
+            3S: 5 S. New suits are implied control bids for  S.
+            
+
+        # Bespoke responses
+        3C!: 5-5+ in minors, pass or correct.
+        3D!: 5-5+ in minors, game forcing.
+
+        3H!: Void in  H. Promises exactly 4 S.
+        3S!: Void in  S. Promises exactly 4 H.
+
+        3NT: To play.
+
+        4C: "TBD: Some convention for showing slam intrest with 4=4=3=2 hands"
+        4D!!: 6+ H
+        4H!!: 6+ S
+        4S: "TBD: Some convention for showing slam interest with 4=4=3=2 hands"
+        4NT: Quant invite to 6NT.
+
+        -: 
+            X - XX!: 
+                description: Signoff in some 2-level minor suit.
+
+                2C: Forced. Pass/Correct.
+
+            2X - 2D: 5+ D, signoff
+            2X - 2M: 5+ $M, signoff
+            2X - 2NT!:
+                description: Better minor lebonsohl
+                3C|3D: 
+                    description: Minor preference
+                    3M: Game forcing, stopper in opponents suit.
+                    3X: Game forcing stayman
+                    3NT: To play, stopper in opponents suit.
+
+            2X - 3M: 5+ $M, no stopper in opponents suit.
+            2X - 3X: Game forcing stayman, no stopper in opponents suit.
+            2X - 3NT: Game forcing, no stopper in opponents suit.
