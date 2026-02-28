@@ -4,32 +4,37 @@
 .heart-suit:before,
 .spade-suit:before {
     visibility: visible;
+    position: absolute;
 }
 
 .club-suit:before {
     content: "\2663";
+    color: black;
 }
 
 .diamond-suit:before {
     content: "\2666";
+    color: red;
 }
 
 .heart-suit:before {
     content: "\2665";
+    color: red;
 }
 
 .spade-suit:before {
     content: "\2660";
-}
-
-.club-suit,
-.spade-suit {
     color: black;
 }
 
+.club-suit,
+.spade-suit,
 .diamond-suit,
 .heart-suit {
-    color: red;
+    display: inline-block;
+    width: 0.65em;
+    margin-right: -0.15em;
+    color: transparent;
 }
 
 .art
@@ -83,15 +88,6 @@ tr > td:first-child > .relay {
     width: -moz-available; /* WebKit-based browsers will ignore this. */
     width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
     width: fill-available;
-}
-
-.club-suit,
-.spade-suit,
-.diamond-suit,
-.heart-suit {
-    display: inline-block;
-    visibility: collapse;
-    width: 0.6em;
 }
 
 dd {
