@@ -1,25 +1,28 @@
 conventions:
   1D!:
-    description: Strong, artificial and forcing. Can be balanced 17-18, 21-22, or 25+.
-    
-    1H!: 
-        description: 0-7 HCP artificial any shape
-        1S!: Asking
-        1S/1NT: 0-5 HCP Any shape
-        1S/2C: 6-7 HCP, no 5 card major
-        1S/2D: 6-7 HCP, 4-4+ majors
-        1S/2M: 6-7 HCP, 5 $M
+    1H|1S: Natural
+    1NT!: Denies a 4 card major. Artifical invite+
+    2C!: " C +  D, P/C"
+    2D: Natural nonforcing, simple raise.
+    2H!: "*Reverse Flannery*. 5+ H, 4 S sub invite."
+    2S!: "*Reverse Flannery*. 5+ H, 4 S invitational."
+    2NT!:
+        description: "*Requests 3 C*. Opener may break to 3 D with 7+ D"
         
-        1NT: Likely 17-18 balanced. Systems on.
-        2X: natural, likely single suit NF.
-        2NT: 21-22 balanced.
+        P: Clubs, preemptive.
+        3D:
+          description: 5+ H, 5+ S slam try.
+          
+          3H|3S: Preference.
+          3NT: No 3 card major, both minors controlled.
+          
+          4C: 6/5 or better in the minors
+          4D: 7+ card D suit, no 3 card major.
+          
+          4H|4S: Very poor hand for slam, preference.
+          
+        3H: 5+ H, 5+ D slam try.
+        3S: 5+ S, 5+ D slam try.
+        3NT: Balanced slam try (especially interested in a running/semi-running suit).
         
-        3C: GF single suited or 27-28 balanced.
-        3D: GF 5-5 majors
-        3H: GF H+ minor
-        3S: GF S+ minor
-        3NT: 25-26 balanced.
-    
-    1S: 
-        description: 8-11 HCP balanced/semibalanced or any 12+
-        1NT: Systems on
+    3D: Natural nonforcing, weak raise.

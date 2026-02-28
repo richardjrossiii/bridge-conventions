@@ -1,25 +1,24 @@
 /* Suit handling */
-.club-suit:after,
-.diamond-suit:after,
-.heart-suit:after,
-.spade-suit:after {
+.club-suit:before,
+.diamond-suit:before,
+.heart-suit:before,
+.spade-suit:before {
     visibility: visible;
-    font-size: initial;
 }
 
-.club-suit:after {
+.club-suit:before {
     content: "\2663";
 }
 
-.diamond-suit:after {
+.diamond-suit:before {
     content: "\2666";
 }
 
-.heart-suit:after {
+.heart-suit:before {
     content: "\2665";
 }
 
-.spade-suit:after {
+.spade-suit:before {
     content: "\2660";
 }
 
@@ -90,8 +89,9 @@ tr > td:first-child > .relay {
 .spade-suit,
 .diamond-suit,
 .heart-suit {
+    display: inline-block;
     visibility: collapse;
-    font-size: 0px;
+    width: 0.6em;
 }
 
 dd {

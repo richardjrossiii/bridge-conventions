@@ -16,15 +16,13 @@ define:
     "\\{\\s*(\\d+)\\s*S\\s*-\\s*(\\d+)\\s*H\\s*-\\s*(\\d+)\\s*C\\s*-\\s*(\\d+)\\s*D\\s*\\}": "$1=$2=$4=$3"
 
 sections:
-    - name: 1C Opening
+    - name: 1 C Opening
       path: 1c_opening.yaml
       description: |
-        10-13 balanced without a 5 card wajor, or 16+ any shape.
-        Foricng 1 round.
-        
-      
+        10-13 balanced without a 5 card major, or 16+ any shape.
+        Foricng 1 round.      
 
-    - name: 1D Opening
+    - name: 1 D Opening
       path: 1d_opening.yaml
       description: |
         10-15 HCP, natural unbalanced.
@@ -55,16 +53,17 @@ sections:
 
         Better minor lebonsohl is turned on for any 2-level interference.
 
-    - name: 2C opening
+    - name: 2 C opening
       path: 2c_opening.yaml
-      description: |
-        The 2C opener should be described as 6 or more clubs, or 5 clubs and a 4 card major unbalanced. 10-15 HCP.
         
-    - name: 2D Opening
+    - name: 2 D Opening
       path: 2d_opening.yaml
-      description: |
-        Flanery. 5H, 4S 10-15 HCP. Note that it is not legal to upgrade a 9HCP hand into the flanery opener, due to this bid being artificial.
         
+    - name: Balanced intermediate 2H / 2S
+      path: 2major_opening.yaml
+      description: |
+        These bids vary greatly based on seat and vulnerability.
+       
     - name: 2NT Opening
       path: 2nt_opening.yaml
       description: 19-20 HCP balanced

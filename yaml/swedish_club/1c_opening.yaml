@@ -1,7 +1,5 @@
 conventions:
   1C!:
-    description: ~~Alert.~~ Forcing 1 round.
-
     1D!: 
         description: |
             Bust or  H, forcing one round.
@@ -14,48 +12,34 @@ conventions:
 
         define:
             "$M": "H"
-            
-        1H!:
-            description: Artificial, relay ask. Promises 16+
-            1S!: | 
-              0-7 HCP, 8-11 balanced with 4 H, or 8+ HCP 3 suited without spades
-            
-            1NT!: 6-7 HCP, no 5 card major.
-            2C: 8+ HCP, 4+ H, 4+ D
-            2D: 8+ HCP, 5+ H, 4+ C
-            2H: 8+ HCP, 4 H , 5+ C
-            
-            1S/1NT:
-                description: |
-                  Signoff attempt, typically 17-18 ~bal.
-                  Responder may pass with a poor 5 card club suit.
-                
-                2C: Promises a 5+ card suit, typically 6-7 HCP
-                2D!!: H transfer. 5+ H, 0-5 HCP
-                2H!!: S transfer. 5+ S, 0-5 HCP
-                
-                2S!: Zoom balanced relay shapes. Promises 4 H
-                
-            1S/2C:
-                description: Requests 2D (balanced hand zooms), typically for 22+ hands.
-                
-                2D: 0-7 HCP.
-                2H: "*Undefined*"
-                
-                2S!: Zoom balanced relay shapes. Promises 4 H
         
-        1S!: 10-13 balanced, 3- H
+        1S!:
+          description: 10-13 balanced, 3- H
+          
+          2C!: Artifical, asking.
+          2D|2H|2S: Natural, to play.
+          
+          2NT!: Puppet to 3C
+          
         1NT!: 10-13 balanced, 4 H
         
-        2C/D/H/S: 16-20 HCP, natural NF.
+        2C|2D|2H|2S: 16-20 HCP, natural NF.
     
     1H!!: 
         description: ==Spades==. 8+ HCP, 4+ S
         define:
             "$M": "S"
+            
+        1NT: 10-13 balanced, 3- S
+        2C|2D|2H: Natural, GF.
+        
+        2S: 10-13 balanced, 4S
+        
+        2NT: |
+            *Undefined*. Could use this as a spade superfit, but why not relay? Teller is known to be a positive.
 
     1S!:
-        description: | 
+        description: |
             **Forcing.** *May have one 4 card major, never both.*
             
             Three possible hand types:
@@ -74,31 +58,16 @@ conventions:
             2NT: Natural invite.
             3NT: Signoff.
         
-        2C!:
-            description: Relay ask
-            
-            2D!: 0-7 HCP, 5+ C, 5+ D
-            2H!: 8+ HCP, 5+ D, 4 C
-            2S!+: Zoom balanced hands
-        
         2M:
             description: Natural, 22+ HCP, forcing.
     
-    1NT!!:
-        description: ==Clubs==. 8+ HCP, 5+ C. May hold exactly 4D.
-        
-        2C: 10-13 balanced, 2-4 C.
-        2D: Relay ask.
-        3C: 10-13 HCP, 4+ C.
-        
-    2C!!:
-        description: ==Diamonds==. 8+ HCP, 6+ D. No other suit longer than 4 cards.
-    
+    1NT!!: ==Clubs==. 8+ HCP, 5+ C. May hold exactly 4D.
+    2C!!: ==Diamonds==. 8+ HCP, 6+ D. No other suit longer than 4 cards.
     2S!: 8+ HCP, 5+ D, 5+ C.
     
     
     # Non-relay responses
-    2D!!: ==Spades==. 4-7 HCP. 4+ Spades and 5+ H or 6+ S.
+    2D!!: ==Spades==. 4-7 HCP. 4+ S and 5+ H or 6+ S.
     2H: 6+ H, 4-7 HCP.
       
     2NT: 6+ C, 4-7 HCP.
@@ -106,3 +75,56 @@ conventions:
     3D: 4-7 HCP, 6+ D.
     3M: 4-7 HCP, 7+ $M, promises shortness (7222 bids 2 M)
     3NT: Running 7 card suit (any), no other outside points.
+
+    # Relay continuations
+    1D/1H!:
+        description: Artificial, relay ask. Promises 16+
+        1S!: | 
+          0-7 HCP, 8-11 balanced with 4 H, or 8+ HCP 3 suited without spades. Forcing 1 round.
+        
+        1NT: 6-7 HCP, no 5 card major.
+        2C: 8+ HCP, 4+ H, 4+ D
+        2D: 8+ HCP, 5+ H, 4+ C
+        2H: 8+ HCP, 4 H , 5+ C
+        
+        1S/1NT:
+            description: |
+              Signoff attempt, typically 17-18 ~bal.
+              Responder may pass with a poor 5 card club suit.
+            
+            2C!:
+                description: Promises a 5+ card suit, typically 6-7 HCP
+                
+                2D!: 
+                    description: Waiting
+                    P: 5+ D, 0-5 HCP
+                    2H: 5 H, 6-7 HCP
+                    2S: 5 S, 6-7 HCP
+                    2NT!: 5+ D, 6-7 HCP
+                    3C: 5+ C, 6-7 HCP
+                    
+                2H: 5 H
+                2S: 5 S
+                
+            2D!!: H transfer. 5+ H, 0-5 HCP
+            2H!!: S transfer. 5+ S, 0-5 HCP
+            
+            2S!: Zoom balanced relay shapes. Promises 4 H
+            
+        1S/2C!:
+            description: Requests 2D (balanced hand zooms), typically for 22+ hands.
+            
+            2D: 0-7 HCP.
+            2H: "*Undefined*"
+            
+            2S!: Zoom balanced relay shapes. Promises 4 H
+            
+    1S/2C!:
+        description: Relay ask
+        
+        2D!: 0-7 HCP, 5+ C, 5+ D
+        2H!: 8+ HCP, 5+ D, 4 C
+        2S!+: Zoom balanced hands
+    
+    1NT/2D!: Relay ask.
+    2C/2H: Relay ask.
