@@ -9,27 +9,43 @@ conventions:
               - A "good" 6+ card major
               - 5+ C 5+ D
               - 5+ H , 4+  S.
-
-        define:
-            "$M": "H"
         
-        1S!:
-          description: 10-13 balanced, 3- H
-          
-          2C!: Artifical, asking.
-          2D|2H|2S: Natural, to play.
-          
-          2NT!: Puppet to 3C
-          
+        1S!: 10-13 balanced, 3- H
         1NT!: 10-13 balanced, 4 H
-        
         2C|2D|2H|2S: 16-20 HCP, natural NF.
+        
+        # "New minor forcing"
+        1S|1NT:
+            2C!:
+                description: |
+                    ~~Asking.~~
+
+                    Responder is known to have 4+ H for this bid, and has at most 3 S.
+            
+                2D!: minimum, 2H
+                2H: minimum, 3 H
+                2S![+]: Reverse relay, zoom balanced shapes.
+            
+            2D|2H|2S: Natural, to play.
+            2NT!:
+                description: Puppet to 3C
+                
+                P: To play
+                3D: 5+ D, invitational
+                3H: "*Undefined*"
+                3S: Exactly 5 H, no choice of games.
+                3NT: Balanced CoG, exactly 5 H
+        
+        1S/2C!:
+            3m!: Maximum, 5 $m, 5332 pattern. (4=4-(3-2) is impossible)
+            2S/2NT/3D!: Maximum, 4=2=5=2. (3=4=2=4 is impossible)
+            2NT/3C/3NT!: Maximum, 4=2=2=5. (3=4=4=2 is impossible)
     
     1H!!: 
-        description: ==Spades==. 8+ HCP, 4+ S
+        description: ==Spades==. 8+ HCP, 4+ S. May hold longer hearts.
         define:
             "$M": "S"
-            
+        
         1NT: 10-13 balanced, 3- S
         2C|2D|2H: Natural, GF.
         
@@ -61,7 +77,7 @@ conventions:
         2M:
             description: Natural, 22+ HCP, forcing.
     
-    1NT!!: ==Clubs==. 8+ HCP, 5+ C. May hold exactly 4D.
+    1NT!!: ==Clubs==. 8+ HCP, 5+ C. May hold exactly 4 D.
     2C!!: ==Diamonds==. 8+ HCP, 6+ D. No other suit longer than 4 cards.
     2S!: 8+ HCP, 5+ D, 5+ C.
     
@@ -78,14 +94,21 @@ conventions:
 
     # Relay continuations
     1D/1H!:
-        description: Artificial, relay ask. Promises 16+
-        1S!: | 
-          0-7 HCP, 8-11 balanced with 4 H, or 8+ HCP 3 suited without spades. Forcing 1 round.
+        description: ~~Asking~~. 16+ any shape.
+        1S!: |
+            Artificial. Forcing 1 round.
+
+              - 0-7 HCP, 
+              - 8-11 balanced with 4 H
+              - 8+ HCP 3 suited without spades.
+    
+            &nbsp;
         
         1NT: 6-7 HCP, no 5 card major.
-        2C: 8+ HCP, 4+ H, 4+ D
-        2D: 8+ HCP, 5+ H, 4+ C
-        2H: 8+ HCP, 4 H , 5+ C
+        2C!!: 8+ HCP, 4+ H, 4+ D
+        2D!!: 8+ HCP, 5+ H, 4+ C
+        2H!!: 8+ HCP, 4 H , 5+ C
+        2NT[+]: "*Zoom singled suited shapes*"
         
         1S/1NT:
             description: |
@@ -109,7 +132,7 @@ conventions:
             2D!!: H transfer. 5+ H, 0-5 HCP
             2H!!: S transfer. 5+ S, 0-5 HCP
             
-            2S!: Zoom balanced relay shapes. Promises 4 H
+            2S![+]: "*Zoom balanced shapes. Promises 4 H*"
             
         1S/2C!:
             description: Requests 2D (balanced hand zooms), typically for 22+ hands.
@@ -117,14 +140,53 @@ conventions:
             2D: 0-7 HCP.
             2H: "*Undefined*"
             
-            2S!: Zoom balanced relay shapes. Promises 4 H
+            2S!: "*Zoom balanced shapes. Promises 4 H*"
+            
+    1H/1S!:
+        description: ~~Asking~~. 16+ any shape.
+        
+        1NT!:
+            description: |
+                Artificial.
+                
+                  - S + H
+                  - 8-11 HCP balanced, 4S.
+                  - 8+ HCP, S + C + D.
+                
+                &nbsp;
+            
+            2C!:
+                2D!: Balanced or three suited.
+                2D/2H:
+                    2S[+]: "*Zoom balanced relay. Promises 4 S*"
+                
+                    3H: 5=0=4=4. (3=2=4=4 is impossible).
+                    3S: 4=1=4=4. (2=3=4=4 is impossible).
+                    
+                    2S/2NT/3D: 4=0=5=4, 0-3 controls. (3=4=2=4 is impossible)
+                    2NT/3C/3NT: 4=0=4=5, 0-3 controls. (3=4=4=2 is impossible)
+                
+                2H: 5+ H, 4 S
+                2S: 5+ H, 5+ S
+                2NT[+]: "*Zoom two suited, S > H*"
+        
+        2C!!: 4+ S, 4+ D unbalanced
+        2D!!: 5+ S, 4+ C unbalanced
+        2H!!: 4S, 5+ C unbalanced
+        2NT[+]: "*Zoom singled suited shapes*"
             
     1S/2C!:
-        description: Relay ask
+        description: ~~Asking~~. 16+ any shape.
         
         2D!: 0-7 HCP, 5+ C, 5+ D
         2H!: 8+ HCP, 5+ D, 4 C
-        2S!+: Zoom balanced hands
+        2S![+]: "*Zoom balanced shapes*"
+        
+        3m!: 5 $m , 5332 pattern. (4=4-(3-2) is impossible)
     
-    1NT/2D!: Relay ask.
-    2C/2H: Relay ask.
+    1NT/2D!: 
+        description: ~~Asking~~. 16+ any shape.
+        
+        2H!!: 5+ C, 4 D.
+    
+    2C/2H: ~~Asking.~~ 16+ any shape.

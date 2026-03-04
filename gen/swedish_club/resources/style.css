@@ -183,3 +183,11 @@ td:last-child {
 details[open] > summary {
     display: none;
 }
+
+.odd-bid:before {
+	content: "(";
+}
+
+.odd-bid:after {
+	content: ")";
+}
